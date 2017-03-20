@@ -1,0 +1,24 @@
+require.config({
+    map: {
+        '*': {
+            'jquery/nyt': 'foundation/lib/jquery/2.1.4',
+            'jquery/2.1': 'foundation/lib/jquery/2.1.4',
+            'jquery/2.0': 'foundation/lib/jquery/2.0.3',
+            'jquery/1.11': 'foundation/lib/jquery/1.11.3',
+            'jquery/1.10': 'foundation/lib/jquery/1.10.2',
+            'jquery/1.9': 'foundation/lib/jquery/1.9.1',
+            'underscore/nyt': 'foundation/lib/underscore/1.8.3',
+            'underscore/1.8': 'foundation/lib/underscore/1.8.3',
+            'underscore/1.6': 'foundation/lib/underscore/1.6.0',
+            'underscore/1.5': 'foundation/lib/underscore/1.5.2',
+            'underscore/1.4': 'foundation/lib/underscore/1.4.4',
+            'backbone/nyt': 'foundation/lib/backbone/1.1.2',
+            'hammer/nyt': 'foundation/lib/hammer/1.0.6',
+            'd3/3': 'foundation/lib/d3/3.4.11',
+            'topojson/1': 'foundation/lib/topojson/1.6.15',
+            'queue/1': 'foundation/lib/queue/1.0.7'
+        }
+    }
+});
+require(['foundation/main_includes']);
+

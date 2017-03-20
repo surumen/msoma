@@ -43,9 +43,15 @@ router.get('/curriculum', function(req, res){
   });
 });
 
-router.get('/connecting', function(req, res){
-  res.render('connecting', {
+router.get('/connecting-kenyan-youth-to-computer-skills-training', function(req, res){
+  res.render('connecting-kenyan-youth-to-computer-skills-training', {
     title: 'Connecting Kenyan Youth to Computer Skills Training — M-Soma Institute'
+  });
+});
+
+router.get('/error', function(req, res){
+  res.render('error', {
+    title: 'Oops'
   });
 });
 

@@ -1,0 +1,10 @@
+require([
+    'shared/masthead/instances/masthead',
+    'shared/account/instances/account',
+    'shared/navigation/instances/navigation',
+    'paidpost/instances/sharetools',
+    //'paidpost/instances/share-tools-snippets',
+    'paidpost/lib/picturefill/3.0.2.min',
+    'paidpost/instances/slideshow'
+]);
+
