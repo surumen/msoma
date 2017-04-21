@@ -55,4 +55,93 @@ router.get('/error', function(req, res){
   });
 });
 
+// COURSES
+router.get('/cs101', function(req, res){
+  res.render('cs101', {
+    title: 'Intro to Programming — M-Soma Institute'
+  });
+});
+
+
+
+
+
+
+// BOOTCAMP
+router.get('/bootcamp', function(req, res){
+  res.render('bootcamp/schedule', {
+    title: 'Bootcamp — M-Soma Institute'
+  });
+});
+
+
+
+router.get('/bootcamp/schedule', function(req, res){
+  res.render('bootcamp/schedule', {
+    title: 'Bootcamp — M-Soma Institute'
+  });
+});
+
+router.get('/bootcamp/courses', function(req, res){
+  res.render('bootcamp/courses', {
+    title: 'Courses — M-Soma Institute'
+  });
+});
+
+router.get('/bootcamp/tours', function(req, res){
+  res.render('bootcamp/tours', {
+    title: 'Bootcamp — M-Soma Institute'
+  });
+});
+
+router.get('/bootcamp/registration', function(req, res){
+  res.render('bootcamp/registration', {
+    title: 'Registration | Bootcamp — M-Soma Institute'
+  });
+});
+
+router.get('/bootcamp/videos', function(req, res){
+  res.render('bootcamp/videos', {
+    title: 'Bootcamp — M-Soma Institute'
+  });
+});
+
+router.get('/bootcamp/speakers', function(req, res){
+  res.render('bootcamp/speakers', {
+    title: 'Bootcamp | Special Guests — M-Soma Institute'
+  });
+});
+
+router.get('/bootcamp/mentors', function(req, res){
+  res.render('bootcamp/mentors', {
+    title: 'Mentors — M-Soma Institute'
+  });
+});
+
+router.get('/bootcamp/instructors', function(req, res){
+  res.render('bootcamp/instructors', {
+    title: 'Bootcamp — M-Soma Institute'
+  });
+});
+
+router.get('/college-apps', function(req, res){
+  res.render('college-apps', {
+    title: 'College — M-Soma Institute'
+  });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 module.exports = router;

@@ -1,0 +1,262 @@
+@charset "UTF-8";
+
+/* SpryTabbedPanels.css - version 0.6 - Spry Pre-Release 1.6.1 */
+
+/* Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. */
+
+
+.TabbedPanels {
+	overflow: hidden;
+	margin: 0%;
+	padding: 0%;
+	clear: none;
+	width: 100%; /* IE Hack to force proper layout when preceded by a paragraph. (hasLayout Bug)*/
+}
+
+.TabbedPanelsTabGroup {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.TabbedPanelsTab {
+	background-color: rgba(151, 141,133, 0.8);
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #999;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	color: #ffffff;
+	cursor: pointer;
+	float: left;
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 1.5%  0px;
+	position: relative;
+	top: 1px;
+	width:24.7%;
+}
+
+/*.TabbedPanelsTab:last-child{
+	padding: 20px 77px;
+}*/
+
+
+.TabbedPanelsTabHover {
+	background-color: rgba(221, 221, 221, 0.9);
+}
+
+
+.TabbedPanelsTabSelected {
+	background-color: #EEE;
+	color: rgba(34, 34, 34, 1);
+	border-bottom: 1px solid #EEE;
+}
+
+
+.TabbedPanelsTab a {
+	color: black;
+	text-decoration: none;
+}
+
+
+.TabbedPanelsContentGroup {
+	clear: both;
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	background-color: #FFF;
+}
+
+/* This is the selector for the Content panel. The Content panel holds the
+ * content for a single tabbed panel. For our default style, this container
+ * provides some padding, so that the content is not pushed up against the
+ * widget borders.
+ *
+ * The name of the class ("TabbedPanelsContent") used in this selector is
+ * not necessary to make the widget function. You can use any class name you
+ * want to style the Content container.
+ */
+.TabbedPanelsContent {
+	overflow: hidden;
+	padding: 0px;
+}
+
+/* This selector is an example of how to change the appearnce of the currently
+ * active container panel. The class "TabbedPanelsContentVisible" is
+ * programatically added and removed from the content element as the panel
+ * is activated/deactivated.
+ */
+.TabbedPanelsContentVisible {
+}
+
+
+.VTabbedPanels {
+	overflow: hidden;
+	zoom: 1;
+}
+
+.VTabbedPanels .TabbedPanelsTabGroup {
+	float: left;
+	/*width: 10em;
+	height: 20em;*/
+	background-color: #EEE;
+	position: relative;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+	width: 100%;
+}
+
+
+.VTabbedPanels .TabbedPanelsTab {
+	float: none;
+	margin: 0px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+
+.VTabbedPanels .TabbedPanelsTabSelected {
+	background-color: #EEE;
+	border-bottom: solid 1px #999;
+}
+
+/* This selector floats the content panels for the widget so that they
+ * render to the right of the tabbed buttons.
+ */
+ 
+  
+ span.Confdate{
+	 text-align: center;
+ }
+ 
+ .TabbedPanelsTabSelected .span {
+	 color: #ffffff;
+ }
+ 
+.VTabbedPanels .TabbedPanelsContentGroup {
+	clear: none;
+	float: center;
+	padding: 0px;
+	/*width: 30em;
+	height: 20em;*/
+	visibility: collapse;
+}
+
+table{
+	cellspacing: 0;
+	border-spacing: 0;
+    border-collapse: collapse;
+	width: 100%;
+}
+
+row {
+	border-bottom: 1px solid #ccc;
+}
+
+td{
+	padding: 1.5% 1.9% 1.5% 1.5%;
+}
+td.col {
+	/*border-right: 1px solid #ccc;*/
+	text-align: center;
+	background-color: rgba(218,215,203,0.6) ;
+}
+
+td.alt{
+	background-color: #EEEEEE;
+	text-align: center;
+}
+
+   
+td.col:first-child, td.alt:first-child {
+	border-right: 1px solid #c8c8c8;
+   }
+   
+td.left{
+	text-align: left;
+}
+
+tr.teal{
+    background-color: rgba(107,200,194,0.7) !important;
+	font-weight:bold;
+	border-bottom: 1px solid #c8c8c8;
+}
+
+tr.header{
+	background-color: rgba(210,194,149,0.7) !important;
+	font-weight:bold;
+	border-bottom: 1px solid #c8c8c8;	
+}
+
+tr.blue{
+	background-color: rgba(72,184,233,0.7) !important;
+	font-weight:bold;
+	border-bottom: 1px solid #c8c8c8;	
+}
+   
+strong{
+	font-weight:bold;
+}
+   
+span.center{
+    color: #4C4E52;
+	text-align: center !important;
+	font-weight:bold;
+}
+
+/* Styles for Printing */
+@media print {
+.TabbedPanels {
+	overflow: visible !important;
+}
+.TabbedPanelsContentGroup {
+	display: block !important;
+	overflow: visible !important;
+	height: auto !important;
+}
+.TabbedPanelsContent {
+	overflow: visible !important;
+	display: block !important;
+	clear:both !important;
+
+}
+.TabbedPanelsTab {
+	 overflow: visible !important;
+	 display: block !important;
+	 clear:both !important;
+}
+}
+
+/*
+ * "MOBILE": anything smaller than 768px
+ * --------------------------------------------------
+ */
+@media (max-width: 959px) {
+
+@-ms-viewport {
+  width: 320px;
+}
+
+table{
+	width: 100%;
+}
+
+div.title{
+}
+
+td:first-child{
+}
+
+.TabbedPanelsTab {
+	width:24.4%;
+}
+
+}
+/* --------------------------------------------------
+ */
