@@ -62,17 +62,22 @@ router.get('/cs101', function(req, res){
   });
 });
 
-
+// WELCOME BOOTCAMP
+router.get('/bootcamp', function(req, res){
+  res.render('bootcamp', {
+    title: 'Bootcamp 2017 — M-Soma Institute'
+  });
+});
 
 
 
 
 // BOOTCAMP
-router.get('/bootcamp', function(req, res){
-  res.render('bootcamp/schedule', {
-    title: 'Bootcamp — M-Soma Institute'
-  });
-});
+// router.get('/bootcamp', function(req, res){
+//   res.render('bootcamp/schedule', {
+//     title: 'Bootcamp — M-Soma Institute'
+//   });
+// });
 
 
 
