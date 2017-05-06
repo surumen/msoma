@@ -69,7 +69,12 @@ router.get('/bootcamp', function(req, res){
   });
 });
 
-
+// BOOK
+router.get('/book/gettingstarted', function(req, res){
+  res.render('book/gettingstarted', {
+    title: 'CS 101 - M Soma Bootcamp'
+  });
+});
 
 
 // BOOTCAMP

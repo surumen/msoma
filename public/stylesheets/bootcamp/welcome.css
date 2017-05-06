@@ -543,7 +543,7 @@
 }
 
 .longread h1 {
-    font-family: 'OpenSans-Bold', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 50px;
     line-height: 92px;
     text-transform: uppercase;
@@ -1901,7 +1901,7 @@
 .navbar a {
     text-decoration: none;
     color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
     line-height: 44px;
     letter-spacing: 1px;
@@ -2129,7 +2129,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 1em
 }
 
@@ -2229,7 +2229,7 @@ html,
 body {
     min-height: 100%;
     width: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
     letter-spacing: 1px;
     -moz-font-feature-settings: "dlig=1,ss01=1";
