@@ -416,7 +416,7 @@
             <p>You can install Python on a Mac by following these steps.</p>
         </div>
         <div class="content-wrap">
-            <h1>1.3 Using the Terminal</h1>
+            <h1>1.3 Introduction to the Terminal</h1>
             <p>A terminal is a program on a computer that executes commands. You can tell it to delete files, launch programs, run code, and even "hack" computers (pun-intended). It is also referred to as the command line, interpreter, or terminal But you can't use your mouse. You might now be asking, what are these commands that a shell executes?</p>
             <h5>What is a command?</h5>
             <p>If you've ever join a scouts or girl-guides club, you know what to do when the "commander" tells you to do something. When using a shell, you are essentially the commander and the computer obeys your commands. We will go ahead and look at some useful commands you can start using right away.</p>
@@ -437,7 +437,9 @@
             <p>git init</p>
             <h5>Add some files to your repo</h5>
             <p>touch readme.txt</p>
-            <h5>Connet to a Remote</h5>
+            <p>git add readme.txt</p>
+            <p>git commit -m "first commit"</p>
+            <h5>Connect to a Remote</h5>
             <p>So now you have loaded your "truck" with a file called readme.txt, and you want to tell the driver where the destination is. To do that you need to go to your github account and create a new repository.</p>
             <img src="">
             <p>Copy the url of the repository you just created and go back to your terminal. Run this command</p>
@@ -447,6 +449,12 @@
             <p>git push origin master</p>
             <h5>Understand what we have just done</h5>
             <p>Let's now look at what we have just done step by step and understand everything.</p>
+
+            <h5>Checking Status</h5>
+            <p>Sometimes you need to confirm is you've send your files to github. Git allows you to do so. Or there's a file that you didn't add to your "truck" - that is an untracked file. If it is untracked, you need to add by running git add nameoffile or if there are many files you can add them all simultaneously using git add . . Notice the dot after the space. It's not a mistake. To check the status of your "commits", run this command from inside your git repository (you will get some error or incorrect stuff if you do it elsewhere)</p>
+            <p>git status</p>
+            <p>You should see something of this sort</p>
+            <img src="">
         </div>
         <div class="content-wrap">
             
