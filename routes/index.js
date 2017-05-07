@@ -76,6 +76,41 @@ router.get('/book/gettingstarted', function(req, res){
   });
 });
 
+router.get('/book/pythonbasics', function(req, res){
+  res.render('book/pythonbasics', {
+    title: 'CS 101 - M Soma Bootcamp'
+  });
+});
+
+router.get('/book/control_and_sequences', function(req, res){
+  res.render('book/control_and_sequences', {
+    title: 'CS 101 - M Soma Bootcamp'
+  });
+});
+
+router.get('/book/objectorientedprogramming', function(req, res){
+  res.render('book/objectorientedprogramming', {
+    title: 'CS 101 - M Soma Bootcamp'
+  });
+});
+
+router.get('/book/datastructures', function(req, res){
+  res.render('book/datastructures', {
+    title: 'CS 101 - M Soma Bootcamp'
+  });
+});
+
+router.get('/book/algorithms', function(req, res){
+  res.render('book/algorithms', {
+    title: 'CS 101 - M Soma Bootcamp'
+  });
+});
+
+router.get('/book/bonustopics', function(req, res){
+  res.render('book/bonustopics', {
+    title: 'CS 101 - M Soma Bootcamp'
+  });
+});
 
 // BOOTCAMP
 // router.get('/bootcamp', function(req, res){
