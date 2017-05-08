@@ -536,7 +536,7 @@
             <li>Line 2-5: Are indented by 4 spaces.<br> This is called a whitespace. If you fail to indent your code by this exact amount of spaces, you will get Syntax errors. That should not worry you, however, if you encounter this just correct the indentation on your code.</li>
             </ul>
             <p>So we have just defined our first function but the function doesn't do anything yet. We need a way to make that function print the birthday song.</p>
-            <p>To make the function print this statements, open your terminal (if you closed it you need to type in the whole function definition again). After the Line 5, hit Enter and you should get to the >>> prompt. Now, to "run" this function, we just type out its name with the parentheses. </p>
+            <p>To make the function print this statements, open your terminal (if you closed it you need to type in the whole function definition again). After Line 5, hit Enter and you should get to the >>> prompt. Now, to "run" this function, we just type out its name with the parentheses. </p>
             <pre class="shell"><span class="prompt">>>></span> <span class="name">happyBirthdayMoses</span><span class="parentheses">()</span>
                 <br><span class="return">"Happy Birthday to you!"</span><br>
                 <span class="return" style="float: left;">"Happy Birthday to you!"</span><br>
@@ -545,7 +545,7 @@
             </pre>
             <br>
             <h4>Using a Text Editor</h4>
-            <p>If you exited your terminal and had to retype the function again, you realized this takes a lot of time to keep doing this. We can just write our code in a file and run in from that file. There are very many code editors out there. For this class, we shall be using Sublime Text.</p>
+            <p>If you exited your terminal and had to retype the function again, you realized this takes a lot of time to keep doing this. We can just write our code in a file and run it from that file. There are very many code editors out there. For this class, we shall be using Sublime Text.</p>
             <p>To download Sublime Text, go to the <span><a href="https://www.sublimetext.com/3">downloads page</a></span> and download the appropriate version for your computer. As usual, follow the installer instructions to install it.</p>
             <p>Now go to your <code>Applications</code> folder on your computer and open Sublime Text. Write down the function we defined and make sure to use four spaces, or you can use the tab once from line 2 to 5. Save the file as <code>birthday.py</code> on the <code>cs101</code> folder on your computer.</p>
             <img src="../images/courses/birthday.jpg"><br><br>
@@ -558,7 +558,7 @@
                 <br>
             </pre>
             <br>
-            <p>Now there is just one more step remaining before our terminal can make the function print what we want. We need to add an <code>if statement</code> (we will explore more about conditional statements in Chapter 3). Add the following two lines below the last statement on the <code>main()</code> function. (It doesn't have to be two lines but we are just doing this to ensure that our code is neat)</p>
+            <p>Now there is just one more step remaining before our terminal can make the function print what we want. We need to add an <code>if statement</code> (we will explore more about conditional statements in Chapter 3). Add the following two lines below the last statement on the <code>main()</code> function.</p>
             <pre class="function">
                 <span class="prompt">if<span class="name"> __name__</span><span class="argument">==</span><span class="name">__main__</span><span class="argument">:</span></span><br>
                 <span class="print-statement">    main<span class="print-args"><span class="parentheses">(</span><span class="parentheses">)</span></span></span><br>
@@ -569,9 +569,27 @@
             <p>We can now go to our terminal and run the file from there. Open your terminal and <code>cd</code> into your <code>cs101</code> directory</p>
             <pre class="shell"><span class="argument">$</span> <span class="prompt">cd</span> ~/Desktop/cs101
             </pre>
-            <pre class="shell"><span class="argument">$</span> <span class="prompt">ls</span>  <span class="comment">#confirm that birthday.py is in our directory</span>
-            <span class="return">birthday.py</span><span class="comment">#if that is the only file currently in our directory</span>
+            <pre class="shell"><span class="argument">$</span> <span class="prompt">ls</span>  <span class="comment">#confirm that birthday.py is in our directory</span><br>
+            <span class="return" style="float: left;">birthday.py</span>
             </pre>
+            <p>If you don't see the file, you need to correct that before you proceed.</p>
+            <p>Assuming that everything is correct, we will now tell Python to run our file. Run this command on your terminal</p>
+            <pre class="shell"><span class="argument">$</span> <span class="prompt">python3</span> <span class="argument">birthday.py</span><br>
+            <span class="return" style="float: left;">Happy Birthday to you!</span><br>
+            <span class="return" style="float: left;">Happy Birthday to you!</span><br>
+            <span class="return" style="float: left;">Happy Birthday, dear Moses!</span><br>
+            <span class="return" style="float: left;">Happy Birthday to you!</span>
+            </pre>
+            <p>Perfect! We have just written our first program in Python. You can follow the same instructions to write another program to sing your other friends the birthday song.</p>
+            <h4>Sending Code to Online Repository</h4>
+            <p>In Chapter 1, we set up our online repository at Github. We are now working from our local repository where the <code>birthday.py</code> file is. We will follow the same procedure when sending the file to Github.</p>
+            <pre class="shell"><span class="argument">$</span> <span class="prompt">git add</span> <span class="argument">birthday.py</span>
+            </pre>
+            <pre class="shell"><span class="argument">$</span> <span class="prompt">git commit -m</span> <span class="argument">"first commit"</span>
+            </pre>
+            <pre class="shell"><span class="argument">$</span> <span class="prompt">git push origin master</span>
+            </pre>
+
         </div>
         <div class="content-wrap">
             
