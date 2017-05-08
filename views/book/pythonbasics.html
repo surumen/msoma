@@ -535,6 +535,43 @@
             <li>Line 1: Contains <code>def</code>, the name of the function, parentheses, and a colon<br>All Python functions are written like this. The standard syntax for defining a function in Python is <br><code><span class="def">def </span><span class="name">function_name</span><span class="argument">():</span></code></li>
             <li>Line 2-5: Are indented by 4 spaces.<br> This is called a whitespace. If you fail to indent your code by this exact amount of spaces, you will get Syntax errors. That should not worry you, however, if you encounter this just correct the indentation on your code.</li>
             </ul>
+            <p>So we have just defined our first function but the function doesn't do anything yet. We need a way to make that function print the birthday song.</p>
+            <p>To make the function print this statements, open your terminal (if you closed it you need to type in the whole function definition again). After the Line 5, hit Enter and you should get to the >>> prompt. Now, to "run" this function, we just type out its name with the parentheses. </p>
+            <pre class="shell"><span class="prompt">>>></span> <span class="name">happyBirthdayMoses</span><span class="parentheses">()</span>
+                <br><span class="return">"Happy Birthday to you!"</span><br>
+                <span class="return" style="float: left;">"Happy Birthday to you!"</span><br>
+                <span class="return" style="float: left;">"Happy Birthday, dear Moses!"</span><br>
+                <span class="return" style="float: left;">"Happy Birthday to you!"</span>
+            </pre>
+            <br>
+            <h4>Using a Text Editor</h4>
+            <p>If you exited your terminal and had to retype the function again, you realized this takes a lot of time to keep doing this. We can just write our code in a file and run in from that file. There are very many code editors out there. For this class, we shall be using Sublime Text.</p>
+            <p>To download Sublime Text, go to the <span><a href="https://www.sublimetext.com/3">downloads page</a></span> and download the appropriate version for your computer. As usual, follow the installer instructions to install it.</p>
+            <p>Now go to your <code>Applications</code> folder on your computer and open Sublime Text. Write down the function we defined and make sure to use four spaces, or you can use the tab once from line 2 to 5. Save the file as <code>birthday.py</code> on the <code>cs101</code> folder on your computer.</p>
+            <img src="../images/courses/birthday.jpg"><br><br>
+            <p>You can also download the file <span><a href="../code/birthday.py">here</a></span>.</p>
+            <p>Your terminal needs a way to know that the function we are running is the <code>happyBirthdayMoses</code> function. We will need to add a few lines to our <code>birthday.py</code> file.</p>
+            <p>Two lines below the last print statement, type in the following</p>
+            <pre class="function">
+                <span class="def">def <span class="name">main</span><span class="argument">():</span></span><br>
+                <span class="print-statement">    happyBirthdayMoses<span class="print-args"><span class="parentheses">(</span><span class="parentheses">)</span></span></span><br>
+                <br>
+            </pre>
+            <br>
+            <p>Now there is just one more step remaining before our terminal can make the function print what we want. We need to add an <code>if statement</code> (we will explore more about conditional statements in Chapter 3). Add the following two lines below the last statement on the <code>main()</code> function. (It doesn't have to be two lines but we are just doing this to ensure that our code is neat)</p>
+            <pre class="function">
+                <span class="prompt">if<span class="name"> __name__</span><span class="argument">==</span><span class="name">__main__</span><span class="argument">:</span></span><br>
+                <span class="print-statement">    main<span class="print-args"><span class="parentheses">(</span><span class="parentheses">)</span></span></span><br>
+                <br>
+            </pre>
+            <p>Our <code>birthday.py</code> file should now look like this</p>
+            <img src="../images/courses/birthday2.jpg"><br><br>
+            <p>We can now go to our terminal and run the file from there. Open your terminal and <code>cd</code> into your <code>cs101</code> directory</p>
+            <pre class="shell"><span class="argument">$</span> <span class="prompt">cd</span> ~/Desktop/cs101
+            </pre>
+            <pre class="shell"><span class="argument">$</span> <span class="prompt">ls</span>  <span class="comment">#confirm that birthday.py is in our directory</span>
+            <span class="return">birthday.py</span><span class="comment">#if that is the only file currently in our directory</span>
+            </pre>
         </div>
         <div class="content-wrap">
             
