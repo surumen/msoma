@@ -18,6 +18,47 @@ header .page-header {
     padding-bottom: 0;
 }
 
+.function {
+    background: #f8f9fa;
+    display: inline-block;
+    tab-size: 4;
+    line-height: 0.8em;
+    border: 1px solid #eaecf0;
+    padding-top: 1em;
+    padding-left: 0;
+    margin-left: 0;
+    white-space: pre-wrap;
+    font-family: monospace, 'Courier';
+}
+
+.def {
+    color: #008000;
+    font-weight: bold;
+}
+
+.name {
+    color: #0000ff;
+    font-weight: normal;
+}
+
+.argument {
+    color: #000;
+    font-weight: normal;
+}
+.parentheses {
+    color: #000;
+}
+
+.print-statement {
+    color: #008000;
+    font-weight: bold;
+}
+
+.print-args {
+    color: #BA2121;
+    font-weight: normal;
+}
+
 .green_print {
     color: rgb(0, 112, 32);
 

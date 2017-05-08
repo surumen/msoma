@@ -510,31 +510,31 @@
         </div>
         <div class="content-wrap">
             <h1>2.4 Defining Functions</h1>
-            <p>To send your code to an online repository, you need some form of "transport". That is what git is. It keeps track of what you want to "transport", and you can tell it where you want to send your code. It's like a truck. You add stuff. Then tell the driver where to go, and send it when everything is ready. Ok, departing from this metaphor. Let's now go ahead and install git so we can see what we can do with it. You will need it throughout this course and throughout your life as a computer programmer. But first we need to create a Github account. Github is just a website where programmers store their code.</p>
-            <h4>Creating a Github account</h4>
-            <p>Go to <span><a href="https://github.com">https://github.com</a></span> and create an account.</p>
-            <h4>Setup Git</h4>
-            <p>Download the right git version for your computer here. <span><a href="https://git-scm.com/download/win">Windows</a></span>   <span><a href="https://git-scm.com/download/linux">Linux</a></span>    <span><a href="https://git-scm.com/download/mac">Mac</a></span></p>
-
-            <h5>Setup Name and Email</h5>
-            <code>git config --global user.name "Your Name"</code><br>
-            <code>git config --global user.email "your_email@something.com"</code>
-            <h5>Creating a Git Repository</h5>
-            <code>git init</code>
-            <h5>Add some files to your repo</h5>
-            <code>touch readme.txt</code><br>
-            <code>git add readme.txt</code><br>
-            <code>git commit -m "first commit"</code>
-            <h5>Connect to a Remote</h5>
-            <p>So now you have loaded your "truck" with a file called readme.txt, and you want to tell the driver where the destination is. To do that you need to go to your github account and create a new repository.</p>
-            <img src="">
-            <p>Copy the url of the repository you just created and go back to your terminal. Run this command</p>
-            <code> git remote add origin https://github.com/your_username/repo_name</code>
-            <p>Awesome! What is now left is just sending the file to the destination. We do that by running the following command.</p>
-            <h5>Pushing to Github</h5>
-            <code>git push origin master</code>
-            <h5>Understand what we have just done</h5>
-            <p>Let's now look at what we have just done step by step and understand everything.</p>
+            <p>So far what we've done is just using Python to do arithmetic operations, and printing some statements. We also saw that the fourth element of computer programs is that some actions might be repeated many times. If an action is repeated we can place it in a function or module, and then everytime we need to use it, we use that function we created.</p>
+            <p>Let's do some more printing before we define our first function. If you're celebrating your birthday this month, let's make Python sing a little song for you.</p>
+            <pre class="shell"><span class="prompt">>>></span> <span class="green_print">print</span>('Happy Birthday to you!')
+            </pre>
+            <pre class="shell"><span class="prompt">>>></span> <span class="green_print">print</span>('Happy Birthday to you!')
+            </pre>
+            <pre class="shell"><span class="prompt">>>></span> <span class="green_print">print</span>('Happy Birthday, dear friend')
+            </pre>
+            <pre class="shell"><span class="prompt">>>></span> <span class="green_print">print</span>('Happy Birthday to you!')
+            </pre>
+            <p>If I am also celebrating my birthday, it's a lot of work to keep writing the same code over and over again. To avoid this, we can create modules or functions, for each person who is celebrating their birthday.</p>
+            <p>Moses is celebrating his birthday, so let's create a function that makes Python "sing" the birthday song for him.</p>
+            <p>In Python, we will need to give our function a name so that we don't confuse with other functions. We are going to call it <code>happyBirthdayMoses</code>. When creating a function, we say we are defining it. We use the <code>def</code> keyword, short for define.</p>
+            <pre class="function">
+                <span class="def">def <span class="name">happyBirthdayMoses</span><span class="argument">():</span></span><br>
+                <span class="print-statement">    print<span class="print-args"><span class="parentheses">(</span>"Happy Birthday to you!"<span class="parentheses">)</span></span></span><br>
+                <span class="print-statement">    print<span class="print-args"><span class="parentheses">(</span>"Happy Birthday to you!"<span class="parentheses">)</span></span></span><br>
+                <span class="print-statement">    print<span class="print-args"><span class="parentheses">(</span>"Happy Birthday, dear Moses!"<span class="parentheses">)</span></span></span><br>
+                <span class="print-statement">    print<span class="print-args"><span class="parentheses">(</span>"Happy Birthday to you!"<span class="parentheses">)</span></span></span><br>
+            </pre>
+            <p>Before we make this function print the song, it is important to first understand every line we just wrote.</p>
+            <ul>
+            <li>Line 1: Contains <code>def</code>, the name of the function, parentheses, and a colon<br>All Python functions are written like this. The standard syntax for defining a function in Python is <br><code><span class="def">def </span><span class="name">function_name</span><span class="argument">():</span></code></li>
+            <li>Line 2-5: Are indented by 4 spaces.<br> This is called a whitespace. If you fail to indent your code by this exact amount of spaces, you will get Syntax errors. That should not worry you, however, if you encounter this just correct the indentation on your code.</li>
+            </ul>
         </div>
         <div class="content-wrap">
             
