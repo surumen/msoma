@@ -403,13 +403,12 @@
                 <p></p>
             </span>
         </div>
-        <hr>
         <div class="content-wrap">
             <h1>1.2 Installing Python</h1>
-            <p>Python has many versions. In this course, we will use the most recent version of Python 3. Some computers have Python already installed, like the older version Python 2.7, but you need to install Python 3 if this is the case.</p>
+            <p>Python has many versions. In this course, we will use the most recent version of Python 3. Some computers have Python already installed. However, you will need to ensure you are using the latest version of Python 3 instead of Python 2.7 which is pre-installed in most computers.</p>
             <p>You can download Python from the Python downloads page by clicking on the version that begins with 3. Follow the instructions of the installer to complete installation.</p>
             <h3 >Installing Python on Windows</h3>
-            <p>You can install Python on Windows by following these steps.</p>
+            <p>You can download Python for your windows computer on the <span><a href="https://www.python.org/download/releases/2.7.8/">Windows Downloads Page</a></span>.</p>
             <h3 >Installing Python on Linux</h3>
             <p>You can install Python on Linux by following these steps.</p>
             <h3 >Installing Python on a Mac</h3>
@@ -417,44 +416,65 @@
         </div>
         <div class="content-wrap">
             <h1>1.3 Introduction to the Terminal</h1>
-            <p>A terminal is a program on a computer that executes commands. You can tell it to delete files, launch programs, run code, and even "hack" computers (pun-intended). It is also referred to as the command line, interpreter, or terminal But you can't use your mouse. You might now be asking, what are these commands that a shell executes?</p>
+            <p>A terminal is a program on a computer that executes commands. You can tell it to delete files, launch programs, run code, and even "hack" computers (pun-intended). It is also referred to as the command line, interpreter, or shell. You can't use your mouse when working from the terminal. You might now be asking, what are these commands that a shell executes?</p>
             <h5>What is a command?</h5>
-            <p>If you've ever join a scouts or girl-guides club, you know what to do when the "commander" tells you to do something. When using a shell, you are essentially the commander and the computer obeys your commands. We will go ahead and look at some useful commands you can start using right away.</p>
+            <p>A command is just a statement that you tell a computer to execute. Here are some of the most commonly used and useful terminal commands:</p>
+                <p><code>ls</code>: lists all files or directories in the current directory</p>
+                <p><code>pwd</code>: prints the current working directory (displays current directory)</p>
+                <p><code>cd <span style="font-style: italic;">new_directory</span></code>: change directory from current working directory to <span style="font-style: italic;">new_directory</span></p>
+                <p><code>cd ..</code>: change to parent directory (move up a directory)</p>
+                <p><code>mkdir <span style="font-style: italic;">new_directory</span></code>: make a directory called <span style="font-style: italic;">new_directory</span></p>
+                <p><code>mv <span style="font-style: italic;">file_name</span> <span style="font-style: italic;">new_directory</span></code>: move a file called <span style="font-style: italic;">file_name </span> to a directory called <span style="font-style: italic;">new_directory</span></p>
+                <p><code>rm <span style="font-style: italic;">file_name</span></code>: remove file called <span style="font-style: italic;">file_name</span> from current directory</p>
 
         </div>
         <div class="content-wrap">
             <h1>1.4 Using Git</h1>
-            <p>To send your code to an online repository, you need some form of "transport". That is what git is. It keeps track of what you want to "transport", and you can tell it where you want to send your code. It's like a truck. You add stuff. Then tell the driver where to go, and send it when everything is ready. Ok, departing from this metaphor. Let's now go ahead and install git so we can see what we can do with it. You will need it throughout this course and throughout your life as a computer programmer. But first we need to create a Github account. Github is just a website where programmers store their code.</p>
+            <p>To send your code to an online storage site, you need some form of "transport". That is what git is. It keeps track of what you want to "transport", and you can tell it where you want to send your code. It's like a truck. You add stuff. Then tell the driver where to go, and send it when everything is ready. You will need Git throughout this course and throughout your life as a computer programmer. Before we download and install git, let's first go ahead and create a Github account. Github is just a website where programmers store their code.</p>
             <h4>Creating a Github account</h4>
-            <p>Go to <span><a href="https://github.com">https://github.com</a></span> and create an account.</p>
-            <h4>Setup Git</h4>
+            <p>Go to the <span><a href="https://github.com">Github homepage</a></span> and create an account. Github is just like any other social network like Facebook or Instagram. You can join a group on Github, follow someone, upload your project, or share other projects you might find to be interesting. You can share anything on Github - your pictures, files, or code. What is amazing about using Github is that you can use it without knowing any code at all. Git is the software at the heart of the Github "social network". We shall be using some terms which we should define first before we start:
+            <ul>
+                <li><strong>Repository:</strong> This is just a storage space where you put your projects. Sometimes its just shortened to "repo". You can store files on your computer or you can store them online at Github. When you store them at Github, the storage space there is referred to as your "Online Repository". It can also be referred to as the "remote". When you store them on your computer, that is referred to as your "Local Repository".</li>
+                <li><strong>Branch:</strong> Sometimes many people might be working on the same project and all of them are storing the code for the project in the same Online Repository. It can get confusing, so you need to ensure who did what and which part of the project they contributed in. To avoid confusion, the project can be done in different "sections". In the end, all these "sections" are brought together when the project is finished. We call all the other sub-sections branches and the main one where they are all brought together is called the "master branch'. Git allows you to create different branches for your project. We will explore this more as we go on.</li>
+            </ul></p>
+            <h4>Creating your Online Repository.</h4>
+            <p>Let's now go ahead and create an online repository after we've created a Github account. Click on the green button "New Repository".</p> <br><img src="../images/courses/repo1.jpg"><br><br><p>Give your repository a name.</p><br><img src="../images/courses/repo3.jpg"><br><br> <p>You should stop at the page below. What this page is asking you to do is to create a Local Repository and connect it with the Online Repository you've just created. Before we create our Local Repository, we need to install Git first. Remember we said Git is just a some software that transports our files from our Local Repository to the Online Repository we just created</p>.<br><img src="../images/courses/repo4.jpg"><br>
+
+            <br><h4>Setting up Git</h4>
             <p>Download the right git version for your computer here. <span><a href="https://git-scm.com/download/win">Windows</a></span>   <span><a href="https://git-scm.com/download/linux">Linux</a></span>    <span><a href="https://git-scm.com/download/mac">Mac</a></span></p>
 
-            <h5>Setup Name and Email</h5>
+            <p>Follow the instructions on the installer to finish installing it on your computer.</p>
+            <p>Setup your name and email. Open your terminal and type this command to setup your name then hit "Enter". Remember you can't use your mouse when working from the terminal.</p>
             <code>git config --global user.name "Your Name"</code><br>
-            <code>git config --global user.email "your_email@something.com"</code>
-            <h5>Creating a Git Repository</h5>
+            <p>Type this to setup your email.</p>
+            <code>git config --global user.email "your_email@something.com"</code><br>
+            <p>Awesome! We have successfully downloaded and installed Git. We can now go ahead to create our Local Repository.</p>
+            <h5>Creating your Local Repository</h5>
+            <p>We will use git to create our local repository and connect it to the Online Repository we created earlier. For the sake of clarity, we will store our files on the Desktop. We will need to create a folder in our Desktop where we will be storing all our work for this course. As we said earlier, you can do anything from your terminal. You can go to the desktop and create a folder for your project without leaving the terminal. Let's do that:</p>
+            <p>Open your terminal and type this command and hit enter. This will tell your terminal to start operating from your Desktop.</p>
+            <code>cd ~/Desktop</code>
+            <p>Next, we need to create a folder for our project. We will name this folder, "cs101" without the quotes. Type this command on your terminal and hit enter.</p>
+            <code>mkdir cs101</code>
+            <p>"mkdir" essentially means "make directory" and "cd" means "change directory" in the language that your computer understands. It won't understand if you typed that in full. Our terminal is still operating from the Desktop, so we need to "change directory" and work from inside our "cs101" folder. To do that run this command (run just means typing it to your terminal and hit enter)</p>
+            <code>cd cs101</code>
+            <p>Wow, we are almost there. We can now just go ahead and create our Local Repository. Run this command from your terminal. "Init" means that we are just initializing an empty Git repository. There is nothing in our folder yet.</p>
             <code>git init</code>
-            <h5>Add some files to your repo</h5>
-            <code>touch readme.txt</code><br>
-            <code>git add readme.txt</code><br>
+            <p>Let's put something in our folder and see if we can send it to our Online Repository at Github. You can use your terminal to create a file called "readme.txt". To create that file run this command</p>
+            <code>touch readme.txt</code>
+            <p>Next, we need to add this file to our truck before we transport it to the destination which is our Online Repository. Our truck, as we said earlier, is Git. To add this file to git, run this command</p>
+            <code>git add readme.txt</code>
+            <p>So our file is in now on the "truck", but we need some way to tell the "driver" that the truck is full or that there is nothing more to add. We call this "commit". After we have made all our changes to our files, we commit them to Git before we send them to our Online Repository. Run this command from your terminal.</p>
             <code>git commit -m "first commit"</code>
-            <h5>Connect to a Remote</h5>
-            <p>So now you have loaded your "truck" with a file called readme.txt, and you want to tell the driver where the destination is. To do that you need to go to your github account and create a new repository.</p>
-            <img src="">
-            <p>Copy the url of the repository you just created and go back to your terminal. Run this command</p>
-            <code> git remote add origin https://github.com/your_username/repo_name</code>
-            <p>Awesome! What is now left is just sending the file to the destination. We do that by running the following command.</p>
-            <h5>Pushing to Github</h5>
-            <code>git push origin master</code>
-            <h5>Understand what we have just done</h5>
-            <p>Let's now look at what we have just done step by step and understand everything.</p>
+            <p>Before we send our file to the Online Repo, we need to tell git where the online repo is. There are so many addresses online, it's just like telling someone who has never been to Kenya to drive a truck to Isiolo. Remember we also call our Online Repo the "remote". Let's just go back to our online repository we created and copy the address. Notice the line with remote in it? Copy that and past it to your terminal.<br><br><img src="../images/courses/repo4.jpg"></p><br>
+            <code>git add remote origin https://github.com/your_username/repo_name.git</code><br>
+            <p>Finally, we can now go ahead and send our file to Github. We call this "pushing". To push to Github, run this command</p><br>
+            <code>git push -u origin master</code>
+            <br>
+            <p>Fantastic! Let's go to Github and see if the file is there. Just refresh your page, and you should see your file there.</p>
 
-            <h5>Checking Status</h5>
-            <p>Sometimes you need to confirm is you've send your files to github. Git allows you to do so. Or there's a file that you didn't add to your "truck" - that is an untracked file. If it is untracked, you need to add by running git add nameoffile or if there are many files you can add them all simultaneously using <code>git add . </code>. To check the status of your "commits", run this command from inside your git repository (you will get some error or incorrect stuff if you do it elsewhere)</p>
-            <p>git status</p>
-            <p>You should see something of this sort</p>
-            <img src="../images/courses/gitcheatsheet.png">
+            <h4>Other Git Commands</h4>
+            <p>You can use git to do so many things. Here is a list of the most common git commands and their uses.
+            <br><br><img src="../images/courses/gitcheatsheet.png">
         </div>
         <div class="content-wrap">
             

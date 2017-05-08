@@ -385,41 +385,127 @@
 
 
             <span>
-                <p>Programming is the art of making a computer do what you want it to do. When trying to understand what "programming" means, it is also important to first define the term "algorithm". An algorithm is a detailed step-by-step formula for solving a problem or completing a task. Computer Programming is essentially the art of writing algorithms that tell a computer how to perform a task.</p><p >Programming is not synonimous to computer science. Computer science is more than just programming, although it is a critical part of a computer scientist's work. </p>
-                <h2>So what is an Algorithm?</h2>
-                <p>The recipe you use to make ugali is an algorithm (ok, not a computer algorithm in this case but it's an algorithm). We said an algorithm is a step-by-step formula for completing a task. What steps do you use to make ugali? Personally, I would apply these steps:</p>
-                <p align="center"><img src="../images/courses/snap.png" class="snap"></p>
-                <p>The image you see above is essentially a computer program. It describes an algorithm I use to make ugali. The language I used to describe this algorithm is called Snap. Before we start talking about programming languages, it's good to know that Snap is just like the blocks you might have been building in kindergarten. It has been developed at the University of California, Berkeley and is used to teach an introductory course, CS 50.</p>
-                <p>This recipe has the following characteristics which is what defines an algorithm:
-                    <ul>
-                        <li>It has a sequence of simple <span style="color: #900; font-weight: bold;">steps</span></li>
-                        <li>It applies a process that specifies<span style="color: #900; font-weight: bold;"> when </span>each step is executed.</li>
-                        <li>It has a means of determining<span style="color: #900; font-weight: bold;"> when to stop</span>.</li>
-                    </ul>
+                <h3 style="font-style: normal; font-weight: bold;">Running Python3 in the Terminal</h3>
+                <p>Type <code>python3</code> in your terminal. The >>> you see shows you that you're inside the Python Shell. Let's do some calculations using python. Do the following arithmetic. After typing the digits, hit Enter</p>
+                <pre class="shell"><span class="prompt">>>></span> <span>5</span>+<span>5</span>
+                <br><span class="return">10</span>
+                </pre>
+                <pre class="shell"><span class="prompt">>>></span> <span>100</span>*<span>7</span>
+                <br><span class="return">700</span>
+                </pre>
+                <pre class="shell"><span class="prompt">>>></span> <span>3</span>-<span>5</span>
+                <br><span class="return">-2</span>
+                </pre>
+                <p>We can do more than just calculations with Python. Let's trying printing some statements</p>
+                <pre class="shell"><span class="prompt">>>></span> <span class="green_print">print</span>('Hello there')
+                <br><span class="return">Hello there</span>
+                </pre>
+                <pre class="shell"><span class="prompt">>>></span> <span class="green_print">print</span>(20 + 5)
+                <br><span class="return">25</span>
+                </pre>
+                <p style="font-size: 80%; font-style: italic;">As you can see above, you can use Python to do all your calculations. There are many other mathematical expressions you can execute in the Python shell including division, modulo, among many others.</p>
+                <pre style="padding-bottom: 0; padding-top: 0; width: 110px; background-color: rgba(204, 122, 111, 0.3);"><h5>Exercise 2.1</h5></pre>
+                <h4>What does each of the following evaluate to?</h4>
+                <p>
+                <code>a. 30 + 1 * 0</code><br>
+                <code>b. (30 + 1) * 0</code><br>
+                <code>c. 9 % 4</code><br>
+                <code>d. 4 / 5 * 5</code><br>
+                <code>e. 4 // 5 * 5</code>
+                <span style="font-style: italic;">Why is e. different from d.?</span><br>
+                <code>f. 4.5 * 8</code><br>
+                <code>g. 4.5 ** 8</code><br>
+                <code>h. 16 % 2</code><br>
+                <code>i. print("What's up")</code><br>
+                <code>j. print("Hi" + "friend" + "!" + "I missed you")</code>
+                <span style="font-style: italic;">How do you add spaces to the statement in j.?</span>
+
                 </p>
-                
-                <h2>Programming Languages</h2>
-                <p>To "speak" to a computer, you need to use a language it understands. For instance, if grandma only speaks Kiswahili it's pointless to try having a conversation in English with her. Computers only understand a language called <span style="font-style: italic;">binary</span>. "Binary" just means two in simple English. So when we say a computer only understands a "binary language", it means the way it represents numbers is just in form of ones (1s) and zeros (0s). So if for example you want to write a name like "Moses", a computer doesn't understand that. The name Moses in binary is some number of 1s and 0s. We will get into details in Chapter 5. For now it's just good to know that computers understand binary number representation.</p>
-                <p></p>
             </span>
         </div>
-        <hr>
         <div class="content-wrap">
             <h1>2.2 Data Types</h1>
-            <p>Python has many versions. In this course, we will use the most recent version of Python 3. Some computers have Python already installed, like the older version Python 2.7, but you need to install Python 3 if this is the case.</p>
-            <p>You can download Python from the Python downloads page by clicking on the version that begins with 3. Follow the instructions of the installer to complete installation.</p>
-            <h3 >Installing Python on Windows</h3>
-            <p>You can install Python on Windows by following these steps.</p>
-            <h3 >Installing Python on Linux</h3>
-            <p>You can install Python on Linux by following these steps.</p>
-            <h3 >Installing Python on a Mac</h3>
-            <p>You can install Python on a Mac by following these steps.</p>
+            <p>In your primary school Mathematics class, you learned about Fractions, Decimals, Prime Numbers, and Algebra. All these can be referred to as Mathematical data types. </p>
+            <p>When it comes to Python, the data types are just as diverse. All these are things you already encountered in primary school and high school, the only difference is that now we are giving them their official names. Or the names used in computer programming. They are grouped into different classes. There are numeric data types, booleans, sequences, sets, and mappings.</p>
+            <h2>Numeric Types</h2>
+            <p>There are different numeric types. This applies to any programming language.</p>
+            <ul>
+                <li><span class="green_print">int:</span> (Integers) these are just numbers like 1, 2, 3, 4, 100, 5000</li>
+                <li><span class="green_print">float:</span> these are decimal numbers like <code>3.14159265359</code></li>
+                <li><span class="green_print">str:</span> (String); these are expressions like <code>"this is a string"</code>, <code>"Monday"</code>. They are characters inside the quotation marks</li>
+                <li><span class="green_print">bytes:</span> a sequence of integers between 0 and 255.</li>
+                <li><span class="green_print">list</span> a list in python is a collection of data types. The list can contain same types or different types. Lists in python are enclosed inside parentheses. <code>{3, 4, 6, 12, "Tuesday"}</code></li>
+                <li><span class="green_print">tuple:</span> a collection of values that can be treated as a unit. In many ways it's just like a list, but you cannot change the contents of a tuple whereas you can change the contents of a list.</li>
+            </ul>
+            <br>
+            <h4>a. Integers</h4>
+            <p>Integers are whole numbers - from large negative numbers to large positive numbers. In a computer, the size of numbers we use is restricted although it's not restricted in real life. This is just due to the amount of memory in your computer - it can't handle numbers upto infinity. In fact, on most current computers and programming languages there is an upper limit on the size of numbers called <span class="green_print" style="font-weight: bold;">MAXINT</span>.</p>
+            <p>There are several arithmetic operations you can perform on integers. You can do addition, subtraction, multiplication, division, modulo, or exponentiation.</p>
+            <pre class="shell"><br><span class="prompt">>>></span> <span class="green_print">print</span>(10 + 20)<span class="comment"> # addition of 10 and 20</span>
+                <br><span class="return">30</span>
+            </pre>
+            <pre class="shell"><br><span class="prompt">>>></span> <span class="green_print">print</span>(40 - 1)<span class="comment"> # subtraction of 40 and 1</span>
+                <br><span class="return">39</span>
+            </pre>
+            <pre class="shell"><br><span class="prompt">>>></span> <span class="green_print">print</span>(4 * 7)<span class="comment"> # multiplication of 4 and 7</span>
+                <br><span class="return">28</span>
+            </pre>
+            <pre class="shell"><br><span class="prompt">>>></span> <span class="green_print">print</span>(80 / 10)<span class="comment"> # division of 80 and 10</span>
+                <br><span class="return">8</span>
+            </pre>
+            <pre class="shell"><br><span class="prompt">>>></span> <span class="green_print">print</span>(24 % 5)<span class="comment"> # modulo: the remainder of 24 divided by 5</span>
+                <br><span class="return">4</span>
+            </pre>
+            <pre class="shell"><br><span class="prompt">>>></span> <span class="green_print">print</span>(2**5)<span class="comment"> # exponentiation: 2 raised to power 5</span>
+                <br><span class="return">32</span>
+            </pre>
+            <h4>b. Strings</h4>
+            <p>In Python, strings can be represented in several ways. <li>With single quotes: <code>'This is a string with single quotes'</code></li>
+            <li>With double quotes: <code>"This string has double quotes"</code></li></p>
+            <li>With triple quotes: <code>""" This string has triple quotes. Sometimes you may want to use this if you have a very long string """</code></li></p>
+            <p>You can perform different operations on strings. You can join two strings, split a string to sub-strings, copy one string to another, etc. Some of these operations are built into the Python language so using them is just straightforward. Others are not built into Python - we will go into details on how to use some operations that are not built into a language. Let's look at two built in operations - combining two strings into one, and repeating a string several times.</p>
+            <p>Combining two strings into one is called <span class="green_print" style="font-weight: bold;">concatenation</span>. Open your terminal and try concatenating these strings.</p>
+            <pre class="shell"><span class="prompt">>>></span> <span class="green_print">print</span>('Again and ' + 'again')<span class="comment"> # string concatenation</span>
+                <br><span class="return">Again and again</span>
+            </pre>
+            <pre class="shell"><span class="prompt">>>></span> <span class="green_print">print</span>('Repeat ' * 3)<span class="comment"> # string repetition</span>
+                <br><span class="return">Repeat Repeat Repeat</span>
+            </pre>
+            <pre class="shell"><span class="prompt">>>></span> <span class="green_print">print</span>('Again ' + ('and again' * 3)<span class="comment"> # string concatenation and repetition</span>
+                <br><span class="return">Again and again and again and again</span>
+            </pre>
+            <br>
+            <h2>Booleans</h2>
+            <p>A boolean is a true or false value. Sometimes on a computer boolean values are represented using 0 or 1. (0 for false, and 1 for true). Boolean values are sometimes known as "truth values" because they are used to test whether something is true or not.</p>
+            <h2>Sets</h2>
+            <p>A set is an unordered collection of unique objects. A <span style="font-style: italic;">frozen set</span> is a set whose values <span style="font-style: italic;">cannot</span> be changed. </p>
+            <h2>Mutable vs Immutable objects</h2>
+            <p>A <span style="font-style: italic;">mutable</span> object is one whose contents can be changed, while an <span style="font-style: italic;">immutable</span> object is one whose contents cannot be changed.</p>
         </div>
         <div class="content-wrap">
             <h1>2.3 Elements of Computer Programs</h1>
-            <p>A terminal is a program on a computer that executes commands. You can tell it to delete files, launch programs, run code, and even "hack" computers (pun-intended). It is also referred to as the command line, interpreter, or terminal But you can't use your mouse. You might now be asking, what are these commands that a shell executes?</p>
-            <h5>What is a command?</h5>
-            <p>If you've ever join a scouts or girl-guides club, you know what to do when the "commander" tells you to do something. When using a shell, you are essentially the commander and the computer obeys your commands. We will go ahead and look at some useful commands you can start using right away.</p>
+            <p>Computer programs can be structured in four ways. When defining the term "algorithm" in Chapter 1, we said that it is a sequence of steps, it applies a process that specifies when each step is executed, and has a means of determining when to stop. When we are describing the common features of all programs, we will be just going into more details on this.</p>
+            <P>These are the four main features we will explore:</p>
+            
+            <ul class="content-quote">
+                <li><span style="font-weight: bold;">Sequences of instructions</span><br>
+                <img src="../images/courses/sequence.gif"><br>
+                This program follows these steps in strict sequence. It does not execute Step 3 before 2 and so on.
+                </li>
+                <li><span style="font-weight: bold;">Branches</span><br>
+                <img src="../images/courses/branch.gif"><br>
+                When this program reaches a certain point, it makes the decision whether to take the upper branch or the lower branch. Sometimes you might also be faced with a dilemma, where you have to choose between two or even more situations. Computer programs are just written to solve real world problems so such situations can also occur. This is called branching.
+                </li>
+                <li><span style="font-weight: bold;">Loops</span><br>
+                <img src="../images/courses/loop.gif"><br>
+                You eat food everytime you get hungry regardless of whether you only ate three hours ago, or you last ate the previous night. Eating is an endless loop in the human life. The test condition is "if or when you are hungry", then repeat the action which is eating. Computer programs are just like that. There are some operations that we need to repeat for many reasons. In that case we use loops. We will go into more details on this in Chapter 3.
+                </li>
+                <li><span style="font-weight: bold;">Functions</span><br>
+                <img src="../images/courses/module.gif"><br>
+                Sometimes you might have to repeat similar actions even when you're doing difference things. If for example you're making ugali, you need to clean your utensils first. If you're making uji, you also have to clean your utensils first. So if making ugali was Step 1 and making uji was Step 3, they both share some other action - which we're calling the shared module here. Computer programs also sometimes perform an identical sequence of actions several times. For convenience, these common actions are place in a module (also called function, or procedure). If you want to clean your utensils, you put all of them in the sink. That's what a module/function does here.
+                </li>
+            </ul>
+        <p>Now we have seen that you can place common actions in one place called a function when designing computer programs. Let's now start designing our first functions.</p>
 
         </div>
         <div class="content-wrap">
@@ -449,19 +535,13 @@
             <code>git push origin master</code>
             <h5>Understand what we have just done</h5>
             <p>Let's now look at what we have just done step by step and understand everything.</p>
-
-            <h5>Checking Status</h5>
-            <p>Sometimes you need to confirm is you've send your files to github. Git allows you to do so. Or there's a file that you didn't add to your "truck" - that is an untracked file. If it is untracked, you need to add by running git add nameoffile or if there are many files you can add them all simultaneously using <code>git add . </code>. To check the status of your "commits", run this command from inside your git repository (you will get some error or incorrect stuff if you do it elsewhere)</p>
-            <p>git status</p>
-            <p>You should see something of this sort</p>
-            <img src="../images/courses/gitcheatsheet.png">
         </div>
         <div class="content-wrap">
             
 
 
 
-            <span><ul ><li><a title="" href="/book/control_and_sequences">Next > Python Basics</a></li></ul>
+            <span><ul ><li><a title="" href="/book/control_and_sequences">Next > Control and Sequences</a></li></ul>
             </span>
         </div>
 

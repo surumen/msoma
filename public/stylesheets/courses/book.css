@@ -9,6 +9,39 @@ header .page-header {
     border-bottom: 0
 }
 
+.prompt {
+    color: rgb(198, 93, 9);
+}
+
+.shell {
+    line-height: 0.8 !important; 
+    padding-bottom: 0;
+}
+
+.green_print {
+    color: rgb(0, 112, 32);
+
+}
+
+.comment {
+    color: rgb(64, 112, 160);
+}
+.return {
+    color: rgb(14, 132, 181);
+}
+
+.content-quote {
+    background-color: rgba(249, 242, 244, 1);
+    padding: 15px 30px 15px 15px;
+    margin: 20px 0px;
+    border-left: 5px solid rgba(199, 37, 78, 0.2);
+    font-size: 95%;
+}
+
+.content-quote li {
+    margin-left: 40px;
+}
+
 ::-moz-selection {
     background: #274b6e;
     color: #fff;
@@ -15867,7 +15900,6 @@ label+.radio {
 }
 
 #nav-primary-menu-container ul.nav-primary-menu>li>a {
-    font-family: "ff-more-web-pro";
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
@@ -16362,7 +16394,6 @@ footer.main .footer-copyright-container .footer-copyright {
 }
 
 .content-body.content-serif {
-    font-family: "ff-more-web-pro";
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
@@ -16416,7 +16447,6 @@ footer.main .footer-copyright-container .footer-copyright {
 .nci ol .content-body.content-serif>p a,
 .nci ul .content-body.content-serif>p a,
 .news .article-byline .content-body.content-serif>p a {
-    font-family: "ff-more-web-pro";
     font-weight: 500;
     font-style: normal
 }
@@ -16661,7 +16691,6 @@ footer.main .footer-copyright-container .footer-copyright {
 .nci p .content-body h2 a,
 .nci ul .content-body h2 a,
 .news .article-byline .content-body h2 a {
-    font-family: "ff-more-web-pro";
     font-weight: 500;
     font-style: normal
 }
@@ -18819,7 +18848,6 @@ section .content-container>ul:not(.nav-tabs):last-child {
 .module.module-faculty-widget .content-body.content-serif p.strong a,
 .nci .content-body.content-serif p a,
 .news .article-byline .content-body.content-serif p a {
-    font-family: "ff-more-web-pro";
     font-weight: 500;
     font-style: normal
 }

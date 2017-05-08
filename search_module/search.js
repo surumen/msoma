@@ -1,0 +1,30 @@
+search = require('elasticsearch');
+
+var client = elasticsearch.Client({
+    hosts: [
+        'www.msoma.org'
+    ]
+});
+
+module.exports.search = function(searchData, callback) {
+    client.search({
+        index: 'YOUR_INDEX_NAME',
+        type: 'YOUR_TYPE',
+        body: {
+            query: {
+                bool: {
+                    must: {
+                        match: {
+                            "description": searchData.searchTerm
+                        }
+                    }
+                }
+            }
+        }
+    }).then(function(resp) {
+        callback(resp.hits.hits);
+    }, function(err) {
+        callback(err.message)
+        console.log(err.message);
+    });
+}
