@@ -1,7 +1,3 @@
-@charset "UTF-8";
-@import "https://fonts.googleapis.com/css?family=Fira+Mono";
-@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700";
-
 
 .mm-menu.mm-horizontal>.mm-panel {
     -webkit-transition: left .4s ease;
@@ -1237,12 +1233,12 @@ html.mm-opened.mm-black .mm-page {
 .jBox-pointer-top,
 .jBox-pointer-bottom {
     width: 30px;
-    height: 12px
+    height: 14px
 }
 
 .jBox-pointer-left,
 .jBox-pointer-right {
-    width: 12px;
+    width: 14px;
     height: 30px
 }
 
@@ -1286,7 +1282,7 @@ html.mm-opened.mm-black .mm-page {
 }
 
 .jBox-Modal .jBox-content {
-    padding: 12px 15px
+    padding: 14px 15px
 }
 
 .jBox-Modal .jBox-title {
@@ -1321,7 +1317,7 @@ html.mm-opened.mm-black .mm-page {
 
 .jBox-Notice .jBox-content {
     border-radius: 3px;
-    padding: 12px 20px
+    padding: 14px 20px
 }
 
 .jBox-Notice .jBox-title {
@@ -1615,7 +1611,7 @@ body[class*=" jBox-blockScroll-"] {
 }
 
 .jBox-IE8 .jBox-closeButton:after {
-    font-family: Verdana, sans-serif;
+    font-family: sans-serif;
     content: 'x';
     text-align: center;
     font-size: 18px
@@ -2080,7 +2076,7 @@ h4,
 
 h5,
 .h5 {
-    font-size: 12px
+    font-size: 14px
 }
 
 h6,
@@ -2456,7 +2452,7 @@ output {
     display: block;
     width: 100%;
     height: 36px;
-    padding: 6px 12px;
+    padding: 6px 14px;
     font-size: 16px;
     line-height: 1.42857143;
     color: #5f574d;
@@ -2973,7 +2969,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 }
 
 .input-group-addon {
-    padding: 6px 12px;
+    padding: 6px 14px;
     font-size: 16px;
     font-weight: 400;
     line-height: 1;
@@ -3108,7 +3104,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 }
 
 .alert {
-    color: #1b3768
+    color: #00356b
 }
 
 .success {
@@ -3310,7 +3306,7 @@ span .icon {
 .list-nav .btn {
     font-size: 16px;
     min-width: 160px;
-    padding: 12px 24px;
+    padding: 14px 24px;
     display: block;
     text-align: center;
     margin-left: 0;
@@ -3323,7 +3319,7 @@ span .icon {
     text-align: left;
     font-weight: 400;
     text-transform: none;
-    padding: 12px 10px;
+    padding: 14px 10px;
     margin-bottom: 0;
     font-size: 87.5%
 }
@@ -3447,7 +3443,7 @@ span .icon {
 }
 
 .master-content {
-    background: #e2ebf3;
+    background: #fff;
     padding-top: 30px;
     padding-bottom: 30px
 }
@@ -3589,7 +3585,7 @@ span .icon {
 
 html,
 body {
-    background: #1b3768;
+    background: transparent;
     color: #3f3b30
 }
 
@@ -3608,7 +3604,7 @@ body * {
 }
 
 hr {
-    border-top: 1px solid #afaba7;
+    border-top: 1px solid #978d85;
     margin: 15px 0
 }
 
@@ -3618,7 +3614,7 @@ hr:first-child {
 
 hr.dotted {
     border-top-style: dotted;
-    border-color: #dddddd
+    border-color: #978d85
 }
 
 hr.thick {
@@ -3694,7 +3690,7 @@ dl dd {
 }
 
 p.lead {
-    color: #1b3768;
+    color: #00356b;
     font-size: 131.25%;
     line-height: 1.3;
     font-weight: 400
@@ -3729,7 +3725,7 @@ pre {
     padding: 15px;
     margin-bottom: 15px;
     background: #f2f1eb;
-    color: #1f1e1f;
+    color: #222;
     font-size: 14px
 }
 
@@ -3758,7 +3754,7 @@ pre {
 }
 
 .form-required:after {
-    color: #1b3768;
+    color: #00356b;
     font-weight: 700;
     font-size: 16px;
     vertical-align: baseline;
@@ -3813,7 +3809,7 @@ select.form-control {
 .form-group h4 span,
 .form-group label span {
     font-weight: 400;
-    color: #1b3768
+    color: #00356b
 }
 
 .form-group h4 a,
@@ -3970,7 +3966,7 @@ table thead td:last-child {
 
 table tbody td {
     border-bottom: 1px dotted #dddddd;
-    padding: 12px 10px;
+    padding: 14px 10px;
     vertical-align: top
 }
 
@@ -4433,13 +4429,13 @@ table tbody tr:last-child td {
 .icon-player-marker {
     background-position: -252px -140px;
     width: 7px;
-    height: 12px
+    height: 14px
 }
 
 .icon-delete {
     background-position: -241px -377px;
-    width: 12px;
-    height: 12px
+    width: 14px;
+    height: 14px
 }
 
 .icon-toggle {
@@ -4463,8 +4459,9 @@ table tbody tr:last-child td {
 .msoma-header {
     color: #fff;
     font-size: 14px;
-    background: #1b3768;
-    padding: 4px 0;
+    background: #286dc0;
+    height: 40px;
+    padding-top: 0;
     position: relative;
     z-index: 1
 }
@@ -4547,11 +4544,7 @@ table tbody tr:last-child td {
     /*background: url(../images/header.jpg);*/
     background-size: cover;
     background-position: relative;
-    background-image: -webkit-linear-gradient(left, #dddddd, #f2f0ea 2%, #dddddd);
-    background-image: -o-linear-gradient(left, #dddddd, #f2f0ea 2%, #dddddd);
-    background-image: linear-gradient(to right, #dddddd, #f2f0ea 2%, #dddddd);
-    background-repeat: no-repeat;
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffe9e6df', endColorstr='#ffe9e6df', GradientType=1);
+    background-color: #ffffff;
     box-shadow: 0 -3px 3px rgba(85, 82, 70, .22), 0 3px 3px rgba(85, 82, 70, .33);
     overflow: hidden;
     padding: 20px 0
@@ -4605,11 +4598,11 @@ table tbody tr:last-child td {
 }
 
 .msoma-navigation-classx a {
-    color: #1F1E1F;
+    color: #222;
     height: 60px;
     line-height: 60px;
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: none;
     display: inline-block
 }
@@ -4644,52 +4637,9 @@ table tbody tr:last-child td {
 }
 
 .msoma-navigation-classx span {
-    color: #1b3768
+    color: #00356b
 }
 
-.msoma-navigation-stanford-engineering {
-    padding: 0;
-    margin: 0;
-    width: auto;
-    position: absolute;
-    right: 0;
-    top: 50%
-}
-
-@media (max-width:720px) {
-    .msoma-navigation-stanford-engineering {
-        position: relative;
-        top: auto;
-        right: auto;
-        margin-bottom: 10px
-    }
-}
-
-.msoma-navigation-stanford-engineering a {
-    font: 0/0 a;
-    color: transparent;
-    text-shadow: none;
-    background-color: transparent;
-    border: 0;
-    display: block;
-    /*background-image: url(../images/css/icons.png);*/
-    background-repeat: no-repeat;
-    background-position: -10px -100px;
-    width: 209px;
-    height: 20px;
-    float: right
-}
-
-@media (max-width:720px) {
-    .msoma-navigation-stanford-engineering a {
-        /*background-image: url(../images/css/icons.png);*/
-        background-repeat: no-repeat;
-        background-position: -10px -182px;
-        width: 170px;
-        height: 17px;
-        float: none
-    }
-}
 
 .msoma-navigation-mobile {
     display: none
@@ -4801,7 +4751,7 @@ table tbody tr:last-child td {
 }
 
 .msoma-navigation-navbar a {
-    color: #3F3C30;
+    color: #222;
     -webkit-transition-duration: .1s;
     transition-duration: .1s
 }
@@ -4813,7 +4763,7 @@ table tbody tr:last-child td {
 .msoma-navigation-navbar .msoma-navigation-navbar-primary {
     float: left;
     font-weight: 400;
-    font-size: 12px
+    font-size: 14px
 }
 
 .msoma-navigation-navbar .msoma-navigation-navbar-primary li {
@@ -4831,7 +4781,7 @@ table tbody tr:last-child td {
 }
 
 .msoma-navigation-navbar .msoma-navigation-navbar-primary li.active a {
-    color: #1b3768
+    color: #00356b
 }
 
 .msoma-navigation-navbar .msoma-navigation-navbar-primary li:first-child {
@@ -4841,7 +4791,7 @@ table tbody tr:last-child td {
 .msoma-navigation-navbar .msoma-navigation-navbar-secondary {
     float: right;
     text-transform: none;
-    font-size: 12px;
+    font-size: 14px;
     padding-top: 2px
 }
 
@@ -4861,7 +4811,7 @@ table tbody tr:last-child td {
 }
 
 .msoma-navigation-navbar .msoma-navigation-navbar-secondary li.active a {
-    color: #1b3768;
+    color: #00356b;
     font-weight: 600
 }
 
@@ -4873,7 +4823,7 @@ table tbody tr:last-child td {
 .mm-scpd .mm-header {
     color: #fff;
     font-weight: 600;
-    background: #1b3768;
+    background: #00356b;
     padding-top: 0;
     height: 44px
 }
@@ -4937,7 +4887,7 @@ table tbody tr:last-child td {
 .mm-scpd .mm-list>.active {
     background: #F2F1EB;
     font-weight: 600;
-    color: #1b3768
+    color: #00356b
 }
 
 .page-header {
@@ -4957,7 +4907,7 @@ table tbody tr:last-child td {
 }
 
 .page-header .page-title {
-    color: #1b3768;
+    color: #00356b;
     float: left;
     margin: 0;
     width: 66%
@@ -5037,7 +4987,7 @@ table tbody tr:last-child td {
 
 .heading {
     background: #f2f1eb;
-    color: #1b3768;
+    color: #00356b;
     padding: 10px;
     margin-top: 30px;
     margin-bottom: 15px;
@@ -5072,8 +5022,8 @@ table tbody tr:last-child td {
 }
 
 .heading.heading-dark {
-    background: rgba(0, 53, 107, 0.8);
-    color: #ffffff;
+    background: transparent;
+    color: #286dc0;
 }
 
 .heading.heading-dark a {
@@ -5212,8 +5162,8 @@ table tbody tr:last-child td {
 .master-footer-primary .container {
     display: table;
     width: 100%;
-    padding-top: 12px;
-    padding-bottom: 12px
+    padding-top: 14px;
+    padding-bottom: 14px
 }
 
 @media (max-width:720px) {
@@ -5265,7 +5215,7 @@ table tbody tr:last-child td {
 
 @media (max-width:720px) {
     .footer-primary-logo a {
-        margin: 12px auto
+        margin: 14px auto
     }
 }
 
@@ -5281,7 +5231,7 @@ table tbody tr:last-child td {
         padding: 0;
         margin: 0;
         width: auto;
-        margin-bottom: 12px
+        margin-bottom: 14px
     }
 }
 
@@ -5385,9 +5335,9 @@ table tbody tr:last-child td {
     color: #fff;
     padding: 35px 0;
     background-color: #333;
-    /*background-image: -webkit-linear-gradient(#1b3768, #1b3768 125px, #1b3768);
-    background-image: -o-linear-gradient(#1b3768, #1b3768 125px, #1b3768);
-    background-image: linear-gradient(#1b3768, #1b3768 125px, #1b3768);*/
+    /*background-image: -webkit-linear-gradient(#00356b, #00356b 125px, #00356b);
+    background-image: -o-linear-gradient(#00356b, #00356b 125px, #00356b);
+    background-image: linear-gradient(#00356b, #00356b 125px, #00356b);*/
     background-repeat: no-repeat;
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff820000', endColorstr='#ff8c1515', GradientType=0);
     position: relative;
@@ -5486,7 +5436,7 @@ table tbody tr:last-child td {
 
 @media (max-width:720px) {
     .footer-secondary-content p {
-        font-size: 12px
+        font-size: 14px
     }
 }
 
@@ -5508,8 +5458,8 @@ table tbody tr:last-child td {
     -webkit-transition-duration: .2s;
     transition-duration: .2s;
     display: inline-block;
-    padding: 12px 24px;
-    font-size: 12px;
+    padding: 14px 24px;
+    font-size: 14px;
     line-height: 1.1;
     text-transform: uppercase;
     background: #de6868;
@@ -5527,7 +5477,7 @@ table tbody tr:last-child td {
 
 .btn.disabled {
     background-color: #dddddd;
-    color: #1b3768;
+    color: #00356b;
     cursor: not-allowed
 }
 
@@ -5543,14 +5493,14 @@ table tbody tr:last-child td {
     min-width: 30px;
     padding: 10px 24px;
     font-size: 13px;
-    padding: 10px 12px;
-    font-size: 12px
+    padding: 10px 14px;
+    font-size: 14px
 }
 
 .btn-large {
     font-size: 14px;
     min-width: 160px;
-    padding: 12px 24px;
+    padding: 14px 24px;
     text-align: center
 }
 
@@ -5583,7 +5533,7 @@ table tbody tr:last-child td {
 .btn-block {
     font-size: 16px;
     min-width: 160px;
-    padding: 12px 24px;
+    padding: 14px 24px;
     display: block;
     text-align: center;
     margin-left: 0;
@@ -5599,7 +5549,7 @@ table tbody tr:last-child td {
     margin-bottom: 15px;
     position: relative;
     font-size: 87.5%;
-    color: #1b3768;
+    color: #00356b;
     line-height: 1.1
 }
 
@@ -5663,7 +5613,7 @@ table tbody tr:last-child td {
 }
 
 .carousel-small .carousel-item a {
-    color: #1b3768;
+    color: #00356b;
     text-decoration: none
 }
 
@@ -5672,7 +5622,7 @@ table tbody tr:last-child td {
 }
 
 .carousel-small .carousel-item:hover a {
-    color: #1f1e1f
+    color: #222
 }
 
 .carousel-small .carousel-item.active img {
@@ -5680,7 +5630,7 @@ table tbody tr:last-child td {
 }
 
 .carousel-small .carousel-item.active a {
-    color: #1b3768;
+    color: #00356b;
     font-weight: 600
 }
 
@@ -5695,7 +5645,7 @@ table tbody tr:last-child td {
 .carousel-scrollbar-handle {
     width: 100px;
     height: 100%;
-    background: #1b3768;
+    background: #00356b;
     border-radius: 4px;
     cursor: ew-resize
 }
@@ -5884,14 +5834,14 @@ table tbody tr:last-child td {
 }
 
 .tabs li.active {
-    background-color: #1b3768;
-    border-bottom-color: #1b3768;
+    background-color: #00356b;
+    border-bottom-color: #00356b;
     color: #fff;
     cursor: default
 }
 
 .tabs li.active:hover {
-    background-color: #1b3768
+    background-color: #00356b
 }
 
 .tabs li.active a {
@@ -6062,7 +6012,7 @@ table tbody tr:last-child td {
 }
 
 .arrow-tabs .active a {
-    color: #1b3768
+    color: #00356b
 }
 
 .arrow-tabs .active i {
@@ -6170,7 +6120,7 @@ span .slideshow-pager span {
 }
 
 .slideshow-pager span.active {
-    background-color: #1b3768
+    background-color: #00356b
 }
 
 .course-video {
@@ -6279,7 +6229,7 @@ a.course-video-thumb:hover .course-video-img {
     z-index: 2;
     bottom: 0;
     right: 0;
-    background-color: #1b3768;
+    background-color: #00356b;
     opacity: .75;
     -webkit-transition-duration: .4s;
     transition-duration: .4s;
@@ -6347,11 +6297,11 @@ a.course-video-thumb:hover .course-video-play {
     -webkit-transition-duration: .2s;
     transition-duration: .2s;
     display: inline-block;
-    padding: 12px 24px;
+    padding: 14px 24px;
     font-size: 14px;
     line-height: 1.1;
     text-transform: uppercase;
-    background: #1b3768;
+    background: #00356b;
     color: #fff;
     min-width: 40px;
     border: 0;
@@ -6360,8 +6310,8 @@ a.course-video-thumb:hover .course-video-play {
     min-width: 30px;
     padding: 10px 24px;
     font-size: 13px;
-    padding: 10px 12px;
-    font-size: 12px;
+    padding: 10px 14px;
+    font-size: 14px;
     display: block;
     margin: 2px;
     height: 34px;
@@ -6381,7 +6331,7 @@ a.course-video-thumb:hover .course-video-play {
 
 .course-video-button.disabled {
     background-color: #dddddd;
-    color: #1b3768;
+    color: #00356b;
     cursor: not-allowed
 }
 
@@ -6680,11 +6630,11 @@ a.course-video-thumb:hover .course-video-play {
 }
 
 .search-transcript-excerpt strong {
-    color: #1b3768
+    color: #00356b
 }
 
 .search-result-none {
-    color: #1b3768;
+    color: #00356b;
     font-size: 112.5%
 }
 
@@ -6777,11 +6727,11 @@ a.course-video-thumb:hover .course-video-play {
     -webkit-transition-duration: .2s;
     transition-duration: .2s;
     display: inline-block;
-    padding: 12px 24px;
+    padding: 14px 24px;
     font-size: 14px;
     line-height: 1.1;
     text-transform: uppercase;
-    background: #1b3768;
+    background: #00356b;
     color: #fff;
     min-width: 40px;
     border: 0;
@@ -6799,7 +6749,7 @@ a.course-video-thumb:hover .course-video-play {
 
 .search-results-submit.disabled {
     background-color: #dddddd;
-    color: #1b3768;
+    color: #00356b;
     cursor: not-allowed
 }
 
@@ -7348,7 +7298,7 @@ span .video-player-tab i {
     color: #FBFBF9;
     font-size: 16px;
     font-weight: 400;
-    padding: 8px 12px 0;
+    padding: 8px 14px 0;
     height: 36px
 }
 
@@ -7436,7 +7386,7 @@ span .video-player-heading i {
 }
 
 .video-player-inputgroup {
-    padding: 12px;
+    padding: 14px;
     position: relative;
     display: table;
     border-collapse: separate
@@ -7496,7 +7446,7 @@ span .video-player-inputgroup i {
 }
 
 .video-player-list-heading {
-    padding: 12px;
+    padding: 14px;
     padding-top: 0;
     white-space: nowrap;
     overflow: hidden;
@@ -7504,7 +7454,7 @@ span .video-player-inputgroup i {
 }
 
 .video-player-list-heading h3 {
-    color: #1b3768;
+    color: #00356b;
     font-weight: 600
 }
 
@@ -7526,7 +7476,7 @@ span .video-player-inputgroup i {
 
 .video-player-list li {
     border-bottom: 1px dotted #dddddd;
-    padding: 12px;
+    padding: 14px;
     position: relative
 }
 
@@ -7536,7 +7486,7 @@ span .video-player-inputgroup i {
 }
 
 .video-player-list strong {
-    color: #1b3768
+    color: #00356b
 }
 
 .video-player-list label {
@@ -7560,7 +7510,7 @@ span .video-player-inputgroup i {
 }
 
 .video-player-info {
-    padding: 12px;
+    padding: 14px;
     font-size: 16px;
     line-height: 1.3;
     margin-bottom: 0
@@ -7583,7 +7533,7 @@ span .video-player-inputgroup i {
 }
 
 .video-player-info dd {
-    color: #1f1e1f;
+    color: #222;
     margin-bottom: 0
 }
 
@@ -7604,10 +7554,10 @@ span .video-player-inputgroup i {
     -webkit-transition-duration: .2s;
     transition-duration: .2s;
     display: inline-block;
-    padding: 12px 24px;
+    padding: 14px 24px;
     line-height: 1.1;
     text-transform: uppercase;
-    background: #1b3768;
+    background: #00356b;
     color: #fff;
     min-width: 40px;
     border: 0;
@@ -7618,8 +7568,8 @@ span .video-player-inputgroup i {
     min-width: 30px;
     padding: 10px 24px;
     font-size: 13px;
-    padding: 10px 12px;
-    font-size: 12px;
+    padding: 10px 14px;
+    font-size: 14px;
     text-transform: none;
     font-size: 14px;
     margin-right: 5px;
@@ -7634,7 +7584,7 @@ span .video-player-inputgroup i {
 
 .video-player-tag.disabled {
     background-color: #dddddd;
-    color: #1b3768;
+    color: #00356b;
     cursor: not-allowed
 }
 
@@ -7644,7 +7594,7 @@ span .video-player-inputgroup i {
 }
 
 .video-player-transcript {
-    padding: 12px;
+    padding: 14px;
     position: relative;
     font-size: 16px;
     line-height: 1.3;
@@ -7707,7 +7657,7 @@ span .video-player-transcript .video-player-transcript-download i {
 
 .video-player-playlists li {
     border-bottom: 1px dotted #dddddd;
-    padding: 12px;
+    padding: 14px;
     position: relative
 }
 
@@ -7717,7 +7667,7 @@ span .video-player-transcript .video-player-transcript-download i {
 }
 
 .video-player-playlists strong {
-    color: #1b3768
+    color: #00356b
 }
 
 .video-player-playlists label {
@@ -7760,7 +7710,7 @@ span .video-player-transcript .video-player-transcript-download i {
 }
 
 .video-player-playlists-manage {
-    padding: 12px;
+    padding: 14px;
     margin: 0;
     font-size: 16px
 }
@@ -7804,10 +7754,10 @@ span .video-player-bookmark-delete {
     background-image: url(../images/css/icons.png);
     background-repeat: no-repeat;
     background-position: -241px -377px;
-    width: 12px;
-    height: 12px;
-    right: 12px;
-    top: 12px
+    width: 14px;
+    height: 14px;
+    right: 14px;
+    top: 14px
 }
 
 .video-player-textarea {
@@ -7818,7 +7768,7 @@ span .video-player-bookmark-delete {
 }
 
 .video-player-bookmarks-edit-buttons {
-    margin-top: 12px
+    margin-top: 14px
 }
 
 .video-player-bookmarks-edit-buttons:before,
@@ -7838,11 +7788,11 @@ span .video-player-bookmark-delete {
     -webkit-transition-duration: .2s;
     transition-duration: .2s;
     display: inline-block;
-    padding: 12px 24px;
+    padding: 14px 24px;
     font-size: 14px;
     line-height: 1.1;
     text-transform: uppercase;
-    background: #1b3768;
+    background: #00356b;
     color: #fff;
     min-width: 40px;
     border: 0;
@@ -7858,7 +7808,7 @@ span .video-player-bookmark-delete {
 
 .video-player-bookmarks-edit-buttons button.disabled {
     background-color: #dddddd;
-    color: #1b3768;
+    color: #00356b;
     cursor: not-allowed
 }
 
@@ -7896,8 +7846,8 @@ span .video-player-bookmark-delete {
 
 @media (min-width:721px) and (max-width:960px) {
     .video-player-add {
-        padding-left: 12px;
-        padding-right: 12px
+        padding-left: 14px;
+        padding-right: 14px
     }
 }
 
@@ -7921,8 +7871,8 @@ span .video-player-bookmark-delete {
 @media (max-width:720px) {
     .video-player-add a {
         float: none;
-        margin-left: 12px;
-        margin-right: 12px
+        margin-left: 14px;
+        margin-right: 14px
     }
 }
 
@@ -8001,7 +7951,7 @@ span .video-player-add i {
 
 .video-player-playlists-header select {
     max-width: 240px;
-    margin-left: 12px;
+    margin-left: 14px;
     font-size: 14px
 }
 
@@ -8013,7 +7963,7 @@ span .video-player-add i {
 .playlist-table-controls .btn {
     font-size: 16px;
     min-width: 160px;
-    padding: 12px 24px;
+    padding: 14px 24px;
     text-align: center;
     text-transform: none;
     padding-left: 20px;
@@ -8080,13 +8030,13 @@ span .video-player-add i {
 .playlist-table-controls h3 {
     display: inline;
     font-size: 16px;
-    color: #1b3768
+    color: #00356b
 }
 
 @media (max-width:720px) {
     .playlist-table-controls h3 {
         display: block;
-        margin-bottom: 12px
+        margin-bottom: 14px
     }
 }
 
@@ -8210,7 +8160,7 @@ span .playlist-manager-clone {
 }
 
 .playlist-table-stacktable {
-    color: #1b3768
+    color: #00356b
 }
 
 .playlist-table-stacktable .stacktable-header {
@@ -8277,7 +8227,7 @@ span .playlist-manager-clone {
 }
 
 .channels-overview-tabs {
-    padding-bottom: 12px;
+    padding-bottom: 14px;
     border-bottom: 1px solid #AFABA7;
     margin-bottom: 20px
 }
@@ -8410,7 +8360,7 @@ span .playlist-manager-clone {
     position: relative;
     width: 290px;
     height: 200px;
-    margin-bottom: 12px
+    margin-bottom: 14px
 }
 
 .channel-overview-img {
@@ -8433,7 +8383,7 @@ span .playlist-manager-clone {
 }
 
 .channel-overview-overlay {
-    padding: 12px;
+    padding: 14px;
     background: rgba(251, 251, 249, .95);
     position: absolute;
     top: 0;

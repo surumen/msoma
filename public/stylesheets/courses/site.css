@@ -955,7 +955,7 @@ html.mm-nooverflowscrolling.mm-opened > .mm-panel.mm-current {
 .panel .panel-heading h3,
 .panel .panel-heading h4 {
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
   color: inherit;
 }
@@ -1007,7 +1007,7 @@ html.mm-nooverflowscrolling.mm-opened > .mm-panel.mm-current {
 .panel-collapsable .panel-heading {
   color: #286dc0;
   cursor: pointer;
-  background: #6392c0;
+  background: #978d85;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   -webkit-transition-duration: 0.2s;
@@ -1031,7 +1031,7 @@ html.mm-nooverflowscrolling.mm-opened > .mm-panel.mm-current {
 }
 
 .panel-collapsable .panel-heading:hover {
-  background: #78c272;
+  background: #4a4a4a;
 }
 
 .panel-collapsable .panel-heading h1,
@@ -1056,7 +1056,7 @@ html.mm-nooverflowscrolling.mm-opened > .mm-panel.mm-current {
 }
 
 .panel-collapsable .panel-content {
-  background-color: #fff;
+  background-color: #f5f5f5;
   display: none;
 }
 
@@ -1068,8 +1068,8 @@ html.mm-nooverflowscrolling.mm-opened > .mm-panel.mm-current {
 }
 
 .panel-collapsable.is-expanded .panel-heading {
-  color: #003b78;
-  background: #78c272;
+  color: #fff;
+  background: #4a4a4a;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;

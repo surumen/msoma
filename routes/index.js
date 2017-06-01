@@ -63,6 +63,71 @@ module.exports = function(passport){
         res.render('cs101', { user: req.user });
     });
 
+    /* GET Web Design Page */
+    router.get('/web', isAuthenticated, function(req, res){
+        res.render('web', { user: req.user });
+    });
+
+    /* GET Web Design Page */
+    router.get('/web/workshops', isAuthenticated, function(req, res){
+        res.render('web/workshops', { user: req.user });
+    });
+
+    /* GET Web Design Page */
+    router.get('/web/projects', isAuthenticated, function(req, res){
+        res.render('web/projects', { user: req.user });
+    });
+
+    /* GET Web Design Page */
+    router.get('/web/homework', isAuthenticated, function(req, res){
+        res.render('web/homework', { user: req.user });
+    });
+
+    /* GET Web Design Page */
+    router.get('/web/projects/project1', isAuthenticated, function(req, res){
+        res.render('web/projects/project1', { user: req.user });
+    });
+
+    /* GET Web Design Page */
+    router.get('/web/projects/project2', isAuthenticated, function(req, res){
+        res.render('web/projects/project2', { user: req.user });
+    });
+
+    /* GET Resources Page */
+    router.get('/resources', isAuthenticated, function(req, res){
+        res.render('resources/index', { user: req.user });
+    });
+
+    /* GET Resources Page */
+    router.get('/resources/git', isAuthenticated, function(req, res){
+        res.render('resources/git', { user: req.user });
+    });
+
+    /* GET Resources Page */
+    router.get('/resources/github', isAuthenticated, function(req, res){
+        res.render('resources/github', { user: req.user });
+    });
+
+    /* GET Resources Page */
+    router.get('/resources/install', isAuthenticated, function(req, res){
+        res.render('resources/install', { user: req.user });
+    });
+
+    /* GET Resources Page */
+    router.get('/resources/terminal', isAuthenticated, function(req, res){
+        res.render('resources/terminal', { user: req.user });
+    });
+
+    /* GET Design Thinking Page */
+    router.get('/designthinking', isAuthenticated, function(req, res){
+        res.render('designthinking', { user: req.user });
+    });
+
+    /* GET Ethics Page */
+    router.get('/ethics', isAuthenticated, function(req, res){
+        res.render('ethics', { user: req.user });
+    });
+
     /* Handle Logout */
     router.get('/signout', function(req, res) {
         req.logout();
