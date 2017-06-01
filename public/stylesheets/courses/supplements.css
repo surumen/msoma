@@ -1,0 +1,18 @@
+table {
+    margin-bottom: 15px;
+}
+
+table tbody tr td {
+    vertical-align: middle;
+    width: 85px;
+}
+
+/*table tbody th {
+    width: 50%;
+}*/
+
+table tbody tr td table tbody tr td {
+    text-align: left;
+    border-bottom: none;
+    width: 50%;
+}

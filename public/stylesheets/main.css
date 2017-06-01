@@ -1,0 +1,55 @@
+.ctools-locked {
+    color: red;
+    border: 1px solid red;
+    padding: 1em;
+}
+
+.ctools-owns-lock {
+    background: #FFFFDD none repeat scroll 0 0;
+    border: 1px solid #F0C020;
+    padding: 1em;
+}
+
+a.ctools-ajaxing,
+input.ctools-ajaxing,
+button.ctools-ajaxing,
+select.ctools-ajaxing {
+    padding-right: 18px !important;
+    background: url(/sites/all/modules/contrib/ctools/images/status-active.gif) right center no-repeat;
+}
+
+div.ctools-ajaxing {
+    float: left;
+    width: 18px;
+    background: url(/sites/all/modules/contrib/ctools/images/status-active.gif) center center no-repeat;
+}
+
+div.user-alert {
+    width: 100%;
+    height: 100%;
+    background: yellow;
+    line-height: 35px;
+}
+
+div.user-alert div.user-alert-close {
+    width: 15px;
+    text-align: right;
+    float: right;
+    overflow: visible;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+div.user-alert span.user-label {
+    background: black;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+div.user-alert div.user-alert-message {
+    width: 100%;
+    overflow: visible;
+    font-weight: bold;
+}

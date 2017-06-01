@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-gb" class="js page-ready">
+
+<head>
+    <title>Login | M-Soma</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="canonical" href="https://msoma.org/about/" />
+    <meta property="og:site_name" content="M-Soma Institute" />
+    <meta property="og:title" content="About - M-Soma Institute" />
+    <meta property="og:url" content="http://msoma.org/about/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="M-Soma is a computer skills training program for Kenyan youth from under-resourced communities and schools. We aim to increase the number of skilled software engineers/developers in East Africa, and enable other career professionals to actively apply technology in their work." />
+    <meta property="og:image" content="images/221.jpg" />
+    <meta itemprop="name" content="What We Do" />
+    <meta itemprop="url" content="https://msoma.org/about/" />
+    <meta itemprop="description" content="M-Soma is a computer skills training program for Kenyan youth from under-resourced communities and schools. We aim to increase the number of skilled software engineers/developers in East Africa, and enable other career professionals to actively apply technology in their work." />
+    <meta itemprop="thumbnailUrl" content="images/221.jpg" />
+    <link rel="image_src" href="images/221.jpg" />
+    <meta itemprop="image" content="images/221.jpg" />
+    <meta name="twitter:title" content="M-Soma is a computer skills training program for Kenyan youth from under-resourced communities and schools. We aim to increase the number of skilled software engineers/developers in East Africa, and enable other career professionals to actively apply technology in their work." />
+    <meta name="twitter:image" content="images/221.jpg" />
+    <meta name="twitter:url" content="https://msoma.org/about/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="M-Soma is a computer skills training program for Kenyan youth from under-resourced communities and schools. We aim to increase the number of skilled software engineers/developers in East Africa, and enable other career professionals to actively apply technology in their work." />
+    <meta name="description" content="M-Soma is a computer skills training program for Kenyan youth from under-resourced communities and schools. We aim to increase the number of skilled software engineers/developers in East Africa, and enable other career professionals to actively apply technology in their work." />
+    <link rel="stylesheet" media="screen" href="stylesheets/online.css">
+    <script src="javascripts/jquery.min.js"></script>
+    <script src="stylesheets/online.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+</head>
+
+<body id="logged-out">
+    <div class="pusher-header" role="navigation">
+        <div class="grid">
+            <div class="grid__small-3 grid__columns">
+                <div class="pusher-header__brand">
+                </div>
+            </div>
+            <div class="grid__small-9 grid__columns">
+                <nav class="pusher-header__single-link" role="menubar">
+                    <a href='/signup' role="menuitem">Create an Account</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <section class="full-container">
+        <div>
+            <h1 class="primary-title">Welcome back</h1>
+            <div class="panel">
+                <div class="alert alert--error" style="text-align: left">
+                    <span class="alert__copy">You need to sign in or sign up before continuing.</span>
+                </div>
+                <div class="divider" style="margin-top: 0">
+                    <span>Login with ...</span>
+                </div>
+                <form style="display: inline" action="/login/facebook" accept-charset="UTF-8" method="post" >
+                    <input name="utf8" type="hidden" value="&#x2713;" />
+                    <input type="hidden" name="omni_authenticity_token" value="DFkbK6rumnk99Wy0pKJDcMxET/3EXwa5gt2ZlynNPnE=">
+                    <button type="submit" class="btn btn--auth js-track-click" id="facebook" style="background: url(stylesheets/svg_store/facebook.png); background-size: cover; background-repeat: no-repeat;"></button>
+                </form>
+                <form style="display: inline" action="/login/facebook" accept-charset="UTF-8" method="post">
+                    <input name="utf8" type="hidden" value="&#x2713;" />
+                    <input type="hidden" name="omni_authenticity_token" value="DFkbK6rumnk99Wy0pKJDcMxET/3EXwa5gt2ZlynNPnE=">
+                    <button type="submit" class="btn btn--auth js-track-click" id="google" style="background: url(stylesheets/svg_store/google.png); background-size: cover; background-repeat: no-repeat;"></button>
+                </form>
+                <div class="divider">
+                    <span>Or login with email</span>
+                </div>
+                <form class="new_account" id="signup_form" action="/login" accept-charset="UTF-8" method="post">
+            <input name="utf8" type="hidden" value="✓">
+            <input type="hidden" name="authenticity_token" value="/kpPrQFRaOTkp46zOVXJKnaQ3uzCjXtRfrJC5WimOytkNp5Nab/7Dx5CwlNLQ5MUMVvfkGNxTWfKQXeH2Cg+Zg==">
+            <div class="email-section u-mt-4">
+              <label for="signup-email">Email</label>
+              <input class="account_email form-input" id="signup-email" placeholder="Email address" autofocus="autofocus" required="required" type="text" name="username"><span class="alert alert--information" id="suggestion-email" style="display: none"><span class="alert__copy">Did you mean <span class="suggestion-link"></span>?</span></span>
+            </div>
+            <div class="password-section u-mt-4">
+              <label for="signup-password">Password</label>
+              <input class="account_password form-input" id="signup-password" placeholder="Your password" required="required" type="password" name="password">
+            </div>
+            <div class="login-options grid grid--collapse">
+              <div class="grid__small-6 grid__columns">
+                <div class="form__field form__field--mini">
+                  <input name="account[remember_me]" type="hidden" value="0">
+                  <input id="account_remember_me" type="checkbox" value="1" name="account[remember_me]">
+                  <label class="form__label" for="account_remember_me">Remember Me</label>
+                </div>
+              </div>
+              <div class="grid__small-6 grid__columns"><a class="forgot-password" href="/forgot_password">Forgot your password?</a></div>
+            </div>
+            <input class="btn btn--primary" type="submit" name="commit" value="Login" style="width:100%">
+          </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

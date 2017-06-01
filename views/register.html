@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+    <title>Sign Up | M-Soma</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="canonical" href="https://msoma.org/about/" />
+    <meta property="og:site_name" content="M-Soma Institute" />
+    <meta property="og:title" content="About - M-Soma Institute" />
+    <meta property="og:url" content="http://msoma.org/about/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="M-Soma is a computer skills training program for Kenyan youth from under-resourced communities and schools. We aim to increase the number of skilled software engineers/developers in East Africa, and enable other career professionals to actively apply technology in their work." />
+    <meta property="og:image" content="images/221.jpg" />
+    <meta itemprop="name" content="What We Do" />
+    <meta itemprop="url" content="https://msoma.org/about/" />
+    <meta itemprop="description" content="M-Soma is a computer skills training program for Kenyan youth from under-resourced communities and schools. We aim to increase the number of skilled software engineers/developers in East Africa, and enable other career professionals to actively apply technology in their work." />
+    <meta itemprop="thumbnailUrl" content="images/221.jpg" />
+    <link rel="image_src" href="images/221.jpg" />
+    <meta itemprop="image" content="images/221.jpg" />
+    <meta name="twitter:title" content="M-Soma is a computer skills training program for Kenyan youth from under-resourced communities and schools. We aim to increase the number of skilled software engineers/developers in East Africa, and enable other career professionals to actively apply technology in their work." />
+    <meta name="twitter:image" content="images/221.jpg" />
+    <meta name="twitter:url" content="https://msoma.org/about/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="M-Soma is a computer skills training program for Kenyan youth from under-resourced communities and schools. We aim to increase the number of skilled software engineers/developers in East Africa, and enable other career professionals to actively apply technology in their work." />
+    <meta name="description" content="M-Soma is a computer skills training program for Kenyan youth from under-resourced communities and schools. We aim to increase the number of skilled software engineers/developers in East Africa, and enable other career professionals to actively apply technology in their work." />
+    <link rel="stylesheet" media="screen" href="stylesheets/online.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+    <script src="stylesheets/online.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+</head>
+
+<body id="logged-out" style="margin-top: 80px;
+    margin-bottom: 80px; height: auto;">
+    <div class="pusher-header" role="navigation">
+        <div class="grid">
+            <div class="grid__small-3 grid__columns">
+                <div class="pusher-header__brand">
+                    <a href="http://msoma.org/"></a>
+                </div>
+            </div>
+            <div class="grid__small-9 grid__columns">
+                <nav class="pusher-header__single-link" role="menubar"><a href="/" role="menuitem">Already have an account? Login</a></nav>
+            </div>
+        </div>
+    </div>
+    <section class="full-container">
+        <div>
+            <h1 class="primary-title">Create an Account</h1>
+            <div class="panel">
+                <div class="divider" style="margin-top: 0"><span>Sign up with ...</span></div>
+                <form style="display: inline" action="/login/facebook" accept-charset="UTF-8" method="post">
+                    <input name="utf8" type="hidden" value="&#x2713;" />
+                    <input type="hidden" name="omni_authenticity_token" value="DFkbK6rumnk99Wy0pKJDcMxET/3EXwa5gt2ZlynNPnE=">
+                    <button type="submit" class="btn btn--auth js-track-click" id="facebook" style="background: url(stylesheets/svg_store/facebook.png); background-size: cover; background-repeat: no-repeat;"></button>
+                </form>
+                <form style="display: inline" action="/login/facebook" accept-charset="UTF-8" method="post">
+                    <input name="utf8" type="hidden" value="&#x2713;" />
+                    <input type="hidden" name="omni_authenticity_token" value="DFkbK6rumnk99Wy0pKJDcMxET/3EXwa5gt2ZlynNPnE=">
+                    <button type="submit" class="btn btn--auth js-track-click" id="google" style="background: url(stylesheets/svg_store/google.png); background-size: cover; background-repeat: no-repeat;"></button>
+                </form>
+                <div class="divider"><span>Or sign up with email</span></div>
+                <form class="new_account" id="signup_form" action="/signup" method="post">
+                    <div class="company-section u-mt-4">
+                        <label for="signup-company">First Name</label>
+                        <input class="account_company" id="signup-company" placeholder="First Name" type="text" name="firstName" required="required">
+                    </div>
+                    <div class="company-section u-mt-4">
+                        <label for="signup-company">Last Name</label>
+                        <input class="account_company" id="signup-company" placeholder="Last Name" type="text" name="lastName" required="required">
+                    </div>
+                    <div class="email-section">
+                        <label for="signup-email">Email</label>
+                        <input class="account_email" id="signup-email" placeholder="Email address" autofocus="autofocus" required="required" type="email" name="email">
+                    </div>
+                    <div class="password-section u-mt-4">
+                        <label for="signup-password">Password</label>
+                        <input class="account_password" id="signup-password" placeholder="Password" required="required" type="password" name="password">
+                    </div>
+                    <div class="company-section u-mt-4">
+                        <label for="signup-company">Username</label>
+                        <input class="account_company" id="signup-company" placeholder="Username" type="text" name="username" required autofocus>
+                    </div>
+                    <input class="btn btn--primary u-mt-4" type="submit" name="commit" value="Create a Free Account" style="width:100%">
+                    <p class="smallprint">You agree to the M-Soma <a href="http://msoma.org/online-learning/terms" target="_blank">Terms of Service</a> and <a href="http://msoma.org/online-learning/privacy" target="_blank">Privacy Policy</a>.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
