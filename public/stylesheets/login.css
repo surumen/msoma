@@ -1531,7 +1531,7 @@ code {
 }
 
 .circle_x:hover {
-    background: #2BDE73
+    background: #bd5319
 }
 
 .money {
@@ -1680,8 +1680,8 @@ label.label-checkbox {
 
 .green_checkbox input[type=checkbox]:checked ~ .ss-icon {
     color: #fff;
-    background-color: #2BDE73;
-    border-color: #2BDE73
+    background-color: #bd5319;
+    border-color: #bd5319
 }
 
 .green_checkbox:hover .ss-icon {
@@ -2319,7 +2319,7 @@ form.search.term .submit {
     display: inline;
     float: right;
     border-radius: 0px 6px 6px 0px;
-    background: #2BDE73;
+    background: #bd5319;
     border: 1px solid transparent;
     color: #fff;
     cursor: pointer;
@@ -2476,7 +2476,7 @@ form.asset_upload .encode .message,
 form.asset_upload .encode .message strong,
 .asset_upload .encode .message strong {
     border: 0;
-    color: #2BDE73;
+    color: #bd5319;
     margin-bottom: 5px;
     display: block;
     text-align: center;
@@ -2606,7 +2606,7 @@ form.asset_upload .upload .progress.finished .bar,
 
 form.asset_upload .upload .progress .inner,
 .asset_upload .upload .progress .inner {
-    border: 1px solid #2BDE73;
+    border: 1px solid #bd5319;
     -webkit-background-clip: border-box;
     -moz-background-clip: border-box;
     -ms-background-clip: border-box;
@@ -2680,7 +2680,7 @@ form.asset_upload.profile-photo .upload,
 }
 
 #admin_chargebacks_edit .success strong a {
-    color: #2BDE73
+    color: #bd5319
 }
 
 #admin_chargebacks_edit .success strong em {
@@ -3390,7 +3390,7 @@ div.modal_dialog.tall .controls .ss-icon {
 }
 
 .wym_box.wym_skin_ksr .wym_tools ul li.selected a {
-    color: #2BDE73
+    color: #bd5319
 }
 
 .wym_box.wym_skin_ksr .wym_area_main {
@@ -3518,7 +3518,7 @@ div.modal_dialog.tall .controls .ss-icon {
 
 .video-player .overlay:hover .button-playvideo,
 .legacy-video-player .overlay:hover .button-playvideo {
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 .video-player .button-playvideo,
@@ -4032,7 +4032,7 @@ ol#activity .activity-update .backer-text {
     font-size: 11px;
     font-weight: bold;
     margin-right: 5px;
-    color: #2BDE73
+    color: #bd5319
 }
 
 ol#activity .activity-update .backer-tag {
@@ -4526,7 +4526,7 @@ body#activity_my_projects ol#activity {
 }
 
 .activity-mini li.backing .type {
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 .activity-mini li.backing-amount .type,
@@ -4875,7 +4875,7 @@ body.admin .mail_to {
 body.admin .pledge_status_collected,
 body.admin .positive {
     display: block;
-    color: #2BDE73
+    color: #bd5319
 }
 
 body.admin .pledge_status_pledged {
@@ -5735,7 +5735,7 @@ body#admin_projects_show .info_table.pledges .status.collected,
 body#admin_tasks_show .info_table.pledges .status.collected,
 body#admin_pledges_show .info_table.pledges .status.collected,
 .backing_group_details .info_table.pledges .status.collected {
-    color: #2BDE73
+    color: #bd5319
 }
 
 body#admin_users_show .info_table.pledges .status.canceled,
@@ -6372,7 +6372,7 @@ body#admin_users_show dl.vitals dd {
 }
 
 body#admin_users_show dl.vitals a.tip .green {
-    color: #2BDE73
+    color: #bd5319
 }
 
 body#admin_users_show dl.vitals a.tip .blue {
@@ -6679,7 +6679,7 @@ body.funnels .sortable_table tr:nth-of-type(even) {
 }
 
 #pledge_profile #line .pledge_line.collected {
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 #pledge_profile #line .pledge_line.pledged {
@@ -6717,7 +6717,7 @@ dl.changeset dd.change {
 }
 
 dl.changeset dd.change ins {
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 dl.changeset dd.change del {
@@ -6880,7 +6880,7 @@ dl.changeset dd.change del {
     -ms-transition-duration: 1s;
     -o-transition-duration: 1s;
     transition-duration: 1s;
-    background: #2BDE73;
+    background: #bd5319;
     height: 8px;
     width: 0
 }
@@ -7133,7 +7133,7 @@ body#backer_report_index table tbody tr.backer_row:hover {
 }
 
 body#backer_report_index table tbody tr.backer_row.selected td:first-child {
-    border-color: #2BDE73
+    border-color: #bd5319
 }
 
 body#backer_report_index table tbody td {
@@ -7310,8 +7310,8 @@ body#backer_report_index a.completed div.completed,
 
 body#backer_report_index a.completed div.completed .box,
 .NS_backers__info a.completed div.completed .box {
-    border-color: #2BDE73;
-    color: #2BDE73
+    border-color: #bd5319;
+    color: #bd5319
 }
 
 body#backer_report_index a.completed div.completed .box .ss-icon,
@@ -7322,7 +7322,7 @@ body#backer_report_index a.completed div.completed .box .ss-icon,
 
 body#backer_report_index a.completed div.completed .text,
 .NS_backers__info a.completed div.completed .text {
-    color: #2BDE73
+    color: #bd5319
 }
 
 body#backer_report_index a.completed div.not_completed,
@@ -7386,7 +7386,7 @@ body#backer_report_index div.mobius_load_more .loading .copy,
 }
 
 .NS_backer_rewards__info .ss-check {
-    color: #2BDE73;
+    color: #bd5319;
     font-size: 14px;
     line-height: -2px;
     margin-right: 2px
@@ -7471,11 +7471,11 @@ body#backer_reports_show .actions .btn--blue {
 }
 
 .green {
-    color: #2BDE73
+    color: #bd5319
 }
 
 .bg-green {
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 .bg-green-90 {
@@ -7658,7 +7658,7 @@ body#backer_rewards_index.tablet .view_more {
 }
 
 .fill-green {
-    fill: #2BDE73
+    fill: #bd5319
 }
 
 .fill-green-light {
@@ -8250,7 +8250,7 @@ body.checkout .questions dd {
 }
 
 .NS_backers__info .panel .section.pledge .ss-check {
-    color: #2BDE73;
+    color: #bd5319;
     font-size: 14px;
     margin-right: 2px
 }
@@ -8533,7 +8533,7 @@ body#backers_show #content .NS_backers__info .email {
 }
 
 .backings-info__status.successful {
-    background-color: #2BDE73;
+    background-color: #bd5319;
     color: #FFFFFF
 }
 
@@ -8945,7 +8945,7 @@ body#blog_posts_category #main {
         stroke: #286dc0
     }
     50% {
-        stroke: #2BDE73
+        stroke: #bd5319
     }
     100% {
         stroke: #286dc0
@@ -8957,7 +8957,7 @@ body#blog_posts_category #main {
         stroke: #286dc0
     }
     50% {
-        stroke: #2BDE73
+        stroke: #bd5319
     }
     100% {
         stroke: #286dc0
@@ -9444,7 +9444,7 @@ body#blog_posts_category #main {
 }
 
 #new_campus_question .add-question-title.valid {
-    border-color: #2BDE73
+    border-color: #bd5319
 }
 
 @media (min-width: 640px) {
@@ -9463,11 +9463,11 @@ body#blog_posts_category #main {
 }
 
 .green {
-    color: #2BDE73
+    color: #bd5319
 }
 
 .bg-green {
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 .bg-green-90 {
@@ -9648,7 +9648,7 @@ body#blog_posts_category #main {
 }
 
 .fill-green {
-    fill: #2BDE73
+    fill: #bd5319
 }
 
 .fill-green-light {
@@ -10121,7 +10121,7 @@ body#blog_posts_category #main {
 }
 
 .admin-identifier-label {
-    fill: #2BDE73;
+    fill: #bd5319;
     vertical-align: 0p
 }
 
@@ -10321,11 +10321,11 @@ body#blog_posts_category #main {
 }
 
 .green {
-    color: #2BDE73
+    color: #bd5319
 }
 
 .bg-green {
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 .bg-green-90 {
@@ -10506,7 +10506,7 @@ body#blog_posts_category #main {
 }
 
 .fill-green {
-    fill: #2BDE73
+    fill: #bd5319
 }
 
 .fill-green-light {
@@ -11225,7 +11225,7 @@ body.claims #checkboxes input[type=checkbox]:checked ~ .col h4,
 body.claims #checkboxes input[type=checkbox]:checked ~ .col p,
 body.claims #checkboxes input.checkbox:checked ~ .col h4,
 body.claims #checkboxes input.checkbox:checked ~ .col p {
-    color: #2BDE73
+    color: #bd5319
 }
 
 body.claims #checkboxes .col {
@@ -11722,11 +11722,11 @@ body#country_signups_singapore #main .newsletter-signup {
 }
 
 .green {
-    color: #2BDE73
+    color: #bd5319
 }
 
 .bg-green {
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 .bg-green-90 {
@@ -11907,7 +11907,7 @@ body#country_signups_singapore #main .newsletter-signup {
 }
 
 .fill-green {
-    fill: #2BDE73
+    fill: #bd5319
 }
 
 .fill-green-light {
@@ -12643,7 +12643,7 @@ body#credit_cards_new .tout_checkout .sepa-terms__copy {
         stroke: #286dc0
     }
     50% {
-        stroke: #2BDE73
+        stroke: #bd5319
     }
     100% {
         stroke: #286dc0
@@ -12655,7 +12655,7 @@ body#credit_cards_new .tout_checkout .sepa-terms__copy {
         stroke: #286dc0
     }
     50% {
-        stroke: #2BDE73
+        stroke: #bd5319
     }
     100% {
         stroke: #286dc0
@@ -14044,7 +14044,7 @@ body#curated_pages_show #main .header .image .progress.finished .bar {
 
 body#curated_pages_show #page-header .header .image .progress .inner,
 body#curated_pages_show #main .header .image .progress .inner {
-    border: 1px solid #2BDE73;
+    border: 1px solid #bd5319;
     border-radius: 9px
 }
 
@@ -14734,7 +14734,7 @@ body#disbursements_invoice #main_content footer h2 {
 }
 
 #NS_discover__categories .subcategories_container li.selected a {
-    color: #2BDE73;
+    color: #bd5319;
     font-weight: bold
 }
 
@@ -14752,7 +14752,7 @@ body#disbursements_invoice #main_content footer h2 {
 
 #NS_discover__categories ul.categories li:hover a,
 #NS_discover__categories ul.categories li.selected a {
-    color: #2BDE73
+    color: #bd5319
 }
 
 .NS_discover__featured_project {
@@ -14877,7 +14877,7 @@ body#disbursements_invoice #main_content footer h2 {
 }
 
 #NS_discover__filters ul.tags .selected .button {
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 #NS_discover__filters ul.featured li a {
@@ -14889,7 +14889,7 @@ body#disbursements_invoice #main_content footer h2 {
         width: 460px
     }
     body #NS_discover__filters ul.featured li a:hover {
-        color: #2BDE73
+        color: #bd5319
     }
 }
 
@@ -15140,7 +15140,7 @@ body#disbursements_invoice #main_content footer h2 {
         width: 460px
     }
     body #NS_discover__locations li a:hover {
-        color: #2BDE73
+        color: #bd5319
     }
 }
 
@@ -15182,7 +15182,7 @@ body#disbursements_invoice #main_content footer h2 {
 }
 
 #NS_discover__locations .search-field .ss-location:hover {
-    color: #2BDE73
+    color: #bd5319
 }
 
 #NS_discover__locations li a {
@@ -15265,8 +15265,8 @@ body#disbursements_invoice #main_content footer h2 {
 
 #NS__discover_advanced_sentence .sentence form .filter.search.focused,
 #NS__discover_advanced_sentence .sentence form .filter.search:hover {
-    border-color: #2BDE73;
-    color: #2BDE73
+    border-color: #bd5319;
+    color: #bd5319
 }
 
 #NS__discover_advanced_sentence .sentence form .category select,
@@ -15292,7 +15292,7 @@ body.not-mobile #NS_discover__sorts {
 }
 
 body.not-mobile #NS_discover__sorts li a:hover {
-    color: #2BDE73
+    color: #bd5319
 }
 
 .NS_discover__spotlight_project .feature-image img {
@@ -15386,8 +15386,8 @@ body#discover_advanced section#advanced_container.loading-pagination .load_more 
 }
 
 body#discover_advanced .ksr-select.ksr-popover-active {
-    color: #2BDE73;
-    border-color: #2BDE73;
+    color: #bd5319;
+    border-color: #bd5319;
     background-color: #fff
 }
 
@@ -15396,7 +15396,7 @@ body#discover_advanced .ksr-popover li.selected:not(.subcategory) a {
 }
 
 body#discover_advanced .ksr-popover li.selected:not(.category) a:not(.btn) {
-    color: #2BDE73
+    color: #bd5319
 }
 
 body#discover_advanced .ksr-popover input {
@@ -15405,7 +15405,7 @@ body#discover_advanced .ksr-popover input {
 }
 
 body#discover_advanced .ksr-popover input:focus {
-    border-color: #2BDE73
+    border-color: #bd5319
 }
 
 body#discover_advanced .ksr-popover form.loading input {
@@ -16384,12 +16384,12 @@ body#events_halloween13 form.halloween-rsvp-form input[type=text] {
 }
 
 body#events_halloween13 form.halloween-rsvp-form input[type=text]:focus {
-    border-color: #2BDE73;
-    background-color: #2BDE73
+    border-color: #bd5319;
+    background-color: #bd5319
 }
 
 body#events_halloween13 form.halloween-rsvp-form input[type=text]:hover {
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 body#events_makerfaire2014 .makerfaire-hero {
@@ -16483,7 +16483,7 @@ body#events_sundance2014 #content_wrap p a {
 }
 
 body#events_sundance2014 #content_wrap p a:hover {
-    color: #2BDE73
+    color: #bd5319
 }
 
 body#events_sundance2014 .lockup {
@@ -16509,9 +16509,9 @@ body#events_sundance2014 input[type=text] {
 }
 
 body#events_sundance2014 input[type=text]:focus {
-    background-color: #2BDE73;
+    background-color: #bd5319;
     color: #fff;
-    border-color: #2BDE73 !important;
+    border-color: #bd5319 !important;
     font-weight: bold
 }
 
@@ -16521,7 +16521,7 @@ body#events_sundance2014 .button {
 }
 
 body#events_sundance2014 .button:hover {
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 body#events_sundance2014.mobile #content {
@@ -16571,8 +16571,8 @@ body#faqs_show .sidebar ul.subcat-list a {
 }
 
 body#faqs_show .sidebar ul.subcat-list a.current {
-    border-color: #2BDE73;
-    color: #2BDE73
+    border-color: #bd5319;
+    color: #bd5319
 }
 
 body#faqs_show .faq_answer {
@@ -16754,7 +16754,7 @@ form#new_flagging #details-ip_infringement p {
 .NS_funnels__backing .state_bar.successful,
 .NS_funnels__project_details .state_bar.successful,
 .NS_funnels__project .state_bar.successful {
-    background: #2BDE73;
+    background: #bd5319;
     color: #fff
 }
 
@@ -16809,7 +16809,7 @@ form#new_flagging #details-ip_infringement p {
 .NS_funnels__project_details .project_details .status .ss-check,
 .NS_funnels__project .project_details .status .ss-check {
     display: none;
-    color: #2BDE73
+    color: #bd5319
 }
 
 .NS_funnels__backing_details .project_details .status .ss-alert,
@@ -16848,7 +16848,7 @@ form#new_flagging #details-ip_infringement p {
 .NS_funnels__backing .project_details .status .ss-help:hover,
 .NS_funnels__project_details .project_details .status .ss-help:hover,
 .NS_funnels__project .project_details .status .ss-help:hover {
-    color: #2BDE73
+    color: #bd5319
 }
 
 .NS_funnels__backing_details .project_details .status.collected .ss-check,
@@ -16868,7 +16868,7 @@ form#new_flagging #details-ip_infringement p {
 .NS_funnels__backing .project_details .status.collected .text,
 .NS_funnels__project_details .project_details .status.collected .text,
 .NS_funnels__project .project_details .status.collected .text {
-    color: #2BDE73
+    color: #bd5319
 }
 
 .NS_funnels__backing_details .project_details .status.canceled .ss-delete,
@@ -17194,7 +17194,7 @@ body#funnels_contact #open_ticket p.error {
 }
 
 body#funnels_contact #open_ticket p.success {
-    background: #2BDE73
+    background: #bd5319
 }
 
 body#funnels_contact #open_ticket p.error {
@@ -18190,7 +18190,7 @@ div.video-player:hover .play_button_dark,
 div.video-player:focus .play_button_dark,
 div.legacy-video-player:hover .play_button_dark,
 div.legacy-video-player:focus .play_button_dark {
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 div.video-player button,
@@ -18359,7 +18359,7 @@ div.legacy-video-player .player_controls .ksr-icon__closed-caption:focus {
 
 div.video-player .player_controls .ksr-icon__closed-caption.is-on,
 div.legacy-video-player .player_controls .ksr-icon__closed-caption.is-on {
-    color: #2BDE73
+    color: #bd5319
 }
 
 div.video-player .player_controls .ksr-icon__closed-caption.is-on:hover,
@@ -18501,7 +18501,7 @@ div.legacy-video-player .player_controls .language-select-dropdown .language-sel
 
 div.video-player .player_controls .language-select-dropdown .language-select-list li.selected,
 div.legacy-video-player .player_controls .language-select-dropdown .language-select-list li.selected {
-    color: #2BDE73
+    color: #bd5319
 }
 
 div.video-player .player_controls .language-select-dropdown .language-select-list li.selected:hover,
@@ -18521,7 +18521,7 @@ div.legacy-video-player .player_controls .language-select-dropdown .language-sel
 
 div.video-player .player_controls .language-select-dropdown .language-select-list li.selected .ksr-icon__check,
 div.legacy-video-player .player_controls .language-select-dropdown .language-select-list li.selected .ksr-icon__check {
-    color: #2BDE73;
+    color: #bd5319;
     display: inline-block
 }
 
@@ -19080,7 +19080,7 @@ th.sortable:hover.desc .ksr-icon__arrow-up {
 }
 
 .table_light tr.selected td:first-child {
-    border-color: #2BDE73
+    border-color: #bd5319
 }
 
 .table_light td {
@@ -19703,7 +19703,7 @@ body.admin .modal_dialog_body .permission-container {
 }
 
 .NS_layouts__admin_navigation #admin-nav>ul>li.rating .ss-icon.selected {
-    color: #2BDE73
+    color: #bd5319
 }
 
 .NS_layouts__admin_navigation #admin-nav>ul>li.rating .ss-icon:hover {
@@ -20458,12 +20458,12 @@ h3.dotty .right a {
 }
 
 .green {
-    color: #2BDE73
+    color: #bd5319
 }
 
 .bg-green,
 body .selected-indicator {
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 .bg-green-90 {
@@ -20644,7 +20644,7 @@ body .selected-indicator {
 }
 
 .fill-green {
-    fill: #2BDE73
+    fill: #bd5319
 }
 
 .fill-green-light {
@@ -21451,7 +21451,7 @@ body.events #content #event_details ul#event_location li#location_link a {
 
 body.events #content #event_details ul#event_location li#location_link a:hover {
     color: #222;
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 body.events #content #event_details ul#event_location li#location_link a:hover span.ss-location {
@@ -21712,7 +21712,7 @@ body.profile .invisible_profile_notice {
 }
 
 body.profile .NS_projects__project_nav .tabbed-nav__link.is-active {
-    border-bottom: 3px solid #2BDE73
+    border-bottom: 3px solid #bd5319
 }
 
 #watching-widget {
@@ -21756,7 +21756,7 @@ body.profile .NS_projects__project_nav .tabbed-nav__link.is-active {
 
 #watch_unlaunched_project a:hover {
     color: #fff;
-    background: #2BDE73
+    background: #bd5319
 }
 
 #watch_unlaunched_project a .ss-icon {
@@ -21765,11 +21765,11 @@ body.profile .NS_projects__project_nav .tabbed-nav__link.is-active {
 
 #watch_unlaunched_project a.on {
     color: #fff;
-    background: #2BDE73
+    background: #bd5319
 }
 
 #watch_unlaunched_project a.on:hover {
-    background: #2BDE73
+    background: #bd5319
 }
 
 .collaborator-submission .collaborator-submission__checkbox-label {
@@ -21915,7 +21915,7 @@ li.thread-admin .avatar .unread_indicator {
     display: none;
     border-radius: 6px;
     border: 2px solid #fff;
-    background: #2BDE73;
+    background: #bd5319;
     height: 10px;
     width: 10px;
     text-indent: -9999px;
@@ -22199,7 +22199,7 @@ li.thread-admin.selected a .subject_line .count {
 }
 
 .NS_message_threads__show .backing .thread_controls a:hover {
-    color: #2BDE73
+    color: #bd5319
 }
 
 .NS_message_threads__show .backing .thread_controls a.selected {
@@ -22259,7 +22259,7 @@ li.thread-admin.selected a .subject_line .count {
     height: 45px;
     line-height: 45px;
     padding: 0px 30px;
-    background: #2BDE73;
+    background: #bd5319;
     position: fixed;
     bottom: 0;
     width: 519px
@@ -22663,7 +22663,7 @@ body.message_threads #content .pagination .next_page {
 }
 
 .modal_send_message p.status_msg .success {
-    color: #2BDE73
+    color: #bd5319
 }
 
 .modal_send_message p.status_msg .error {
@@ -22930,7 +22930,7 @@ body#mobile_index .subtitle-alt {
 }
 
 .newsletter-signup b span {
-    color: #2BDE73;
+    color: #bd5319;
     display: -moz-inline-box;
     display: -moz-inline-stack;
     -moz-box-orient: vertical;
@@ -23113,7 +23113,7 @@ body.notifications .notifications_message p {
 }
 
 body#notifications_subscribe h1 {
-    color: #2BDE73
+    color: #bd5319
 }
 
 #organization-join-interstitial {
@@ -23422,7 +23422,7 @@ body#pledges_edit .pledges__checkout_amount span.currency {
     left: 10px;
     font-weight: bold;
     font-size: 30px;
-    color: #2BDE73;
+    color: #bd5319;
     line-height: 48px
 }
 
@@ -23434,13 +23434,13 @@ body#pledges_edit .pledges__checkout_amount div.fx-estimate {
 
 body#pledges_new .pledges__checkout_amount #backing_amount,
 body#pledges_edit .pledges__checkout_amount #backing_amount {
-    border: 1px solid #2BDE73;
+    border: 1px solid #bd5319;
     font-size: 28px;
     font-weight: bold;
     padding: 7px 0px 7px 35px;
     display: inline;
     float: left;
-    color: #2BDE73;
+    color: #bd5319;
     width: 230px
 }
 
@@ -23721,7 +23721,7 @@ html[lang="fr"] body#pledges_edit #backing_amount {
     position: absolute;
     top: 0px;
     left: 20px;
-    background-color: #2BDE73;
+    background-color: #bd5319;
     color: white
 }
 
@@ -24022,7 +24022,7 @@ html.js .NS_pledges__checkout_shipping .no-js {
 }
 
 .NS_pledges__new h1 {
-    color: #2BDE73;
+    color: #bd5319;
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 30px;
@@ -24462,7 +24462,7 @@ body#credit_cards_new #main {
 body#pledges_new #main h1,
 body#pledges_edit #main h1,
 body#credit_cards_new #main h1 {
-    color: #2BDE73;
+    color: #bd5319;
     font-size: 32px;
     font-weight: bold;
     line-height: 30px;
@@ -26077,7 +26077,7 @@ body#posts_show #content-wrap #content #comments {
 
 .NS_project_profiles__edit .jslider .jslider-pointer {
     background-image: none;
-    background-color: #2BDE73;
+    background-color: #bd5319;
     border: 1px solid #1db95c;
     border-radius: 50%;
     width: 8px;
@@ -26955,7 +26955,7 @@ body#posts_show #content-wrap #content #comments {
 }
 
 .thumbnail-item__status--saved {
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 .thumbnail-item__media {
@@ -27436,7 +27436,7 @@ body#projects_dashboard #bubble .nipple {
 }
 
 .project-card-wrap .tmpl-projects-friends_backings {
-    background-color: #2BDE73;
+    background-color: #bd5319;
     text-align: center
 }
 
@@ -28535,7 +28535,7 @@ body#projects_edit li.payment-source #stored_card_form #stored_card_form #new-ba
 
 .NS_projects__edit_rules .divider {
     width: 40px;
-    background: #2BDE73;
+    background: #bd5319;
     height: 3px;
     margin-top: 60px;
     margin-bottom: 60px
@@ -28645,7 +28645,7 @@ body#projects_edit li.payment-source #stored_card_form #stored_card_form #new-ba
 }
 
 .accepted .NS_projects__edit_submission_sidebar .status {
-    color: #2BDE73
+    color: #bd5319
 }
 
 .accepted .NS_projects__edit_submission_sidebar .status .icon {
@@ -28829,7 +28829,7 @@ body#projects_rules #account-setup-panel .account_verified {
     width: 12px;
     border-radius: 6px;
     display: inline-block;
-    background: #2BDE73;
+    background: #bd5319;
     color: #fff;
     font-size: 8px;
     line-height: 15px;
@@ -28917,11 +28917,11 @@ body#projects_rules #account-setup-panel .NS-phone_numbers__edit .code_section i
 
 .green,
 .NS_projects__hero_funding .btn--border-gray.ksr-popover-active {
-    color: #2BDE73
+    color: #bd5319
 }
 
 .bg-green {
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 .bg-green-90 {
@@ -29102,7 +29102,7 @@ body#projects_rules #account-setup-panel .NS-phone_numbers__edit .code_section i
 }
 
 .fill-green {
-    fill: #2BDE73
+    fill: #bd5319
 }
 
 .fill-green-light {
@@ -29401,7 +29401,7 @@ body#projects_rules #account-setup-panel .NS-phone_numbers__edit .code_section i
 }
 
 .NS_projects__hero_funding .btn--border-gray.ksr-popover-active {
-    border-color: #2BDE73
+    border-color: #bd5319
 }
 
 .NS_projects__hero_funding .video-player {
@@ -29440,7 +29440,7 @@ body#projects_rules #account-setup-panel .NS-phone_numbers__edit .code_section i
     }
     .NS_projects__hero_funding .project-progress-bar .project-percent-pledged {
         height: 100%;
-        background-color: #2BDE73
+        background-color: #bd5319
     }
     .NS_projects__hero_funding .projects-we-love-badge {
         margin-top: 20px;
@@ -29470,7 +29470,7 @@ body#projects_rules #account-setup-panel .NS-phone_numbers__edit .code_section i
 
 .Campaign-state-successful .pledge-wrap-header,
 .Campaign-state-live .pledge-wrap-header {
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 .Campaign-state-successful .pledge-wrap-body,
@@ -29705,7 +29705,7 @@ body#projects_rules #account-setup-panel .NS-phone_numbers__edit .code_section i
 }
 
 .NS_projects__project_nav .selected-indicator {
-    background-color: #2BDE73;
+    background-color: #bd5319;
     position: absolute;
     bottom: 0px;
     height: 3px;
@@ -29799,7 +29799,7 @@ body#projects_rules #account-setup-panel .NS-phone_numbers__edit .code_section i
 
 .NS-projects-reward.selected_reward {
     background: #80809E;
-    border-color: #2BDE73
+    border-color: #bd5319
 }
 
 .NS-projects-reward.selected_reward .pledge__survey-tools {
@@ -30851,7 +30851,7 @@ body.mobile .friend_project_context .friend_namepile {
 }
 
 .timeline__divider--successful .timeline__divider_content {
-    background-color: #2BDE73;
+    background-color: #bd5319;
     padding: 30px 50px;
     border-radius: 6px;
     color: #FFFFFF
@@ -30873,7 +30873,7 @@ body.mobile .friend_project_context .friend_namepile {
 }
 
 .timeline__divider--potd .timeline__divider_content {
-    background-color: #2BDE73;
+    background-color: #bd5319;
     border-radius: 6px;
     padding: 20px 40px;
     color: #FFFFFF
@@ -31540,7 +31540,7 @@ body#projects_comments .comment .main {
         stroke: #286dc0
     }
     50% {
-        stroke: #2BDE73
+        stroke: #bd5319
     }
     100% {
         stroke: #286dc0
@@ -31552,7 +31552,7 @@ body#projects_comments .comment .main {
         stroke: #286dc0
     }
     50% {
-        stroke: #2BDE73
+        stroke: #bd5319
     }
     100% {
         stroke: #286dc0
@@ -31755,7 +31755,7 @@ body#projects_dashboard #main #public-stats .progress-bar-container {
 body#projects_dashboard #main #public-stats .progress-bar {
     height: 100%;
     display: block;
-    background: #2BDE73;
+    background: #bd5319;
     margin: 0;
     border-radius: 5px
 }
@@ -31986,7 +31986,7 @@ body#projects_dashboard #main #stats-funding-graph .graph .tickLabel {
 }
 
 body#projects_dashboard #main #stats-funding-graph .graph .goal_style {
-    color: #2BDE73
+    color: #bd5319
 }
 
 body#projects_dashboard #main .stats-col {
@@ -32726,7 +32726,7 @@ body#projects_dashboard .goal-tooltip {
 
 body#projects_dashboard .goal-tooltip .bubble-body {
     color: #FFFFFF;
-    background: #2BDE73;
+    background: #bd5319;
     border: 0;
     border-radius: 3px;
     -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 0 #FFF;
@@ -32752,7 +32752,7 @@ body#projects_dashboard .goal-tooltip .nipple {
     height: 0;
     position: relative;
     display: block;
-    border-top: 6px solid #2BDE73;
+    border-top: 6px solid #bd5319;
     border-bottom: 0px;
     border-left: 6px solid #FFF;
     border-left: 6px solid transparent;
@@ -33148,7 +33148,7 @@ body#projects_edit .video-tout .video_thumb_container {
 }
 
 body#projects_edit .video-tout .video_thumb_container:hover img.play_button {
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 body#projects_edit .video-tout .video_thumb_container img.play_button {
@@ -33314,7 +33314,7 @@ body#projects_edit .grey-field label.expanded {
 
 body#projects_edit .grey-field label:hover .ss-help,
 body#projects_edit .grey-field label.expanded .ss-help {
-    color: #2BDE73
+    color: #bd5319
 }
 
 body#projects_edit .grey-field label.overlabel {
@@ -34582,7 +34582,7 @@ body#projects_learn .js-mobile-categories .selected:after {
     position: absolute;
     left: 0;
     bottom: -2.1rem;
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 body#projects_learn .hero {
@@ -34709,7 +34709,7 @@ body#projects_learn .tools {
 
 body#projects_learn .tools .cycle-pager-active a {
     border-radius: 3px;
-    background: #2BDE73;
+    background: #bd5319;
     color: #fff
 }
 
@@ -34904,7 +34904,7 @@ body#projects_rules #rules_footer #country-select .country {
 }
 
 body#projects_rules #rules_footer #country-select .green {
-    color: #2BDE73;
+    color: #bd5319;
     font-size: 20px;
     font-weight: bold;
     vertical-align: middle
@@ -35093,7 +35093,7 @@ body#projects_start #category_select:hover {
 
 body#projects_start #category_select.valid {
     color: #222;
-    border-color: #2BDE73
+    border-color: #bd5319
 }
 
 body#projects_start .flag-icon {
@@ -35123,7 +35123,7 @@ body#projects_start #start-form input.text:focus {
 }
 
 body#projects_start #start-form input.text.valid {
-    border-color: #2BDE73
+    border-color: #bd5319
 }
 
 body#projects_start #start-form input.text.start-title-field {
@@ -35210,7 +35210,7 @@ body#projects_surveys .statuses .status {
 body#projects_surveys .statuses .status .ss-icon {
     position: absolute;
     left: 0px;
-    color: #2BDE73
+    color: #bd5319
 }
 
 body#projects_surveys .status_description {
@@ -35727,7 +35727,7 @@ body.dashboard .refund_backer_details a {
 }
 
 .pledge_transaction_history dd.pledge {
-    color: #2BDE73
+    color: #bd5319
 }
 
 .pledge_transaction_history dd.refund {
@@ -36012,7 +36012,7 @@ body.site .divider {
     *display: inline;
     height: 3px;
     width: 40px;
-    background: #2BDE73;
+    background: #bd5319;
     margin: 20px 0px 40px
 }
 
@@ -36095,17 +36095,17 @@ a#helptab:hover {
 }
 
 .NS_site__homepage_staff_picks .category-nav ul li a:hover {
-    color: #2BDE73;
-    border-color: #2BDE73
+    color: #bd5319;
+    border-color: #bd5319
 }
 
 .NS_site__homepage_staff_picks .category-nav ul li.selected {
-    border-left: 3px solid #2BDE73
+    border-left: 3px solid #bd5319
 }
 
 .NS_site__homepage_staff_picks .category-nav ul li.selected a {
-    border-color: #2BDE73;
-    color: #2BDE73
+    border-color: #bd5319;
+    color: #bd5319
 }
 
 @media screen and (max-width: 640px) {
@@ -36495,7 +36495,7 @@ a#helptab:hover {
 
 .NS_site__projects_hero .next:active svg path,
 .NS_site__projects_hero .previous:active svg path {
-    fill: #2BDE73
+    fill: #bd5319
 }
 
 @media screen and (max-width: 1100px) {
@@ -37454,7 +37454,7 @@ a#helptab:hover {
 .sundance-homepage-hero__head {
     font-size: 64px;
     line-height: 1.031em;
-    color: #2BDE73;
+    color: #bd5319;
     font-weight: 500;
     text-transform: uppercase
 }
@@ -37601,7 +37601,7 @@ body#canceled_project_survey #main iframe {
 
 .fulfillment-report-hero .divider.divider {
     height: 3px;
-    background-color: #2BDE73;
+    background-color: #bd5319;
     width: 80px;
     margin: 20px auto 40px
 }
@@ -38810,7 +38810,7 @@ body#surveys_show .statuses .status {
 body#surveys_show .statuses .status .ss-icon {
     position: absolute;
     left: 0px;
-    color: #2BDE73
+    color: #bd5319
 }
 
 body#surveys_show .status_description {
@@ -38937,7 +38937,7 @@ html.video_widget body .video-player video {
 }
 
 .encoding_video p {
-    color: #2BDE73;
+    color: #bd5319;
     padding: 0px
 }
 
@@ -39005,7 +39005,7 @@ body#blog_posts_show article .encoding_video p {
 #video_tracks_edit .timeline_line {
     left: 50%;
     bottom: 0;
-    background: #2BDE73;
+    background: #bd5319;
     width: 3px;
     height: 170px;
     pointer-events: none
@@ -39759,7 +39759,7 @@ body#two_factor_authentication_confirm .rounded.border.bg-white footer {
 }
 
 .NS-two_factor_authentication_show .--is-on {
-    background: #2BDE73;
+    background: #bd5319;
     border-radius: 3px;
     padding: 2px 5px;
     font-weight: 500;
@@ -40164,7 +40164,7 @@ body#users_comments .page {
 }
 
 body#users_edit_account .two-factor-authentication .--is-on {
-    background: #2BDE73;
+    background: #bd5319;
     border-radius: 3px;
     padding: 1px 5px;
     font-weight: 500
@@ -40779,7 +40779,7 @@ body#years_oscars2013 #hero em {
 }
 
 body#years_oscars2013 #hero a {
-    color: #2BDE73;
+    color: #bd5319;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
@@ -40788,7 +40788,7 @@ body#years_oscars2013 #hero a {
 }
 
 body#years_oscars2013 #hero a:hover {
-    color: #2BDE73
+    color: #bd5319
 }
 
 body#ksr_admin_sessions_new #content-wrap {
@@ -41879,8 +41879,8 @@ ul.menu-tabs a:active,
 ul.menu-tabs .tab_label:hover,
 ul.menu-tabs .tab_label:focus,
 ul.menu-tabs .tab_label:active {
-    background: #2BDE73;
-    border-color: #2BDE73
+    background: #bd5319;
+    border-color: #bd5319
 }
 
 ul.menu-tabs li {
@@ -42020,7 +42020,7 @@ ul.menu-tabs li.selected a:hover .count {
 }
 
 .ksr-select .ss-delete:hover {
-    color: #2BDE73;
+    color: #bd5319;
     cursor: pointer
 }
 
@@ -42821,11 +42821,11 @@ body.ipad .ipad-hide {
 }
 
 .green {
-    color: #2BDE73
+    color: #bd5319
 }
 
 .bg-green {
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 .bg-green-90 {
@@ -43006,7 +43006,7 @@ body.ipad .ipad-hide {
 }
 
 .fill-green {
-    fill: #2BDE73
+    fill: #bd5319
 }
 
 .fill-green-light {
@@ -43400,7 +43400,7 @@ a.white_link:hover {
 .progress_bar_dark .progress_bar_progress,
 .progress_bar_light .progress_bar_progress {
     min-width: 8px;
-    background: #2BDE73
+    background: #bd5319
 }
 
 .progress_bar_dark .progress_bar_handle,
@@ -43409,7 +43409,7 @@ a.white_link:hover {
     height: 8px;
     margin-left: -6px;
     border: 2px solid #fff;
-    background: #2BDE73;
+    background: #bd5319;
     box-shadow: #222, 0px, 0px, 5px;
     opacity: 0
 }
@@ -43461,7 +43461,7 @@ a.white_link:hover {
 
 .tab-nav-green a.current {
     color: #222;
-    border-color: #2BDE73
+    border-color: #bd5319
 }
 
 .tab-nav-green a.current:hover {
@@ -43470,7 +43470,7 @@ a.white_link:hover {
 
 .tab-nav-green li.selected a {
     color: #222;
-    border-color: #2BDE73
+    border-color: #bd5319
 }
 
 .tab-nav-green li.selected a:hover {
@@ -44082,7 +44082,7 @@ p {
 }
 
 .page-block--color.page-block--color--green {
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 .page-block--color.page-block--color--green a {
@@ -44252,7 +44252,7 @@ p {
 .trust-icon {
     width: 50px;
     height: 50px;
-    fill: #2BDE73
+    fill: #bd5319
 }
 
 .avatar-circle-small {
@@ -44667,7 +44667,7 @@ p {
 .formatter__longform hr {
     width: 40px;
     height: 3px;
-    background-color: #2BDE73;
+    background-color: #bd5319;
     margin: 60px 0px 0px;
     border: none
 }
@@ -44837,7 +44837,7 @@ p {
 }
 
 .notification-indicator.notification-indicator--active:after {
-    background: #2BDE73;
+    background: #bd5319;
     border-radius: 50%;
     vertical-align: middle;
     height: 10px;
@@ -44916,12 +44916,12 @@ p {
 }
 
 .jGrowl-notification.ui-state-highlight.success {
-    border-color: #2BDE73;
-    color: #2BDE73
+    border-color: #bd5319;
+    color: #bd5319
 }
 
 .jGrowl-notification.ui-state-highlight.success .jGrowl-close-x:hover {
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 .jGrowl-notification.ui-state-highlight:hover .jGrowl-close {
@@ -45193,7 +45193,7 @@ p {
 .btn--dark-green:hover,
 .btn--dark-green:focus {
     color: #FFFFFF;
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 .btn--light-blue {
@@ -45251,7 +45251,7 @@ p {
 
 .btn--white:hover,
 .btn--white:focus {
-    color: #2BDE73
+    color: #bd5319
 }
 
 .btn--transparent-black {
@@ -45493,7 +45493,7 @@ p {
 }
 
 .btn--like-text.btn--liked {
-    color: #2BDE73
+    color: #bd5319
 }
 
 .btn--like-text.btn--liked:hover,
@@ -45725,7 +45725,7 @@ p {
 }
 
 .flag-callout {
-    background-color: #2BDE73;
+    background-color: #bd5319;
     border-radius: 2px;
     color: #FFFFFF;
     font-size: 1rem;
@@ -45930,7 +45930,7 @@ p {
         stroke: #286dc0
     }
     50% {
-        stroke: #2BDE73
+        stroke: #bd5319
     }
     100% {
         stroke: #286dc0
@@ -45942,7 +45942,7 @@ p {
         stroke: #286dc0
     }
     50% {
-        stroke: #2BDE73
+        stroke: #bd5319
     }
     100% {
         stroke: #286dc0
@@ -46549,7 +46549,7 @@ p {
 
 .mega-footer {
     background-color: #222;
-    border-top: dashed 1px #2BDE73;
+    border-top: dashed 1px #bd5319;
     color: #80809E;
     font-size: 14px
 }
@@ -46653,7 +46653,7 @@ p {
 }
 
 .newsletter-signup__confirmation .ksr-icon__check {
-    color: #2BDE73;
+    color: #bd5319;
     font-size: 10px
 }
 
@@ -46880,7 +46880,7 @@ p {
 
 .btn--green .loader-dots,
 .btn--like.btn--liked .loader-dots {
-    fill: #2BDE73
+    fill: #bd5319
 }
 
 .btn--block .loader-dots {
@@ -47203,7 +47203,7 @@ p {
         stroke: #286dc0
     }
     50% {
-        stroke: #2BDE73
+        stroke: #bd5319
     }
     100% {
         stroke: #286dc0
@@ -47215,7 +47215,7 @@ p {
         stroke: #286dc0
     }
     50% {
-        stroke: #2BDE73
+        stroke: #bd5319
     }
     100% {
         stroke: #286dc0
@@ -47928,8 +47928,8 @@ p {
 }
 
 .pledge__radio:checked {
-    background: #2BDE73;
-    border: 2px solid #2BDE73
+    background: #bd5319;
+    border: 2px solid #bd5319
 }
 
 .pledge__radio:checked:before {
@@ -48456,7 +48456,7 @@ html[lang="es"] body.projects.apple-pay-capable .pledge--selected form {
 }
 
 .pledge--no-reward .pledge__input__currency {
-    color: #2BDE73;
+    color: #bd5319;
     font-size: 1.6rem
 }
 
@@ -48653,7 +48653,7 @@ html[lang="es"] body.projects.apple-pay-capable .pledge--selected form {
 
 .project-card.project-card-tall .project-progress-bar .project-percent-pledged,
 .project-card.project-card-tall-big .project-progress-bar .project-percent-pledged {
-    background-color: #2BDE73;
+    background-color: #bd5319;
     height: 100%
 }
 
@@ -48691,7 +48691,7 @@ html[lang="es"] body.projects.apple-pay-capable .pledge--selected form {
 
 .project-card.project-card-tall .project-pledged-successful,
 .project-card.project-card-tall-big .project-pledged-successful {
-    background-color: #2BDE73;
+    background-color: #bd5319;
     color: #FFFFFF;
     display: none;
     margin-left: -10px;
@@ -49492,7 +49492,7 @@ html[lang="es"] body.projects.apple-pay-capable .pledge--selected form {
 }
 
 .nav--subnav__selected-indicator {
-    background-color: #2BDE73;
+    background-color: #bd5319;
     position: absolute;
     bottom: 0px;
     height: 4px
@@ -50064,7 +50064,7 @@ body#backings_index .project_thumb.ratio-16-9 {
     height: 3px;
     left: 0;
     right: 0;
-    background-color: #2BDE73;
+    background-color: #bd5319;
     -webkit-transform: translateY(6px);
     transform: translateY(6px)
 }
@@ -50107,7 +50107,7 @@ body#backings_index .project_thumb.ratio-16-9 {
 }
 
 .site-nav__item--logo .svg-fill--starter {
-    fill: #2BDE73
+    fill: #bd5319
 }
 
 .site-nav__item--logo .svg-fill--pbc {
@@ -50412,7 +50412,7 @@ small,
 }
 
 .eco-friendly-key__icon {
-    fill: #2BDE73;
+    fill: #bd5319;
     height: 16px;
     top: -2px;
     width: 16px
@@ -51605,7 +51605,7 @@ textarea.resources-submission__textarea {
 }
 
 .sff2016 a {
-    color: #2BDE73
+    color: #bd5319
 }
 
 .sff2016 a:not(.green-link):hover {
@@ -51619,7 +51619,7 @@ textarea.resources-submission__textarea {
 .sundance-hero {
     background-image: url("https://d3mlfyygrfdi2i.cloudfront.net/66bc/maya-hero.jpg");
     height: auto;
-    color: #2BDE73;
+    color: #bd5319;
     background-position: 0 -50px
 }
 
@@ -51657,7 +51657,7 @@ textarea.resources-submission__textarea {
     -ms-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    color: #2BDE73;
+    color: #bd5319;
     text-decoration: none !important
 }
 
@@ -51952,7 +51952,7 @@ textarea.resources-submission__textarea {
 
 .modal__title {
     margin: 0 auto;
-    color: #2BDE73;
+    color: #bd5319;
     padding-top: 150px;
     font-size: 50px;
     line-height: 1
@@ -52038,7 +52038,7 @@ textarea.resources-submission__textarea {
 
 .tabbed-nav__link.is-active {
     color: #222;
-    border-color: #2BDE73
+    border-color: #bd5319
 }
 
 .google-play-badge,
@@ -52300,7 +52300,7 @@ code.inline-code {
 }
 
 .color-swatch.ksr-green {
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 .color-swatch.light-green {
@@ -63877,7 +63877,7 @@ strong {
 }
 
 .hover-ksr-green-400:hover {
-    color: #2BDE73
+    color: #bd5319
 }
 
 .hover-blue-600:hover {
@@ -63977,7 +63977,7 @@ strong {
 }
 
 .hover-green-400:hover {
-    color: #2BDE73
+    color: #bd5319
 }
 
 .hover-green-300:hover {
@@ -64253,7 +64253,7 @@ strong {
 }
 
 .hover-bg-ksr-green-400:hover {
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 .hover-bg-blue-600:hover {
@@ -64353,7 +64353,7 @@ strong {
 }
 
 .hover-bg-green-400:hover {
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 .hover-bg-green-300:hover {
@@ -64629,7 +64629,7 @@ strong {
 }
 
 .hover-border-ksr-green-400:hover {
-    border-color: #2BDE73 !important
+    border-color: #bd5319 !important
 }
 
 .hover-border-blue-600:hover {
@@ -64729,7 +64729,7 @@ strong {
 }
 
 .hover-border-green-400:hover {
-    border-color: #2BDE73 !important
+    border-color: #bd5319 !important
 }
 
 .hover-border-green-300:hover {
@@ -65025,7 +65025,7 @@ strong {
 }
 
 .hover-fill-ksr-green-400:hover {
-    fill: #2BDE73
+    fill: #bd5319
 }
 
 .hover-fill-blue-600:hover {
@@ -65125,7 +65125,7 @@ strong {
 }
 
 .hover-fill-green-400:hover {
-    fill: #2BDE73
+    fill: #bd5319
 }
 
 .hover-fill-green-300:hover {
@@ -65409,7 +65409,7 @@ strong {
 }
 
 .hover-target:hover .hover-item-ksr-green-400 {
-    color: #2BDE73
+    color: #bd5319
 }
 
 .hover-target:hover .hover-item-blue-600 {
@@ -65509,7 +65509,7 @@ strong {
 }
 
 .hover-target:hover .hover-item-green-400 {
-    color: #2BDE73
+    color: #bd5319
 }
 
 .hover-target:hover .hover-item-green-300 {
@@ -65785,7 +65785,7 @@ strong {
 }
 
 .hover-target:hover .hover-item-fill-ksr-green-400 {
-    fill: #2BDE73
+    fill: #bd5319
 }
 
 .hover-target:hover .hover-item-fill-blue-600 {
@@ -65885,7 +65885,7 @@ strong {
 }
 
 .hover-target:hover .hover-item-fill-green-400 {
-    fill: #2BDE73
+    fill: #bd5319
 }
 
 .hover-target:hover .hover-item-fill-green-300 {
@@ -67951,11 +67951,11 @@ strong {
 }
 
 .border-ksr-green-400 {
-    border-color: #2BDE73 !important
+    border-color: #bd5319 !important
 }
 
 .border-focused-ksr-green-400:focus {
-    border-color: #2BDE73 !important
+    border-color: #bd5319 !important
 }
 
 .border-blue-600 {
@@ -68151,11 +68151,11 @@ strong {
 }
 
 .border-green-400 {
-    border-color: #2BDE73 !important
+    border-color: #bd5319 !important
 }
 
 .border-focused-green-400:focus {
-    border-color: #2BDE73 !important
+    border-color: #bd5319 !important
 }
 
 .border-green-300 {
@@ -68695,7 +68695,7 @@ strong {
 }
 
 .ksr-green-400 {
-    color: #2BDE73
+    color: #bd5319
 }
 
 .blue-600 {
@@ -68795,7 +68795,7 @@ strong {
 }
 
 .green-400 {
-    color: #2BDE73
+    color: #bd5319
 }
 
 .green-300 {
@@ -69071,7 +69071,7 @@ strong {
 }
 
 .bg-ksr-green-400 {
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 .bg-blue-600 {
@@ -69171,7 +69171,7 @@ strong {
 }
 
 .bg-green-400 {
-    background-color: #2BDE73
+    background-color: #bd5319
 }
 
 .bg-green-300 {
@@ -69471,11 +69471,11 @@ strong {
 }
 
 .fill-ksr-green-400 {
-    fill: #2BDE73
+    fill: #bd5319
 }
 
 .stroke-ksr-green-400 {
-    stroke: #2BDE73
+    stroke: #bd5319
 }
 
 .fill-blue-600 {
@@ -69671,11 +69671,11 @@ strong {
 }
 
 .fill-green-400 {
-    fill: #2BDE73
+    fill: #bd5319
 }
 
 .stroke-green-400 {
-    stroke: #2BDE73
+    stroke: #bd5319
 }
 
 .fill-green-300 {
