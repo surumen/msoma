@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en-gb">
+<html class="user_sessions_new fontface no-js" data-request-id="c5d111bb-cf49-4ecb-b25c-1e73422def97" lang="en">
 
 <head>
-    <title>Sign Up | M-Soma</title>
+    <title>Login - M-Soma</title>
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
     <link rel="canonical" href="https://msoma.org/about/" />
     <meta property="og:site_name" content="M-Soma Institute" />
@@ -23,70 +23,138 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:description" content="M-Soma is a computer skills training program for Kenyan youth from under-resourced communities and schools. We aim to increase the number of skilled software engineers/developers in East Africa, and enable other career professionals to actively apply technology in their work." />
     <meta name="description" content="M-Soma is a computer skills training program for Kenyan youth from under-resourced communities and schools. We aim to increase the number of skilled software engineers/developers in East Africa, and enable other career professionals to actively apply technology in their work." />
-    <link rel="stylesheet" media="screen" href="stylesheets/online.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
-    <script src="stylesheets/online.js"></script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <link rel="stylesheet" media="screen,print" href="stylesheets/login.css" />
+    <script src="javascripts/login.js"></script>
 </head>
 
-<body id="logged-out" style="margin-top: 80px;
-    margin-bottom: 80px; height: auto;">
-    <div class="pusher-header" role="navigation">
-        <div class="grid">
-            <div class="grid__small-3 grid__columns">
-                <div class="pusher-header__brand">
-                    <a href="http://msoma.org/"></a>
+<body class="frame user_sessions not-mobile not-phone not-mobile-safari not-chrome-ios not-forces-video-controls not-tablet not-ipad not-iphone not-ios not-android not-touchable not-native-app-request not-apple-pay-capable not-android-pay-capable responsive" id="user_sessions_new">
+    <div class="site-nav-mobile mobile-show">
+        <a class="site-nav__item site-nav__item--logo site-nav__item--logo--mobile" href="">
+            <h1 class="site-nav__item-label">M-Soma Institute</h1>
+        </a>
+    </div>
+    <div class="js-site-nav-container site-nav-frame site-nav-pad" role="navigation">
+        <div class="js-site-nav-body site-nav-height absolute t0 full-width clip shadow-2 z9000">
+            <div class="site-nav-container site-nav-container--main active-nav--primary">
+                <div class="site-nav-unit site-nav-unit--primary" id="js-nav-primary">
+                    <nav class="site-nav-base site-nav--primary">
+                        <h2 class="for-screenreader" id="main-navigation">Main menu</h2>
+                        <div class="site-nav__left">
+                            <a class="site-nav__item site-nav__item--skip-to-content site-nav__item--text skip-to-content skip-to-content__link" href="#start-of-content">
+                                <span class="site-nav__item-label">Skip to content</span>
+                            </a>
+                            <a aria-controls="NS_discovery_overlay" aria-expanded="false" aria-haspopup="true" class="site-nav__item site-nav__item--text" href="/discover?ref=nav" id="js-discovery-expand">
+                                <svg class="svg-icon__compass h3 w3 mr1 fill-green-700" aria-hidden="true">
+                                    <use xlink:href="#compass"></use>
+                                </svg>
+                                <span class="site-nav__item-label navy-700">M-Soma</span>
+                            </a>
+                        </div>
+                        <div class="site-nav__middle">
+                            <a class="site-nav__item site-nav__item--logo" href="/?ref=nav">
+                                <h1 class="site-nav__item-label">M-Soma Insitute</h1>
+                            </a>
+                        </div>
+                        <div class="site-nav__right">
+                            <a class="site-nav__item site-nav__item--text" href="/">
+                                <span class="site-nav__item-label">Log in</span>
+                            </a>
+                            <a class="site-nav__item site-nav__item--text site-nav__item--signup" href="/signup">
+                                <span class="site-nav__item-label">Sign up</span>
+                            </a>
+                        </div>
+                    </nav>
                 </div>
-            </div>
-            <div class="grid__small-9 grid__columns">
-                <nav class="pusher-header__single-link" role="menubar"><a href="/" role="menuitem">Already have an account? Login</a></nav>
             </div>
         </div>
     </div>
-    <section class="full-container">
-        <div>
-            <h1 class="primary-title">Create an Account</h1>
-            <div class="panel">
-                <div class="divider" style="margin-top: 0"><span>Sign up with ...</span></div>
-                <form style="display: inline" action="/login/facebook" accept-charset="UTF-8" method="post">
-                    <input name="utf8" type="hidden" value="&#x2713;" />
-                    <input type="hidden" name="omni_authenticity_token" value="DFkbK6rumnk99Wy0pKJDcMxET/3EXwa5gt2ZlynNPnE=">
-                    <button type="submit" class="btn btn--auth js-track-click" id="facebook" style="background: url(stylesheets/svg_store/facebook.png); background-size: cover; background-repeat: no-repeat;"></button>
-                </form>
-                <form style="display: inline" action="/login/facebook" accept-charset="UTF-8" method="post">
-                    <input name="utf8" type="hidden" value="&#x2713;" />
-                    <input type="hidden" name="omni_authenticity_token" value="DFkbK6rumnk99Wy0pKJDcMxET/3EXwa5gt2ZlynNPnE=">
-                    <button type="submit" class="btn btn--auth js-track-click" id="google" style="background: url(stylesheets/svg_store/google.png); background-size: cover; background-repeat: no-repeat;"></button>
-                </form>
-                <div class="divider"><span>Or sign up with email</span></div>
-                <form class="new_account" id="signup_form" action="/signup" method="post">
-                    <div class="company-section u-mt-4">
-                        <label for="signup-company">First Name</label>
-                        <input class="account_company" id="signup-company" placeholder="First Name" type="text" name="firstName" required="required">
+    <main role="main">
+        <div id="growl_section" class="center jGrowl"></div>
+        <div id="main_content">
+            <div class="bg-grey-light" id="login-signup">
+                <div class="py3 py10-sm px3">
+                    <div id="user-account-form">
+                        <div class="rounded-content-frame rounded-content-frame--white">
+                            <div class="rounded-content-frame__header">
+                                Have an account?
+                                <a class="bold js-switch-to-login" href="/">Log in</a>
+                            </div>
+                            <div class="rounded-content-frame__content" id="signup">
+                                <h2 class="title">Sign up</h2>
+                                <form class="form-simple" id="new_user" action="/signup" accept-charset="UTF-8" method="post">
+                                    <fieldset>
+                                        <div class="fieldset-errors">
+                                        </div>
+                                        <ol>
+                                            <li class="mb3">
+                                                <label class="offscreen" for="user_name">First Name</label>
+                                                <input class="input-text full-width js-auto_focus text" placeholder="First Name" autofocus="autofocus" type="text" name="firstName" id="user_name" />
+                                            </li>
+                                            <li class="mb3">
+                                                <label class="offscreen" for="user_name">Last Name</label>
+                                                <input class="input-text full-width js-auto_focus text" placeholder="Last Name" autofocus="autofocus" type="text" name="lastName" id="user_name" />
+                                            </li>
+                                            <li class="mb3" id="form-signup-email">
+                                                <label class="offscreen" for="user_email">Email</label>
+                                                <input class="input-text full-width email" spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off" type="email" placeholder="Email" name="email" id="user_email" />
+                                            </li>
+                                            <li class="mb3">
+                                                <label class="offscreen fs-hide" for="user_password">Password</label>
+                                                <input type="password" name="password" id="user_password" class="input-text full-width password" placeholder="Password" />
+                                            </li>
+                                            <li class="mb3">
+                                                <label class="offscreen" for="user_name">Username</label>
+                                                <input class="input-text full-width js-auto_focus text" placeholder="Username" autofocus="autofocus" type="text" name="username" id="user_name" />
+                                            </li>
+                                            <li class="m0">
+                                                <br>
+                                                <input type="submit" name="commit" value="Create account" class="btn btn--green btn--block submit" />
+                                            </li>
+                                        </ol>
+                                    </fieldset>
+                                </form>
+                                <div class="text-strikethru">
+                                    <div class="line"></div>
+                                    <div class="text">or</div>
+                                </div>
+                                <div class="mb2">
+                                    <a href='' class="js-facebook-login btn btn--facebook btn--with-svg btn--block">
+                                        <svg aria-hidden="true" class="svg-icon__facebook">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use>
+                                        </svg> Log in with Facebook</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="company-section u-mt-4">
-                        <label for="signup-company">Last Name</label>
-                        <input class="account_company" id="signup-company" placeholder="Last Name" type="text" name="lastName" required="required">
-                    </div>
-                    <div class="email-section">
-                        <label for="signup-email">Email</label>
-                        <input class="account_email" id="signup-email" placeholder="Email address" autofocus="autofocus" required="required" type="email" name="email">
-                    </div>
-                    <div class="password-section u-mt-4">
-                        <label for="signup-password">Password</label>
-                        <input class="account_password" id="signup-password" placeholder="Password" required="required" type="password" name="password">
-                    </div>
-                    <div class="company-section u-mt-4">
-                        <label for="signup-company">Username</label>
-                        <input class="account_company" id="signup-company" placeholder="Username" type="text" name="username" required autofocus>
-                    </div>
-                    <input class="btn btn--primary u-mt-4" type="submit" name="commit" value="Create a Free Account" style="width:100%">
-                    <p class="smallprint">You agree to the M-Soma <a href="http://msoma.org/online-learning/terms" target="_blank">Terms of Service</a> and <a href="http://msoma.org/online-learning/privacy" target="_blank">Privacy Policy</a>.</p>
-                </form>
+                </div>
             </div>
         </div>
-    </section>
+    </main>
+    <footer class="bg-navy-900 js-mega-footer link-group-white" role="contentinfo">
+        <div class="relative">
+            <div class="js-mega-footer__content grid-container">
+                <span class="scissors icon-scissors-1"></span>
+                <div class="border-top border-navy-700 py5">
+                    <div class="grid-row">
+                        <div class="col-sm-12-24">
+                            <p class="navy-500 type-12">
+                                &copy; 2017 M-Soma Institute
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+    var root = root || window;
+    window.benchmark = (typeof window.performance == 'object' && typeof window.performance.mark == 'function');
+    </script>
+    <script src="javascripts/manifest.js"></script>
+    <script src="javascripts/core.js"></script>
+    <script src="javascripts/base.js"></script>
 </body>
 
 </html>
