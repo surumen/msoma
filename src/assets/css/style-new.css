@@ -198,7 +198,7 @@ img.edit_this {
 .globalNav .globalMenu>.globalMenu_item:hover>.globalMenu_link,
 .globalNav .globalMenu>.globalMenu_item>.globalMenu_link:hover {
     opacity: 1;
-    color: #286dc0
+    color: #286dc0;
 }
 
 .globalNav .globalMenu>.globalMenu_item:hover>.globalMenu_link:after,
@@ -1033,7 +1033,7 @@ ul.splash_background {
 
 .socialMenu_link:before {
     top: 0;
-    background: url(images/sprite-socials.png%3Fv=2) no-repeat 0 0
+    background: url(images/sprite-socials_v2.png) no-repeat 0 0
 }
 
 .btn--facebook:before {
@@ -1045,7 +1045,7 @@ ul.splash_background {
 .btn--youtubefoot {
     display: block;
     margin-top: 9px;
-    background: url(images/sprite-socials.png%3Fv=2) no-repeat 0 0;
+    background: url(images/sprite-socials_v2.png) no-repeat 0 0;
     width: 35px;
     height: 30px;
     background-position: -83px -58px
@@ -1939,7 +1939,7 @@ ul.splash_background {
 }
 
 .page_master_degree .page_header::before {
-    background-image: url(../../uploads/background_copy_14.jpg)
+    /*background-image: url(../../uploads/background_copy_14.jpg)*/
 }
 
 .page_master_degree .pageTabs-custom {
@@ -4926,7 +4926,7 @@ table.students-responsive-table,
 .list-alternate-links span {
     display: inline-block;
     line-height: 1;
-    color: #286dc0;
+    color: #286dc0;;
     vertical-align: top;
     letter-spacing: .018em
 }
@@ -5010,7 +5010,7 @@ table.students-responsive-table,
 
 .list-professors .current a:hover {
     background: transparent;
-    color: #286dc0
+    color: #286dc0;
 }
 
 .list-professors .body a:hover {

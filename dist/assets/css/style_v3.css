@@ -2162,42 +2162,6 @@ template {
     }
 }
 
-@font-face {
-    font-family: din;
-    src: url(../fonts/FontFont-DINOT.otf) format("opentype");
-    font-weight: 400
-}
-
-@font-face {
-    font-family: din;
-    src: url(../fonts/FontFont-DINOT-Medium.otf) format("opentype");
-    font-weight: 500
-}
-
-@font-face {
-    font-family: din;
-    src: url(../fonts/FontFont-DINOT-Light.otf) format("opentype");
-    font-weight: 200
-}
-
-@font-face {
-    font-family: din;
-    src: url(../fonts/FontFont-DINOT-Bold.otf) format("opentype");
-    font-weight: 700
-}
-
-@font-face {
-    font-family: din;
-    src: url(../fonts/DINOT-Black.otf) format("opentype");
-    font-weight: 800
-}
-
-@font-face {
-    font-family: din;
-    src: url(../fonts/DINOT-BlackItalic.otf) format("opentype");
-    font-weight: 800;
-    font-style: italic
-}
 
 [data-whatinput=mouse] a:focus,
 [data-whatinput=mouse] button:focus,
@@ -4144,7 +4108,7 @@ select {
 
 .mobile_sidebar_handle_wrapper:focus,
 .mobile_sidebar_handle_wrapper:hover {
-    color: #286dc0
+    color: #286dc0;
 }
 
 .fs-navigation-lock .mobile_sidebar_handle_wrapper {
@@ -4519,7 +4483,7 @@ select {
 
 .breadcrumb_link:focus,
 .breadcrumb_link:hover {
-    color: #286dc0
+    color: #286dc0;
 }
 
 .footer_nav {
@@ -4631,7 +4595,7 @@ select {
 
 .footer_nav_link:focus,
 .footer_nav_link:hover {
-    color: #286dc0
+    color: #286dc0;
 }
 
 .button .footer_nav_link {
@@ -4832,7 +4796,7 @@ select {
 .main_nav_sm .main_nav_link.focused,
 .main_nav_sm .main_nav_link:focus,
 .main_nav_sm .main_nav_link:hover {
-    color: #286dc0
+    color: #286dc0;
 }
 
 .main_nav_lg .main_nav_link {
@@ -4842,7 +4806,7 @@ select {
 .main_nav_lg .main_nav_link.focused,
 .main_nav_lg .main_nav_link:focus,
 .main_nav_lg .main_nav_link:hover {
-    color: #286dc0
+    color: #286dc0;
 }
 
 .main_nav_toggle {
@@ -4979,7 +4943,7 @@ select {
 
 .main_nav_child_link:focus,
 .main_nav_child_link:hover {
-    color: #286dc0
+    color: #286dc0;
 }
 
 .nav-dropdown {
@@ -5183,7 +5147,7 @@ select {
     transition: background .25s, color .25s, transform .25s;
     display: block;
     text-align: center;
-    background-color: #286dc0;
+    background-color: #286dc0;;
     color: #fff;
     margin: 12px 0
 }
@@ -5629,7 +5593,7 @@ select {
 
 .utility_nav_link:focus,
 .utility_nav_link:hover {
-    color: #286dc0
+    color: #286dc0;
 }
 
 .page_feature .flex_block {
@@ -5996,7 +5960,7 @@ screen and (min-width:740px) {
 .flex_row:nth-child(odd) .flex_link:focus,
 .flex_row:nth-child(odd) .flex_link:hover {
     /*background-color: #5f712d;*/
-    color: #286dc0
+    color: #286dc0;
 }
 
 .flex_row:nth-child(even) {
@@ -6030,7 +5994,7 @@ screen and (min-width:740px) {
 .flex_row:nth-child(even) .flex_link:focus,
 .flex_row:nth-child(even) .flex_link:hover {
     /*background-color: #5f712d;*/
-    color: #286dc0
+    color: #286dc0;
 }
 
 .flex_row:nth-child(n+2):nth-child(odd) {
@@ -6060,7 +6024,7 @@ screen and (min-width:740px) {
 .flex_row.theme_jacobs .flex_link:focus,
 .flex_row.theme_jacobs .flex_link:hover {
     /*background-color: #5f712d;*/
-    color: #286dc0
+    color: #286dc0;
 }
 
 .flex_row.style_background {
@@ -6075,7 +6039,7 @@ screen and (min-width:740px) {
 .flex_row.style_background .flex_link:focus,
 .flex_row.style_background .flex_link:hover {
     /*background-color: #5f712d;*/
-    color: #286dc0
+    color: #286dc0;
 }
 
 .flex_row.type_event {
@@ -6149,8 +6113,8 @@ screen and (min-width:740px) {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    -webkit-filter: url(style_v3.min.css%3Fv=1.0.2.css);
-    filter: url(style_v3.min.css%3Fv=1.0.2.css);
+    /*-webkit-filter: url(style_v3.min.css%3Fv=1.0.2.css);
+    filter: url(style_v3.min.css%3Fv=1.0.2.css);*/
     opacity: .6
 }
 
@@ -6432,7 +6396,7 @@ screen and (min-width:740px) {
 .hero_block_description a:focus,
 .hero_block_description a:hover {
     /*background-color: #5f712d;*/
-    color: #286dc0
+    color: #286dc0;
 }
 
 .hero_block_footer {
@@ -6869,8 +6833,8 @@ screen and (min-width:740px) {
 
 .alumni_quote_link:focus,
 .alumni_quote_link:hover {
-    b/*background-color: #5f712d;*/
-    color: #286dc0
+    /*background-color: #5f712d;*/
+    color: #286dc0;;
     border-color: transparent;
 }
 
@@ -7068,7 +7032,7 @@ screen and (min-width:740px) {
 .alumni_related_title_link:focus,
 .alumni_related_title_link:hover {
     /*background-color: #5f712d;*/
-    color: #286dc0
+    color: #286dc0;
 }
 
 .alumni_related_title_label {
@@ -7526,7 +7490,7 @@ screen and (min-width:740px) {
 
 .explore_card_header_label_link:focus,
 .explore_card_header_label_link:hover {
-    color: #286dc0
+    color: #286dc0;
 }
 
 .explore_card_video_link {
@@ -7577,7 +7541,7 @@ screen and (min-width:740px) {
 
 .explore_card_video_link:focus .explore_card_video,
 .explore_card_video_link:hover .explore_card_video {
-    color: #286dc0
+    color: #286dc0;
 }
 
 .explore_card_video .label {
@@ -7842,12 +7806,12 @@ screen and (max-width:739px) {
 
 .explore_card.color_white .explore_card_header_link:focus,
 .explore_card.color_white .explore_card_header_link:hover {
-    background-color: #286dc0
+    background-color: #286dc0;
 }
 
 .explore_card.color_green .explore_card_wrap {
     color: #fff;
-    background-color: #286dc0;
+    background-color: #286dc0;;
     opacity: 1
 }
 
@@ -8759,7 +8723,7 @@ a, a:active, a:focus, a:hover, a:link, a:visited {
 
 .highlights_event_link:focus,
 .highlights_event_link:hover {
-    color: #286dc0
+    color: #286dc0;;
     color: inherit
 }
 
@@ -8934,7 +8898,7 @@ a, a:active, a:focus, a:hover, a:link, a:visited {
 
 .highlights_news_item_link:focus,
 .highlights_news_item_link:hover {
-    color: #286dc0
+    color: #286dc0;
     color: inherit
 }
 
@@ -9140,7 +9104,7 @@ a, a:active, a:focus, a:hover, a:link, a:visited {
 
 .impact_item_link:focus .impact_item_title,
 .impact_item_link:hover .impact_item_title {
-    color: #286dc0
+    color: #286dc0;
 }
 
 .impact_item_caption {
@@ -9612,7 +9576,7 @@ a, a:active, a:focus, a:hover, a:link, a:visited {
 
 .jacobs_item_title_link:focus,
 .jacobs_item_title_link:hover {
-    color: #286dc0
+    color: #286dc0;
 }
 
 .jacobs_item_title_label {
@@ -9927,7 +9891,7 @@ screen and (min-width:500px) {
 
 .list_item_link:focus,
 .list_item_link:hover {
-    color: #286dc0
+    color: #286dc0;
 }
 
 .theme_block {
@@ -9966,7 +9930,7 @@ screen and (min-width:500px) {
 .theme_title {
     font-family: freight-sans-pro-n5, freight-sans-pro, sans-serif;
     font-weight: 600;
-    color: #286dc0;
+    color: #286dc0;;
     font-size: 11px;
     font-size: .875rem;
     letter-spacing: inherit;
@@ -10834,7 +10798,7 @@ screen and (min-width:615px) {
 
 .theme_support_title_link:focus,
 .theme_support_title_link:hover {
-    color: #286dc0
+    color: #286dc0;
 }
 
 .theme_support_title_link:focus .icon,
@@ -11108,7 +11072,7 @@ screen and (min-width:1220px) {
 
 .program_card_title_link:focus .label,
 .program_card_title_link:hover .label {
-    /*background-color: #286dc0*/
+    /*background-color: #286dc0;*/
 }
 
 .program_card_title_link:focus .icon,
@@ -11216,7 +11180,7 @@ screen and (min-width:1220px) {
 .theme_white .faculty_card_content_link:focus .faculty_card_title span,
 .theme_white .faculty_card_content_link:hover .faculty_card_name span,
 .theme_white .faculty_card_content_link:hover .faculty_card_title span {
-    color: #286dc0
+    color: #286dc0;
 }
 
 .faculty_card_headshot {

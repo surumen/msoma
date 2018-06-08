@@ -222,30 +222,6 @@ th {
 ============================== BASE
 */
 
-@font-face {
-	font-family: DINWeb;
-	font-weight: 400;
-	font-style: normal;
-	src: url("../font/ff_din_web_regular/DINWeb.eot");
-	src: url("../font/ff_din_web_regular/DINWeb.eot%3F") format("embedded-opentype"),url("../font/ff_din_web_regular/DINWeb.woff") format("woff"),url("https://tech.cornell.edu/static/font/ff_din_web_regular/DINWeb.ttf") format("truetype"),url("https://tech.cornell.edu/static/font/ff_din_web_regular/DINWeb.svg") format("svg");
-}
-
-@font-face {
-	font-family: DINWeb;
-	font-weight: 500;
-	font-style: normal;
-	src: url("../font/ff_din_web_medium/DINWeb-Medium.eot");
-	src: url("../font/ff_din_web_medium/DINWeb-Medium.eot%3F") format("embedded-opentype"),url("../font/ff_din_web_medium/DINWeb-Medium.woff") format("woff"),url("https://tech.cornell.edu/static/font/ff_din_web_medium/DINWeb-Medium.ttf") format("truetype"),url("https://tech.cornell.edu/static/font/ff_din_web_medium/DINWeb-Medium.svg") format("svg");
-}
-
-@font-face {
-	font-family: DINWeb;
-	font-weight: 700;
-	font-style: normal;
-	src: url("../font/ff_din_web_bold/DINWeb-Bold.eot");
-	src: url("../font/ff_din_web_bold/DINWeb-Bold.eot%3F") format("embedded-opentype"),url("../font/ff_din_web_bold/DINWeb-Bold.woff") format("woff"),url("https://tech.cornell.edu/static/font/ff_din_web_bold/DINWeb-Bold.ttf") format("truetype"),url("https://tech.cornell.edu/static/font/ff_din_web_bold/DINWeb-Bold.svg") format("svg");
-}
-
 h1,
 .campus_title,
 h2,
@@ -277,45 +253,15 @@ blockquote,
 .more,
 .pagination_previous,
 .pagination_next {
-	font-family: 'DINWeb', 'Helvetica Neue', 'Arial', sans-serif;
+	/*font-family: 'DINWeb', 'Helvetica Neue', 'Arial', sans-serif;*/
 }
 
-@font-face {
-	font-family: Adelle;
-	font-weight: 400;
-	font-style: normal;
-	src: url("../font/adelle_regular/Adelle.eot");
-	src: url("../font/adelle_regular/Adelle.eot%3F") format("embedded-opentype"),url("../font/adelle_regular/Adelle.woff") format("woff"),url("../font/adelle_regular/Adelle.ttf") format("truetype"),url("https://tech.cornell.edu/static/font/adelle_regular/Adelle.svg") format("svg");
-}
 
-@font-face {
-	font-family: Adelle;
-	font-weight: 400;
-	font-style: italic;
-	src: url("../font/adelle_italic/Adelle-Italic.eot");
-	src: url("../font/adelle_italic/Adelle-Italic.eot%3F") format("embedded-opentype"),url("../font/adelle_italic/Adelle-Italic.woff") format("woff"),url("../font/adelle_italic/Adelle-Italic.ttf") format("truetype"),url("https://tech.cornell.edu/static/font/adelle_italic/Adelle-Italic.svg") format("svg");
-}
-
-@font-face {
-	font-family: Adelle;
-	font-weight: 700;
-	font-style: normal;
-	src: url("../font/adelle_bold/Adelle-Bold.eot");
-	src: url("../font/adelle_bold/Adelle-Bold.eot%3F") format("embedded-opentype"),url("../font/adelle_bold/Adelle-Bold.woff") format("woff"),url("../font/adelle_bold/Adelle-Bold.ttf") format("truetype"),url("https://tech.cornell.edu/static/font/adelle_bold/Adelle-Bold.svg") format("svg");
-}
-
-@font-face {
-	font-family: Adelle;
-	font-weight: 700;
-	font-style: italic;
-	src: url("../font/adelle_bold_italic/Adelle-Bold-Italic.eot");
-	src: url("../font/adelle_bold_italic/Adelle-Bold-Italic.eot%3F") format("embedded-opentype"),url("../font/adelle_bold_italic/Adelle-Bold-Italic.woff") format("woff"),url("../font/adelle_bold_italic/Adelle-Bold-Italic.ttf") format("truetype"),url("https://tech.cornell.edu/static/font/adelle_bold_italic/Adelle-Bold-Italic.svg") format("svg");
-}
 
 body,
 blockquote strong,
 .bio_job_title {
-	font-family: 'Adelle', 'Georgia', serif;
+	/*font-family: 'Adelle', 'Georgia', serif;*/
 }
 
 .blogFeature,
@@ -344,13 +290,6 @@ blockquote strong,
 	vertical-align: top;
 }
 
-@font-face {
-	font-family: Icon;
-	font-weight: 400;
-	font-style: normal;
-	src: url("../font/ct3_icons/fonts/ctech.eot");
-	src: url("../font/ct3_icons/fonts/ctech.eot%3F") format("embedded-opentype"),url("../font/ct3_icons/fonts/ctech.woff") format("woff"),url("../font/ct3_icons/fonts/ctech.ttf") format("truetype"),url("../font/ct3_icons/fonts/ctech.svg") format("svg");
-}
 
 .search_submit:before,
 .signup_submit:before,
@@ -1656,7 +1595,7 @@ body {
 }
 
 .lte-ie8 .siteWrapper_mask {
-	background: url(https://tech.cornell.edu/static/img/trans_white.png);
+	/*background: url(https://tech.cornell.edu/static/img/trans_white.png);*/
 }
 
 .siteWrapper,
@@ -2288,20 +2227,20 @@ body {
 	text-indent: -9999px;
 }
 
-.logo--cornellTech {
-	background-image: url("../img/cornell_tech.png");
+.logo--cornellTech {/*
+	background-image: url("../img/cornell_tech.png");*/
 	height: 57px;
 	width: 207px;
 }
 
-.logo--cornell {
-	background-image: url("../img/footer_cornell.png");
+.logo--cornell {/*
+	background-image: url("../img/footer_cornell.png");*/
 	height: 67px;
 	width: 206px;
 }
 
-.logo--jacobs {
-	background-image: url("../img/jacobs-technion.png");
+.logo--jacobs {/*
+	background-image: url("../img/jacobs-technion.png");*/
 	height: 65px;
 	width: 127px;
 }
@@ -2310,18 +2249,18 @@ body {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
 
-.logo--cornellTech {
-	background-image: url("../img/cornell_tech@2x.png");
+.logo--cornellTech {/*
+	background-image: url("../img/cornell_tech@2x.png");*/
 	background-size: 207px 57px;
 }
 
-.logo--cornell {
-	background-image: url("../img/footer_cornell@2x.png");
+.logo--cornell {/*
+	background-image: url("../img/footer_cornell@2x.png");*/
 	background-size: 206px 67px;
 }
 
-.logo--jacobs {
-	background-image: url("../img/jacobs-technion@2x.png");
+.logo--jacobs {/*
+	background-image: url("../img/jacobs-technion@2x.png");*/
 	background-size: 127px 65px;
 }
 
