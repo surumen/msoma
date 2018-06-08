@@ -1033,7 +1033,7 @@ ul.splash_background {
 
 .socialMenu_link:before {
     top: 0;
-    background: url(images/sprite-socials-v2.png) no-repeat 0 0
+/*    background: url(images/sprite-socials.png) no-repeat 0 0*/
 }
 
 .btn--facebook:before {
@@ -1045,7 +1045,7 @@ ul.splash_background {
 .btn--youtubefoot {
     display: block;
     margin-top: 9px;
-    background: url(images/sprite-socials-v2.png) no-repeat 0 0;
+   /* background: url(images/sprite-socials.png) no-repeat 0 0;*/
     width: 35px;
     height: 30px;
     background-position: -83px -58px
