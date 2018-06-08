@@ -6113,8 +6113,8 @@ screen and (min-width:740px) {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /*-webkit-filter: url(style_v3.min.css%3Fv=1.0.2.css);
-    filter: url(style_v3.min.css%3Fv=1.0.2.css);*/
+    -webkit-filter: url(style_v3.css);
+    filter: url(style_v3.css);
     opacity: .6
 }
 
