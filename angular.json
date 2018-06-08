@@ -21,9 +21,20 @@
               "src/favicon.ico"
             ],
             "styles": [
-              "src/styles.css"
+              "src/assets/css/style_v3.css",
+              "src/assets/css/style_v3_custom.css",
+              "src/assets/css/style_v2.css",
+              "src/assets/css/screen.css",
+              "src/assets/css/style-new.css",
+              "src/assets/css/jssocials.css",
+              "src/assets/css/jssocials-theme-flat.css",
+              "src/assets/css/print.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/build/site_v3.min.js",
+              "src/assets/js/build/site.min.js",
+              "src/assets/js/vendor/modernizr.min.js"
+            ]
           },
           "configurations": {
             "production": {
