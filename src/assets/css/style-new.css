@@ -1033,7 +1033,7 @@ ul.splash_background {
 
 .socialMenu_link:before {
     top: 0;
-    background: url(images/sprite-socials_v2.png) no-repeat 0 0
+    background: url(images/sprite-socials-v2.png) no-repeat 0 0
 }
 
 .btn--facebook:before {
@@ -1045,7 +1045,7 @@ ul.splash_background {
 .btn--youtubefoot {
     display: block;
     margin-top: 9px;
-    background: url(images/sprite-socials_v2.png) no-repeat 0 0;
+    background: url(images/sprite-socials-v2.png) no-repeat 0 0;
     width: 35px;
     height: 30px;
     background-position: -83px -58px
@@ -1126,7 +1126,6 @@ ul.splash_background {
 .container {
     position: relative;
     z-index: 2;
-    font-family: Adelle, Arial, sans-serif;
     font-size: 14px
 }
 
@@ -1143,7 +1142,6 @@ ul.splash_background {
 
 .container .link,
 .section-primary .link {
-    font-family: Dinot, Arial, sans-serif;
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
