@@ -1,0 +1,51 @@
+	.globalHeader_logo {
+		background-image: url(images/logo-new.png);
+		height: 63px;
+		width: 226px;
+	}
+	.logo--cornellTech {
+		display: none;
+	}
+	
+	.page .main .main-title, .page .main .main-title a, .page .main .main-title.Light { color: black }
+	.page .intro-image { background: none !important; height: 55px; min-height: unset; }
+	
+	.page .container .main-secondary { position: unset; top: unset;  }
+	.page .container .main-body { margin-top: -64px; }
+	
+	.page-regular .page-body { width: 100%; float: unset; padding-left: 0; }
+	.page-regular .sidebar { width: 90%; }
+	.page-regular .page_supplemental { margin-bottom: 20px; }
+	.page .page_footer { display: block; min-height: 50px; }
+	
+	.globalNav,
+	.utilsNav,
+	.globalFooter,
+	.page .intro .intro-inner-br,
+	.page .page-regular-tabs,
+	.sidebar .widget-news,
+	.sidebar .widget-subscribe,
+	.sidebar .widget-socials
+	{
+		display: none;
+	}
+	
+	/* News */
+	.article-share-buttons,
+	.article-share-buttons-mobile {
+		display: none;
+	}
+	
+	.article-news .article-content { width: 100%; float: unset; }
+	.article-news .article-image { display: none; }
+	.article-news .article-image img { display: none; }
+	
+	.section-research { position: unset; padding-top: 0; margin: 0 0 60px; }
+	.section-research .section-inner { padding: 0; }
+	
+	.page-research .main-body .research-sidebar { display: none; }
+	.page-research .main-body .research-content { padding-top: 0; float: unset; width: 100%; }
+	.page-research .main-body .research-content .research-content-footer::after { content: " "; display: block; height: 50px; }
+
+    iframe {display: none}
+    .sidebar { display: none}

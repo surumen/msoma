@@ -1,20 +1,1336 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<a class="skip_link" id="skip_to_content" href="#main_content">Skip to Main Content</a>
+    <!-- Page Wrapper -->
+    <div class="js-navigation_push page_wrapper">
+        <!-- Header -->
+        <header class="header" id="header" itemscope itemtype="http://schema.org/WPHeader">
+            <div class="header_bar">
+                <div class="fs-row">
+                    <div class="fs-cell">
+                        <h1 class="logo logo_header logo_symbol" itemscope itemtype="http://schema.org/CollegeOrUniversity">
+                            <a class="logo_link" itemprop="url" href="">
+                              <span class="logo_link_label">M-Soma</span>
+                              <span class="logo_link_symbol">
+                                <svg class="symbol symbol_logo">
+                                  <use xlink:href="#logo"></use>
+                                </svg>
+                              </span>
+                            </a>
+                            <meta content="../assets/img/logo-schema.png" itemprop="logo" />
+                            <img class="logo_print" src="../assets/img/logo-print.png" alt="" />
+                        </h1>
+                        <div class="header_bar_group">
+                            <div class="js-toggle header_nav_set">
+                                <nav class="secondary_nav secondary_nav_lg" aria-label="Secondary Navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+                                    <div class="secondary_nav_header">
+                                        <h2 class="secondary_nav_title">Secondary Navigation</h2>
+                                    </div>
+                                    <div class="secondary_nav_list" role="navigation">
+                                        <div class="secondary_nav_item" itemprop="url">
+                                            <a class="secondary_nav_link" href="" itemprop="name">
+                                              <span class="secondary_nav_link_label">Apply</span>
+                                            </a>
+                                        </div>
+                                        <div class="secondary_nav_item" itemprop="url">
+                                            <a class="secondary_nav_link" href="" itemprop="name">
+                                              <span class="secondary_nav_link_label">Contact</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </nav>
+                                <div class="site_search_wrap">
+                                    <a class="js-toggle_handle site_search_handle site_tool" href="#">
+                                      <span class="site_search_handle_label">Search</span>
+                                      <span class="site_search_handle_icon">
+                                        <svg class="symbol symbol_search">
+                                          <use xlink:href="#search"></use>
+                                        </svg>
+                                      </span>
+                                    </a>
+                                    <div class="site_search site_search_lg" id="site_search_lg" itemscope itemtype="http://schema.org/WebSite" role="search">
+                                        <meta itemprop="url" content="//msoma.org">
+                                        <form class="site_search_form" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction" method="get" action="https://tech.cornell.edu/search/results/search">
+                                            <meta itemprop="target" content="//msoma.org/search?q={search_term_string}">
+                                            <label class="site_search_label" for="search_term_string_lg">Search</label>
+                                            <input aria-live="polite" class="site_search_input" itemprop="query-input" type="text" id="search_term_string_lg" name="keywords" placeholder="Search">
+                                            <button class="site_search_button" type="submit" title="submit" aria-label="submit">
+                                                <span class="site_search_button_label">submit</span>
+                                                <span class="site_search_button_icon">
+                                                    <svg class="symbol symbol_search">
+                                                      <use xlink:href="#search"></use>
+                                                    </svg>
+                                                </span>
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- /.site_search_wrap -->
+                            </div>
+                            <!-- /.header_nav_set -->
+                            <nav aria-label="Site Navigation" class="js-main-nav main_nav main_nav_lg" itemscope itemtype="http://schema.org/SiteNavigationElement">
+                                <div class="main_nav_header">
+                                    <h2 class="main_nav_title">Site Navigation</h2>
+                                </div>
+                                <div class="main_nav_list" role="navigation">
+                                    <div class="js-main-nav-item-777 main_nav_item fs-swap-target fs-swap-enabled" itemprop="url">
+                                        <div class="main_nav_item_wrapper">
+                                            <a class="main_nav_link" href="" itemprop="name">About</a>
+                                            <button class="js-swap main_nav_toggle fs-swap-element fs-swap-enabled" data-swap-group="main_nav" data-swap-target=".js-main-nav-item-777"><span class="main_nav_toggle_label">Expand Navigation</span><span class="main_nav_toggle_icon"><svg class="symbol symbol_triangle_down">
+                                            <use xlink:href="#triangle_down" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            </use></svg></span></button>
+                                        </div>
+                                    </div>
+                                    <div class="js-main-nav-item-48 main_nav_item fs-swap-target fs-swap-enabled" itemprop="url">
+                                        <div class="main_nav_item_wrapper">
+                                            <a class="main_nav_link" href="" itemprop="name">Programs</a>
+                                            <button class="js-swap main_nav_toggle fs-swap-element fs-swap-enabled" data-swap-group="main_nav" data-swap-target=".js-main-nav-item-48">
+                                                <span class="main_nav_toggle_label">Expand Navigation</span>
+                                                <span class="main_nav_toggle_icon">
+                                                <svg class="symbol symbol_triangle_down">
+                                                  <use xlink:href="#triangle_down" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                                </svg>
+                                              </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <!-- /.main_nav_item -->
+                                    <div class="js-main-nav-item-681 main_nav_item fs-swap-target fs-swap-enabled" itemprop="url">
+                                        <div class="main_nav_item_wrapper">
+                                            <a class="main_nav_link" href="" itemprop="name">Students</a>
+                                            <button class="js-swap main_nav_toggle fs-swap-element fs-swap-enabled" data-swap-group="main_nav" data-swap-target=".js-main-nav-item-681">
+                                                <span class="main_nav_toggle_label">Expand Navigation</span>
+                                                <span class="main_nav_toggle_icon">
+                                                <svg class="symbol symbol_triangle_down">
+                                                  <use xlink:href="#triangle_down" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                                </svg>
+                                              </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <!-- /.main_nav_item -->
+                                    <div class="js-main-nav-item-714 main_nav_item fs-swap-target fs-swap-enabled" itemprop="url">
+                                        <div class="main_nav_item_wrapper">
+                                            <a class="main_nav_link" href="" itemprop="name">Curriculum</a>
+                                            <button class="js-swap main_nav_toggle fs-swap-element fs-swap-enabled" data-swap-group="main_nav" data-swap-target=".js-main-nav-item-714">
+                                                <span class="main_nav_toggle_label">Expand Navigation</span>
+                                                <span class="main_nav_toggle_icon">
+                                                <svg class="symbol symbol_triangle_down">
+                                                  <use xlink:href="#triangle_down" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                                </svg>
+                                              </span>
+                                            </button>
+                                        </div>
+                                        <!-- /.main_nav_children -->
+                                    </div>
+                                    <div class="js-main-nav-item-1443 main_nav_item fs-swap-target fs-swap-enabled" itemprop="url">
+                                        <div class="main_nav_item_wrapper">
+                                            <a class="main_nav_link" href="" itemprop="name">Hack Nairobi</a>
+                                            <button class="js-swap main_nav_toggle fs-swap-element fs-swap-enabled" data-swap-group="main_nav" data-swap-target=".js-main-nav-item-1443">
+                                                <span class="main_nav_toggle_label">Expand Navigation</span>
+                                                <span class="main_nav_toggle_icon">
+                                                <svg class="symbol symbol_triangle_down">
+                                                  <use xlink:href="#triangle_down" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                                </svg>
+                                              </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <!-- /.main_nav_item -->
+                                    <div class="js-main-nav-item-6 main_nav_item fs-swap-target fs-swap-enabled" itemprop="url">
+                                        <div class="main_nav_item_wrapper">
+                                            <a class="main_nav_link" href="" itemprop="name">Innovation Labs</a>
+                                            <button class="js-swap main_nav_toggle fs-swap-element fs-swap-enabled" data-swap-group="main_nav" data-swap-target=".js-main-nav-item-6">
+                                                <span class="main_nav_toggle_label">Expand Navigation</span>
+                                                <span class="main_nav_toggle_icon">
+                                                <svg class="symbol symbol_triangle_down">
+                                                  <use xlink:href="#triangle_down" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                                </svg>
+                                              </span>
+                                            </button>
+                                        </div>
+                                        <div class="main_nav_children">
+                                            <div class="main_nav_child_item_text">
+                                                The M-Soma Innovation Lab is a place to build and scale ideas that positively impact our world.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.main_nav_list -->
+                            </nav>
+                        </div>
+                        <!-- /.header_bar_group -->
+                        <a class="mobile_sidebar_handle_wrapper" href="#mobile_sidebar">
+                            <span class="js-nav_handle mobile_sidebar_handle">Menu</span>
+                            <span class="mobile_sidebar_handle_icon">
+                              <span class="icon"></span>
+                            </span>
+                        </a>
+                    </div>
+                    <!-- /.fs-cell -->
+                </div>
+                <!-- /.fs-row -->
+            </div>
+            <!-- /.header_bar -->
+        </header>
+        <!-- END: Header -->
+<!-- 
 
+_________________________________
+
+PAGE CONTENT
+
+_________________________________
+
+
+-->
+        <!-- Page -->
+        <div class="page">
+            <!-- Page Feature -->
+            <div class="page_feature">
+                <section class="js-hero hero_block hero_block_homepage">
+                    <div class="js-hero-inner hero_block_inner">
+                        <div class="js-hero-media hero_block_background_group">
+                            <div class="js-hero-background hero_block_background" data-background-options='{"source": {"poster": "../assets/images/01.png", "video": "https://youtu.be/DNj66E7nPNA"}}'></div>
+                        </div>
+                        <div class="fs-row">
+                            <div class="fs-cell fs-lg-10 fs-xl-9">
+                                <div class="hero_block_content">
+                                    <header class="hero_block_header">
+                                        <h1 class="hero_block_title">Live your dream. Learn to Code</h1>
+                                    </header>
+                                    <div class="hero_block_description">
+                                        <p>Empowering Kenyan youth to shape their future through computer science and entrepreneurship education</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero_scroll">
+                        <a class="js-scroll_to hero_scroll_link" href="#explore_cards_block">
+                            <span class="label">Explore</span>
+                            <span class="icon">
+                              <svg class="symbol symbol_chevron_down">
+                                <use xlink:href="#chevron_down"></use>
+                              </svg>
+                            </span>
+                        </a>
+                    </div>
+                </section>
+                <section class="js-explore-cards explore_cards_block">
+                    <div class="explore_cards_inner" id="explore_cards_block">
+                        <div class="fs-row">
+                            <div class="fs-cell">
+                                <div class="js-equalize explore_cards_items" data-equalize-options='{"target": ".js-equalize-child"}'>
+                                    <div class="js-carousel explore_cards_carousel" data-carousel-options='{"theme": "base_pagination_white paired_controls", "contained": false, "matchHeight": true, "pagination": true, "show":{"610px": 2, "1220px": 3}}'>
+                                        <article class="explore_card type_image color_blue has_description">
+                                            <div class="js-equalize-child explore_card_wrap">
+                                                <div class="js-background explore_card_background" data-background-options='{"source": {"0px": "/images/none.jpg", "615px": "/images/none.jpg"}}'></div>
+                                                <div class="explore_card_inner">
+                                                    <div class="explore_card_header_labels">
+                                                        <div class="explore_card_header_label">
+                                                            <a class="explore_card_header_label_link" href="">News</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="explore_card_content">
+                                                        <header class="explore_card_header">
+                                                            <h2 class="explore_card_title">
+            
+                                                                <a class="explore_card_header_link" href="">
+                                                                
+                                                                  <span class="explore_card_link_wrap">
+                                                                    <span class="explore_card_link_text">M-Soma wins the first Resolution Social Venture Challenge in Africa</span>
+                                                                  </span>
+                                                                  
+                                                                </a>
+                                                              </h2>
+                                                        </header>
+                                                        <div class="explore_card_description">
+                                                            <p>The Resolution Project developed the Challenge as a way to support young leaders with a desire for social challenge</p>
+                                                        </div>
+                                                        <footer class="explore_card_footer">
+                                                            <a class="explore_card_footer_link" href="" aria-label="M-Soma wins the first Resolution Social Venture Challenge in Africa">
+          
+                                                            <span class="label">Read the Story</span>
+                                                            <span class="icon">
+                                                              <svg class="symbol symbol_arrow_right">
+                                                                <use xlink:href="#arrow_right"></use>
+                                                              </svg>
+                                                            </span>
+                                                          </a>
+                                                        </footer>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </article>
+                                        <article class="explore_card type_media color_green has_description">
+                                            <div class="js-equalize-child explore_card_wrap">
+                                                <div class="explore_card_inner">
+                                                    <div class="explore_card_header_labels">
+                                                        <div class="explore_card_header_label">
+                                                            <a class="explore_card_header_label_link" href="">Blog</a>
+                                                        </div>
+                                                    </div>
+                                                    <a class="js-lightbox explore_card_video_link" href="https://youtu.be/DNj66E7nPNA">
+                                                        <figure class="explore_card_figure">
+                                                            <picture class="explore_card_picture">
+                                                                <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                                                <source media="(min-width: 740px)" srcset="http://web.stanford.edu/group/sabf/2017/images/1.jpg">
+                                                                <!--[if IE 9]></video><![endif]-->
+                                                                <img class="explore_card_image" src="http://web.stanford.edu/group/sabf/2017/images/1.jpg" alt="">
+                                                            </picture>
+                                                        </figure>
+                                                        <span class="explore_card_video">
+                                                        <span class="label">Watch the Video</span>
+                                                        <span class="icon"></span>
+                                                        </span>
+                                                    </a>
+                                                    <div class="explore_card_content">
+                                                        <header class="explore_card_header">
+                                                            <h2 class="explore_card_title">
+            
+                                                              <a class="explore_card_header_link" href="">
+                                                              
+                                                                <span class="explore_card_link_wrap">
+                                                                  <span class="explore_card_link_text">Highlights from the 2018 Stanford Africa Business Forum</span>
+                                                                </span>
+                                                                
+                                                              </a>
+                                                            </h2>
+                                                        </header>
+                                                        <div class="explore_card_description">
+                                                            <p>Africa will have the largest workforce in the world by 2050. In this series, African entrepreneurs from the founders of Etisalat, and OkayAfrica share their experiences innovating on the continent</p>
+                                                        </div>
+                                                        <footer class="explore_card_footer">
+                                                            <a class="explore_card_footer_link" href="" aria-label="Highlights from the 2018 Stanford Africa Business Forum">
+          
+                                                              <span class="label">Read the Story</span>
+                                                              <span class="icon">
+                                                                <svg class="symbol symbol_arrow_right">
+                                                                  <use xlink:href="#arrow_right"></use>
+                                                                </svg>
+                                                              </span>
+                                                            </a>
+                                                        </footer>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </article>
+                                        <article class="explore_card type_image color_gray has_description">
+                                            <div class="js-equalize-child explore_card_wrap">
+                                                <div class="js-background explore_card_background" data-background-options='{"source": {"0px": "/images/none.jpg", "615px": "/images/none.jpg"}}'></div>
+                                                <div class="explore_card_inner">
+                                                    <div class="explore_card_header_labels">
+                                                        <div class="explore_card_header_label">
+                                                            <a class="explore_card_header_label_link" href="">Blog</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="explore_card_content">
+                                                        <header class="explore_card_header">
+                                                            <h2 class="explore_card_title">
+            
+                                                              <a class="explore_card_header_link" href="">
+                                                              
+                                                                <span class="explore_card_link_wrap">
+                                                                  <span class="explore_card_link_text">The Africa We Want: Agenda 2063</span>
+                                                                </span>
+                                                                
+                                                              </a>
+                                                            </h2>
+                                                        </header>
+                                                        <div class="explore_card_description">
+                                                            <p>​Agenda 2063 is the blueprint and master plan for transforming Africa into the global powerhouse of the future. Meeting the targets for inclusive, and quality education will require us to rethink higher education. Only 8&#37; of students aged between 18-24 are enrolled in college in the continent</p>
+                                                        </div>
+                                                        <footer class="explore_card_footer">
+                                                            <a class="explore_card_footer_link" href="" aria-label="The Africa We Want: Agenda 2063">
+          
+                                                            <span class="label">Read the Story</span>
+                                                            <span class="icon">
+                                                              <svg class="symbol symbol_arrow_right">
+                                                                <use xlink:href="#arrow_right"></use>
+                                                              </svg>
+                                                            </span>
+                                                          </a>
+                                                        </footer>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </article>
+                                        <article class="explore_card type_image color_black no_description">
+                                            <div class="js-equalize-child explore_card_wrap">
+                                                <div class="js-background explore_card_background" data-background-options='{"source": {"0px": "../assets/images/reflections.png", "615px": "../assets/images/reflections.png"}}'></div>
+                                                <div class="explore_card_inner">
+                                                    <div class="explore_card_header_labels">
+                                                        <div class="explore_card_header_label">
+                                                            <a class="explore_card_header_label_link" href="">News</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="explore_card_content">
+                                                        <header class="explore_card_header">
+                                                            <h2 class="explore_card_title">
+            
+                                                              <a class="explore_card_header_link" href="">
+                                                              
+                                                                <span class="explore_card_link_wrap">
+                                                                  <span class="explore_card_link_text">M-Soma 2017 Graduates Reflect on their Journey</span>
+                                                                </span>
+                                                                
+                                                                <br>
+                                                                <span class="explore_card_link_icon">
+                                                                  <svg class="symbol symbol_arrow_right">
+                                                                    <use xlink:href="#arrow_right"></use>
+                                                                  </svg>
+                                                                </span>
+                                                                
+                                                              </a>
+                                                            </h2>
+                                                        </header>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- END: Page Feature -->
+            <!-- Page Content -->
+            <div class="page_content">
+                <div class="page_skew">
+                    <div class="fs-row">
+                        <!-- Main Content -->
+                        <div class="fs-cell content_cell">
+                            <main class="main_content" id="main_content" itemprop="mainContentOfPage">
+                                <!-- WYSIWYG - wrap all WYSIWYG text areas in `.typography` -->
+                                <div class="typography container">
+                                </div>
+                                <!-- END: WYSIWYG -->
+                                <!-- In Content Callouts -->
+                                <div class="in_content_callouts">
+                                </div>
+                                <!-- END: In Content Callouts -->
+                            </main>
+                        </div>
+                        <!-- END: Main Content -->
+                    </div>
+                    <!-- Full Width Callouts -->
+                    <div class="full_width_callouts">
+                        <section class="js-theme-block js-toggle theme_block" id="theme_block" tabindex="-1">
+                            <div class="theme_block_inner">
+                                <div class="fs-row">
+                                    <div class="fs-cell">
+                                        <div class="theme_block_content">
+                                            <header class="theme_header">
+                                                <h2 class="theme_title">Information for</h2>
+                                            </header>
+                                            <div class="theme_controls_group">
+                                                <button class="js-equalize js-toggle_handle theme_toggle" aria-label="Change Explore Content" data-equalize-options='{"target": ".js-equalize-child"}'>
+                                                    <span class="theme_toggle_label">
+
+                
+                                                    <span class="js-equalize-child theme_toggle_item theme_target_1215">Prospective Students and Parents</span>
+                                                    <span class="js-equalize-child theme_toggle_item theme_target_1212">Donors, Supporters, and Friends</span>
+                                                    <span class="js-equalize-child theme_toggle_item theme_target_1214">M-Soma Alumni</span>
+                                                    <span class="js-equalize-child theme_toggle_item theme_target_1213">Mentors</span>
+                                                    <span class="js-equalize-child theme_toggle_placeholder"></span>
+                                                    </span>
+                                                    <span class="theme_toggle_icon">
+                                                    <span class="icon">
+                                                      <svg class="symbol symbol_triangle_down">
+                                                        <use xlink:href="#triangle_down"></use>
+                                                      </svg>
+                                                    </span>
+                                                    </span>
+                                                </button>
+                                                <div class="js-theme-controls theme_controls">
+                                                    <button class="js-toggle_handle js-theme-controls-close theme_controls_close" aria-label="Close">
+                                                        <span class="label">Close</span>
+                                                        <span class="icon">
+                                                        <svg class="symbol symbol_close_x">
+                                                          <use xlink:href="#close_x"></use>
+                                                        </svg>
+                                                      </span>
+                                                    </button>
+                                                    <div class="theme_controls_inner" role="tablist">
+                                                        <a class="js-swap js-theme-control theme_control theme_control_4" href="#theme_item_1215" aria-controls="theme_item_1215" aria-selected="true" data-swap-options='{"collapse": false}' data-swap-target=".theme_target_1215" data-swap-group="theme_group" data-swap-active="true" role="tab">
+                                                          <span class="label">Prospective Students and Parents</span>
+                                                        </a><a class="js-swap js-theme-control theme_control theme_control_1" href="#theme_item_1212" aria-controls="theme_item_1212" aria-selected="false" data-swap-options='{"collapse": false}' data-swap-target=".theme_target_1212" data-swap-group="theme_group" data-swap-active="false" role="tab">
+                                                          <span class="label">Donors, Supporters, and Friends</span>
+                                                        </a><a class="js-swap js-theme-control theme_control theme_control_3" href="#theme_item_1214" aria-controls="theme_item_1214" aria-selected="false" data-swap-options='{"collapse": false}' data-swap-target=".theme_target_1214" data-swap-group="theme_group" data-swap-active="false" role="tab">
+                                                          <span class="label">M-Soma Alumni</span>
+                                                        </a><a class="js-swap js-theme-control theme_control theme_control_2" href="#theme_item_1213" aria-controls="theme_item_1213" aria-selected="false" data-swap-options='{"collapse": false}' data-swap-target=".theme_target_1213" data-swap-group="theme_group" data-swap-active="false" role="tab">
+                                                          <span class="label">Mentors</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="js-equalize theme_descriptions" data-equalize-options='{"target": ".js-equalize-child"}'>
+                                                    <div class="js-equalize-child theme_description_item theme_target_1215">
+                                                        <p>Computer science is an essential part of every industry today. This program will prepare you to design and develop fascinating technology. You will also learn how to use this technology to innovative businesses across all industries. Upon graduation you will be prepared to work as an AI developer, app developer, software engineer, business innovator, and much more. Our computer science curriculum is designed with guidance from the best professors around the world in schools like the University of California - Berkeley, Stanford, MIT, among many others.</p>
+                                                    </div>
+                                                    <div class="js-equalize-child theme_description_item theme_target_1212">
+                                                        <p>We are committed to empowering young Kenyans with the knowledge, resources and confidence they need to create a better future - for themselves, and their communities. Together with our partners, we are building a world where everyone has a chance to prosper. Where the doors of progress and opportunity are wide open.</p>
+                                                        <p>We partner with a wide-range of educational institutions, foundations, corporate partners, and individuals who share in our vision of nurturing a new generation of leaders.</p>
+                                                    </div>
+                                                    <div class="js-equalize-child theme_description_item theme_target_1214">
+                                                        <p>Your journey as an M-Soma scholar does not end once you finish the bootcamp. Whether you're currently in a job search, or simply want to be prepared should an interesting opportunity arise, our Lifelong Engagement program has the resources to support you.</p><br>
+                                                        <p>Explore our curated resources on networking, entrepreneurship, and job search strategies at the <span><a href="">alumni directory</a></span>.</p>
+                                                    </div>
+                                                    <div class="js-equalize-child theme_description_item theme_target_1213">
+                                                        <p>Mentoring young people is a powerful way to support and contribute to their growth. The program is designed with busy professionals and students in mind. Mentors support and guide our scholars as they establish and work towards accomplishing their career goals.</p><br><br>
+                                                        <a class="mentors_button" href="">
+                                                            <span class="label">Mentor Role</span>
+                                                        </a>
+                                                        <a class="mentors_button" href="">
+                                                            <span class="label">Tips for Mentors</span>
+                                                        </a>
+                                                        <a class="mentors_button" href="">
+                                                            <span class="label">Tips for Mentees</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="js-equalize-child theme_description_placeholder"></div>
+                                                </div>
+                                            </div>
+                                            <div class="js-equalize theme_items" data-equalize-options='{"target": ".js-equalize-child"}'>
+                                                <div class="js-equalize-child theme_item theme_target_1215 theme_color_4" id="theme_item_1215">
+                                                    <header class="theme_item_header">
+                                                        <h3 class="theme_item_title">Prospective Students and Parents</h3>
+                                                    </header>
+                                                    <div class="theme_item_body">
+                                                        <div class="theme_item_description">
+                                                            <p>Computer science is an essential part of every industry today. This program will prepare you to design and develop fascinating technology. You will also learn how to use this technology to innovative businesses across all industries.</p><br><p>Upon graduation you will be prepared to work as an AI developer, app developer, software engineer, business innovator, and much more.</p><br><p>Our computer science curriculum is designed with guidance from the best professors around the world in schools like the University of California - Berkeley, Stanford, MIT, among many others.</p>
+                                                        </div>
+                                                        <div class="theme_supporting">
+                                                            <div class="theme_news_group">
+                                                                <article class="theme_support_item type_news">
+                                                                    <div class="theme_support_inner">
+                                                                        <div class="theme_support_label ">
+                                                                            <span class="root"><a href="">Form Four Grads</a></span>
+                                                                        </div>
+                                                                        <figure class="theme_support_figure">
+                                                                            <picture class="theme_support_picture">
+                                                                                <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                                                                <source media="(min-width: 1220px)" srcset="../assets/images/kcse.jpg" />
+                                                                                <!--[if IE 9]></video><![endif]-->
+                                                                                <img class="theme_support_image" src="../assets/images/kcse.jpg" alt="" />
+                                                                            </picture>
+                                                                        </figure>
+                                                                        <div class="theme_support_header">
+                                                                            <h4 class="theme_support_title">
+                                                                              <a class="theme_support_title_link" href="">
+                                                                                <span class="label">What Should You Be Doing After Completing High School?</span>
+                                                                                <span class="icon">
+                                                                                  <svg class="symbol symbol_arrow_right">
+                                                                                    <use xlink:href="#arrow_right"></use>
+                                                                                  </svg>
+                                                                                </span>
+                                                                              </a>
+                                                                            </h4>
+                                                                        </div>
+                                                                    </div>
+                                                                </article>
+                                                            </div>
+                                                            <!-- /.theme_news_group -->
+                                                            <div class="js-equalize theme_card_group" data-equalize-options='{"target": ".js-equalize-card"}'>
+                                                                <article class="theme_support_item type_program">
+                                                                    <div class="theme_support_inner">
+                                                                        <div class="theme_support_label ">
+                                                                            <span class="root"><a href=""></a></span>
+                                                                        </div>
+                                                                        <div class="support_card program_card ">
+                                                                            <div class="js-background program_card_background" data-background-options='{"source": {"0px": "images/none.jpg", "615px": "images/none.jpg"}}' style="opacity: 0;">
+                                                                            </div>
+                                                                            <div class="js-equalize-card support_card_inner program_card_inner">
+                                                                                <div class="support_card_header program_card_header">
+                                                                                    <h4 class="support_card_title program_card_title">
+                                                                                      <a class="support_card_title_link program_card_title_link" href="">
+                                                                                        <span class="label_wrap">
+                                                                                          <span class="label underline">Our Bootcamp is a full-time 6-week program designed to train you in the digital skills you need to accelerate your future career</span>
+                                                                                        </span>
+                                                                                      </a>
+                                                                                    </h4>
+                                                                                    <p class="bioSidebar_support">Courses: Data Science, Introduction to Programming, Web Development</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </article>
+                                                                <article class="theme_support_item type_program">
+                                                                    <div class="theme_support_inner">
+                                                                        <div class="theme_support_label ">
+                                                                            <span class="root"><a href="">Why this Program</a></span>
+                                                                        </div>
+                                                                    <div class="support_card program_card ">
+                                                                        <div class="explore_card_inner">
+                                                                            <a class="js-lightbox explore_card_video_link fs-lightbox-element" href="//www.youtube.com/watch?v=DNj66E7nPNA">
+                                                                                <figure class="explore_card_figure">
+                                                                                    <picture class="explore_card_picture">
+                                                                                        <source media="(min-width: 740px)" srcset="../assets/images/moses.png">
+                                                                                        <img class="explore_card_image" src="../assets/images/moses.png" alt="">
+                                                                                    </picture>
+                                                                                </figure>
+                                                                                <span class="explore_card_video">
+                                                                                    <span class="label">Watch the Video</span>
+                                                                                    <span class="icon"></span>
+                                                                                </span>
+                                                                            </a>
+                                                                            <div class="explore_card_content body">
+                                                                                <h4 class="support_card_title program_card_title">
+                                                                                      <a class="support_card_title_link program_card_title_link" href="">
+                                                                                        <span class="label_wrap">
+                                                                                          <span class="label">Focus on Skills that Matter</span>
+                                                                                        </span>
+                                                                                        
+                                                                                      </a>
+                                                                                </h4>
+                                                                                <div class="explore_card_description">
+                                                                                    <p class="video">Our programs are designed with a practical approach in mind to empower you with the skills that will make a difference</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                  </div>
+                                                                </article>
+                                                            </div>
+                                                            <!-- /.theme_card_group -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="js-equalize-child theme_item theme_target_1212 theme_color_1" id="theme_item_1212">
+                                                    <header class="theme_item_header">
+                                                        <h3 class="theme_item_title">Donors, Supporters, and Friends</h3>
+                                                    </header>
+                                                    <div class="theme_item_body">
+                                                        <div class="theme_item_description">
+                                                            <p>We are committed to empowering young Kenyans with the knowledge, resources and confidence they need to create a better future - for themselves, and their communities. Together with our partners, we are building a world where everyone has a chance to prosper. Where the doors of progress and opportunity are wide open.</p>
+                                                            <p>We partner with a wide-range of educational institutions, foundations, corporate partners, and individuals who share in our vision of nurturing a new generation of leaders.</p>
+                                                        </div>
+                                                        <div class="theme_supporting">
+                                                            <div class="theme_news_group">
+                                                                <article class="theme_support_item type_news">
+                                                                    <div class="theme_support_inner">
+                                                                        <div class="theme_support_label ">
+                                                                            <span class="root"><a href="">News</a></span>
+                                                                        </div>
+                                                                        <figure class="theme_support_figure">
+                                                                            <picture class="theme_support_picture">
+                                                                                <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                                                                <source media="(min-width: 1220px)" srcset="../assets/images/africas_next_generation_1200x627.png" />
+                                                                                <!--[if IE 9]></video><![endif]-->
+                                                                                <img class="theme_support_image" src="../assets/images/africas_next_generation_1200x627.png" alt="" />
+                                                                            </picture>
+                                                                        </figure>
+                                                                        <div class="theme_support_header">
+                                                                            <h4 class="theme_support_title">
+                                                                              <a class="theme_support_title_link" href="">
+                                                                                <span class="label">Youth population-bulge is a ticking time-bomb</span>
+                                                                                <span class="icon">
+                                                                                  <svg class="symbol symbol_arrow_right">
+                                                                                    <use xlink:href="#arrow_right"></use>
+                                                                                  </svg>
+                                                                                </span>
+                                                                              </a>
+                                                                            </h4>
+                                                                        </div>
+                                                                    </div>
+                                                                </article>
+                                                            </div>
+                                                            <!-- /.theme_news_group -->
+                                                            <div class="js-equalize theme_card_group" data-equalize-options='{"target": ".js-equalize-card"}'>
+                                                                <article class="theme_support_item type_program">
+                                                                    <div class="theme_support_inner" style="height: 83%;">
+                                                                        <div class="theme_support_label ">
+                                                                            <span class="root"><a href="">Our Mission</a></span>
+                                                                        </div>
+                                                                        <div class="support_card program_card computer">
+                                                                            <div class="js-background program_card_background" data-background-options='{"source": {"0px": "images/none.jpg", "615px": "images/none.jpg"}}'>
+                                                                            </div>
+                                                                            <div class="js-equalize-card support_card_inner program_card_inner">
+                                                                                <div class="support_card_header program_card_header">
+                                                                                    <h4 class="support_card_title program_card_title">
+                                                                                        <a class="support_card_title_link program_card_title_link" href="">
+                                                                                          <span class="label_wrap">
+                                                                                            <span class="label">We educate young leaders to become outstanding designers of solutions to people's needs and the world's problems</span>
+                                                                                          </span>
+                                                                                          <span class="icon">
+                                                                                            <svg class="symbol symbol_arrow_right">
+                                                                                              <use xlink:href="#arrow_right"></use>
+                                                                                            </svg>
+                                                                                          </span>
+                                                                                        </a>
+                                                                                      </h4>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </article>
+                                                                <article class="theme_support_item type_faculty">
+                                                                    <div class="theme_support_inner">
+                                                                        <div class="theme_support_label label_jacobs">
+                                                                            <span class="root"><a href="">Our Story</a></span>
+                                                                        </div>
+                                                                        <div class="support_card faculty_card theme_white theme_jacobs">
+                                                                            <div class="js-equalize-card support_card_inner faculty_card_inner">
+                                                                                <div class="js-background facaulty_card_background" data-background-options='{"source": {"0px": "../assets/images/accent_orange.png", "615px": "../assets/images/accent_orange.png"}}'>
+                                                                                </div>
+                                                                                <figure class="support_card_figure faculty_card_figure">
+                                                                                    <picture class="support_card_picture">
+                                                                                        <source media="(min-width: 615px)" srcset="../assets/images/accent_orange.png" />
+                                                                                        <img class="support_card_image" src="../assets/images/accent_orange.png" alt="" />
+                                                                                    </picture>
+                                                                                </figure>
+                                                                                <div class="support_card_content faculty_card_content">
+                                                                                    <a class="support_card_content_link faculty_card_content_link" href="">
+                                                                                        <div class="support_card_headshot faculty_card_headshot">
+                                                                                            <img class="support_card_headshot_image_image" src="../assets/images/quote.png" alt="">
+                                                                                        </div>
+                                                                                        <div class="support_card_info faculty_card_info">
+                                                                                            <div class="support_card_name faculty_card_name"><span>Another Airlift 50 Years Later</span></div>
+                                                                                            <div class="support_card_title faculty_card_title"><span>Our Founders' Story &amp; Beliefs</span></div>
+                                                                                            <div class="icon">
+                                                                                                <svg class="symbol symbol_arrow_right">
+                                                                                                    <use xlink:href="#arrow_right"></use>
+                                                                                                </svg>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </article>
+                                                            </div>
+                                                            <!-- /.theme_card_group -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="js-equalize-child theme_item theme_target_1214 theme_color_3" id="theme_item_1214">
+                                                    <header class="theme_item_header">
+                                                        <h3 class="theme_item_title">M-Soma Alumni</h3>
+                                                    </header>
+                                                    <div class="theme_item_body">
+                                                        <div class="theme_item_description">
+                                                            <p>Your journey as an M-Soma scholar does not end once you finish the bootcamp. Stay inspired and continue to grow your skills with the many opportunities and programs we designed for you to keep learning. Whether you're currently in a job search, or simply want to be prepared should an interesting opportunity arise, our Lifelong Engagement program has the resources to support you.</p><br>
+                                                            <p>Explore our curated resources on networking, entrepreneurship, and job search strategies at the <span><a href="">alumni directory</a></span>.</p>
+                                                        </div>
+                                                        <div class="theme_supporting">
+                                                            <div class="theme_news_group">
+                                                                <article class="theme_support_item type_news">
+                                                                    <div class="theme_support_inner">
+                                                                        <div class="theme_support_label ">
+                                                                            <span class="root"><a href="">News</a></span>
+                                                                        </div>
+                                                                        <figure class="theme_support_figure">
+                                                                            <picture class="theme_support_picture">
+                                                                                <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                                                                <source media="(min-width: 1220px)" srcset="https://cdn-images-1.medium.com/max/1600/1*TVdq-hlaFhP7A7xW_hAEdA.jpeg" />
+                                                                                <!--[if IE 9]></video><![endif]-->
+                                                                                <img class="theme_support_image" src="https://cdn-images-1.medium.com/max/1600/1*TVdq-hlaFhP7A7xW_hAEdA.jpeg" alt="" />
+                                                                            </picture>
+                                                                        </figure>
+                                                                        <div class="theme_support_header">
+                                                                            <h4 class="theme_support_title">
+                                                                                <a class="theme_support_title_link" href="">
+                                                                                  <span class="label">Bringing the Silicon Valley Experience to Nairobi</span>
+                                                                                  <span class="icon">
+                                                                                    <svg class="symbol symbol_arrow_right">
+                                                                                      <use xlink:href="#arrow_right"></use>
+                                                                                    </svg>
+                                                                                  </span>
+                                                                                </a>
+                                                                              </h4>
+                                                                        </div>
+                                                                    </div>
+                                                                </article>
+                                                            </div>
+                                                            <!-- /.theme_news_group -->
+                                                            <div class="js-equalize theme_card_group" data-equalize-options='{"target": ".js-equalize-card"}'>
+                                                                <article class="theme_support_item type_program">
+                                                                    <div class="theme_support_inner innovation">
+                                                                        <div class="theme_support_label ">
+                                                                            <span class="root"><a href="">Featured Project</a></span>
+                                                                        </div>
+                                                                        <div class="support_card program_card leadership">
+                                                                            <div class="js-background program_card_background" data-background-options='{"source": {"0px": "../assets/images/farmer.jpg", "615px": "../assets/images/farmer.jpg"}}'>
+                                                                            </div>
+                                                                            <div class="js-equalize-card support_card_inner program_card_inner">
+                                                                                <div class="support_card_header program_card_header">
+                                                                                    <h4 class="support_card_title program_card_title">
+                                                                                      <a class="support_card_title_link program_card_title_link" href="">
+                                                                                        <span class="label_wrap">
+                                                                                          <span class="label">Tech Entrepreneur Connecting Farmers to Global Supply Chains</span>
+                                                                                        </span>
+                                                                                        <span class="icon">
+                                                                                          <svg class="symbol symbol_arrow_right">
+                                                                                            <use xlink:href="#arrow_right"></use>
+                                                                                          </svg>
+                                                                                        </span>
+                                                                                      </a>
+                                                                                    </h4>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </article>
+                                                                <article class="theme_support_item type_faculty">
+                                                                    <div class="theme_support_inner innovation">
+                                                                        <div class="theme_support_label ">
+                                                                            <span class="root"><a href="">Innovation Lab</a></span>
+                                                                        </div>
+                                                                        <div class="support_card faculty_card theme_white ">
+                                                                            <div class="js-equalize-card support_card_inner faculty_card_inner">
+                                                                                <div class="js-background facaulty_card_background" data-background-options='{"source": {"0px": "../assets/images/accent_light.png", "615px": "../assets/images/accent_light.png"}}'>
+                                                                                </div>
+                                                                                <figure class="support_card_figure faculty_card_figure">
+                                                                                    <picture class="support_card_picture">
+                                                                                        <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                                                                        <source media="(min-width: 615px)" srcset="../assets/images/accent_light.png" />
+                                                                                        <!--[if IE 9]></video><![endif]-->
+                                                                                        <img class="support_card_image" src="../assets/images/accent_light.png" alt="" />
+                                                                                    </picture>
+                                                                                </figure>
+                                                                                <div class="support_card_content faculty_card_content">
+                                                                                    <a class="support_card_content_link faculty_card_content_link" href="">
+                                                                                        <div class="support_card_headshot faculty_card_headshot">
+                                                                                            <img class="support_card_headshot_image_image" src="../assets/images/arrow.png" alt="">
+                                                                                        </div>
+                                                                                        <div class="support_card_info faculty_card_info">
+                                                                                            <div class="support_card_name faculty_card_name"><span>Creating companies of tomorrow</span></div>
+                                                                                            <div class="support_card_title faculty_card_title"><span>Bring your application ideas to life now</span></div>
+                                                                                            <div class="icon">
+                                                                                                <svg class="symbol symbol_arrow_right">
+                                                                                                    <use xlink:href="#arrow_right"></use>
+                                                                                                </svg>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </article>
+                                                            </div>
+                                                            <!-- /.theme_card_group -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="js-equalize-child theme_item theme_target_1213 theme_color_2" id="theme_item_1213">
+                                                    <header class="theme_item_header">
+                                                        <h3 class="theme_item_title">Mentors</h3>
+                                                    </header>
+                                                    <div class="theme_item_body">
+                                                        <div class="theme_item_description">
+                                                            <p>Mentoring young people is a powerful way to support and contribute to their growth. The program is designed with busy professionals and students in mind. Mentors support and guide our scholars as they establish and work towards accomplishing their career goals.</p>
+                                                        </div>
+                                                        <div class="theme_supporting">
+                                                            <div class="theme_news_group">
+                                                                <article class="theme_support_item type_news">
+                                                                    <div class="theme_support_inner">
+                                                                        <div class="theme_support_label label_jacobs">
+                                                                            <span class="root"><a href="">Blog</a></span>
+                                                                        </div>
+                                                                        <figure class="theme_support_figure">
+                                                                            <picture class="theme_support_picture">
+                                                                                <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                                                                <source media="(min-width: 1220px)" srcset="../assets/images/lupita.jpg" />
+                                                                                <!--[if IE 9]></video><![endif]-->
+                                                                                <img class="theme_support_image" src="../assets/images/lupita.jpg" alt="" />
+                                                                            </picture>
+                                                                        </figure>
+                                                                        <div class="theme_support_header">
+                                                                            <h4 class="theme_support_title">
+                                                                                <a class="theme_support_title_link" href="">
+                                                                                  <span class="label">Africa's Vibranium Lies in Our Youth &nbsp;</span>
+                                                                                  <span class="icon">
+                                                                                    <svg class="symbol symbol_arrow_right">
+                                                                                      <use xlink:href="#arrow_right"></use>
+                                                                                    </svg>
+                                                                                  </span>
+                                                                                </a>
+                                                                              </h4>
+                                                                        </div>
+                                                                    </div>
+                                                                </article>
+                                                            </div>
+                                                            <!-- /.theme_news_group -->
+                                                            <div class="js-equalize theme_card_group" data-equalize-options='{"target": ".js-equalize-card"}'>
+                                                                <article class="theme_support_item type_program">
+                                                                    <div class="theme_support_inner">
+                                                                        <div class="theme_support_label ">
+                                                                            <span class="root"><a href="">Impact</a></span>
+                                                                        </div>
+                                                                        <div class="support_card program_card ">
+                                                                            <div class="js-background program_card_background" data-background-options='{"source": {"0px": "../assets/images/mentors.png", "615px": "../assets/images/mentors.png"}}'>
+                                                                            </div>
+                                                                            <div class="js-equalize-card support_card_inner program_card_inner">
+                                                                                <div class="support_card_logo">
+                                                                                </div>
+                                                                                <div class="support_card_header program_card_header">
+                                                                                    <h4 class="support_card_title program_card_title">
+                                                                                      <a class="support_card_title_link program_card_title_link" href="">
+                                                                                        <span class="label_wrap">
+                                                                                          <span class="label">How our mentors are cultivating Africa's next generation of leaders</span>
+                                                                                        </span>
+                                                                                        <span class="icon">
+                                                                                          <svg class="symbol symbol_arrow_right">
+                                                                                            <use xlink:href="#arrow_right"></use>
+                                                                                          </svg>
+                                                                                        </span>
+                                                                                      </a>
+                                                                                    </h4>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </article>
+                                                                <article class="theme_support_item type_faculty theme_gray">
+                                                                    <div class="theme_support_inner">
+                                                                        <div class="support_card faculty_card theme_gray">
+                                                                            <div class="js-equalize-card support_card_inner faculty_card_inner">
+                                                                                <div class="support_card_content faculty_card_content">
+                                                                                    <a class="support_card_content_link faculty_card_content_link" href="">
+                                                                                        <div class="support_card_headshot faculty_card_headshot">
+                                                                                            <img class="support_card_headshot_image_image" src="../assets/images/quote.png" alt="">
+                                                                                        </div>
+                                                                                        <div class="support_card_info faculty_card_info">
+                                                                                            <h4 class="support_card_title program_card_title">
+                                                                                            <a class="support_card_title_link program_card_title_link" href="">
+                                                                                              <span class="label_wrap">
+                                                                                                <span class="label">The greatest good you can do for someone is not just share your gift but to reveal to them their own</span>
+                                                                                              </span>
+                                                 
+                                                                                            </a>
+                                                                                          </h4>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </article>
+                                                            </div>
+                                                            <!-- /.theme_card_group -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="js-equalize-child theme_item_placeholder"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="alumni">
+                            <div class="fs-row">
+                                <div class="fs-cell">
+                                    <div class="alumni_inner">
+                                        <div class="alumni_body">
+                                            <div class="alumni_main">
+                                                <blockquote class="alumni_quote">
+                                                    <header class="alumni_quote_header">
+                                                        <figure class="alumni_quote_figure">
+                                                            <img class="alumni_quote_image" src="../assets/images/linda.png" alt="">
+                                                        </figure>
+                                                        <h2 class="alumni_quote_type">
+                                                          <span class="alumni_quote_label">Spotlight </span>
+                                                          <span class="alumni_quote_label">Linda Kinya</span>
+                                                        </h2>
+                                                    </header>
+                                                    <h3 class="alumni_quote_content">Next time you are trying to learn something, teach something"</h3>
+                                                </blockquote>
+                                                <article class="alumni_related alumni_related_sm">
+                                                    <h2 class="alumni_related_type">
+                                                      <span class="alumni_related_label">2017 </span>
+                                                      <span class="alumni_related_label">Bootcamp</span>
+                                                    </h2>
+                                                    <figure class="alumni_related_figure">
+                                                        <img class="alumni_related_image" src="../assets/images/story.png" alt="">
+                                                    </figure>
+                                                    <h3 class="alumni_related_title">
+                                                      <a class="alumni_related_title_link" href="">
+                                                        <span class="alumni_related_title_label">Africa24 Media story</span>
+                                                        <span class="alumni_related_title_icon">
+                                                          <svg class="symbol symbol_arrow_right">
+                                                            <use xlink:href="#arrow_right"></use>
+                                                          </svg>
+                                                        </span>
+                                                      </a>
+                                                    </h3>
+                                                </article>
+                                                <div class="alumni_stats">
+                                                    <div class="alumni_stat theme_redorange">
+                                                        <h2 class="alumni_stat_quanitity">47</h2>
+                                                        <h3 class="alumni_stat_label">Number of students in our first class of 2017</h3>
+                                                    </div>
+                                                    <div class="alumni_stat theme_tamarillo">
+                                                        <h2 class="alumni_stat_quanitity">42%</h2>
+                                                        <h3 class="alumni_stat_label">Percentage of women in our first class</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <article class="alumni_related alumni_related_lg">
+                                                <h2 class="alumni_related_type">
+                                                  <span class="alumni_related_label">2017 </span>
+                                                  <span class="alumni_related_label">Bootcamp</span>
+                                                </h2>
+                                                <figure class="alumni_related_figure">
+                                                    <img class="alumni_related_image" src="../assets/images/story.png" alt="">
+                                                </figure>
+                                                <h3 class="alumni_related_title">
+                                                  <a class="alumni_related_title_link" href="">
+                                                    <span class="alumni_related_title_label">Story by Africa24 Media and the MasterCard Foundation</span>
+                                                    <span class="alumni_related_title_icon">
+                                                      <svg class="symbol symbol_arrow_right">
+                                                        <use xlink:href="#arrow_right"></use>
+                                                      </svg>
+                                                    </span>
+                                                  </a>
+                                                </h3>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="impact">
+                            <div class="fs-row">
+                                <div class="fs-cell">
+                                    <div class="impact_inner">
+                                        <header class="impact_header">
+                                            <h2 class="impact_title">From Idea to Impact</h2>
+                                        </header>
+                                        <div class="impact_body">
+                                            <div class="impact_items">
+                                                <!-- <article class="impact_item">
+                                                    <a class="impact_item_link" href="">
+                                                        <span class="impact_item_icon">
+                                                            <img src="uploads/icons/alumni_bright_blue.png" width="120" height="120" alt="" />
+                                                        </span>
+                                                      <div class="impact_item_body">
+                                                        <header class="impact_item_header">
+                                                          <h3 class="impact_item_title">Alumni </h3>
+                                                        </header>
+                                                        <div class="impact_item_caption">
+                                                          <p>Building startups from the ground up</p>
+                                                        </div>
+                                                      </div>
+                                                    </a>
+                                                </article> -->
+                                                <article class="impact_item">
+                                                    <a class="impact_item_link" href="">
+                                                        <span class="impact_item_icon">
+                                                          
+                                                          
+                                                          <img src="/uploads/icons/community_1.png" width="109" height="80" alt="" />
+                                                          
+                                                        </span>
+                                                        <div class="impact_item_body">
+                                                          <header class="impact_item_header">
+                                                            <h3 class="impact_item_title">Lasting Progress</h3>
+                                                          </header>
+                                                          <div class="impact_item_caption">
+                                                            <p>Lifelong engagement with our scholars to create a lasting impact</p>
+                                                          </div>
+                                                        </div>
+                                                      </a>
+                                                </article>
+                                                <article class="impact_item">
+                                                    <a class="impact_item_link" href="">
+                                                      <span class="impact_item_icon">
+                                                        
+                                                        
+                                                        <img src="/uploads/icons/K-12_Initiative_homepage_icon.png" width="110" height="110" alt="" />
+                                                        
+                                                      </span>
+                                                      <div class="impact_item_body">
+                                                        <header class="impact_item_header">
+                                                          <h3 class="impact_item_title">Innovation</h3>
+                                                        </header>
+                                                        <div class="impact_item_caption">
+                                                          <p>Identify, build and scale ideas that positively shape our world</p>
+                                                        </div>
+                                                      </div>
+                                                    </a>
+                                                </article>
+                                                <article class="impact_item">
+                                                    <a class="impact_item_link" href="">
+                                                        <span class="impact_item_icon">
+                                                          
+                                                          
+                                                          <img src="/uploads/icons/runway.png" width="106" height="75" alt="" />
+                                                          
+                                                        </span>
+                                                        <div class="impact_item_body">
+                                                          <header class="impact_item_header">
+                                                            <h3 class="impact_item_title">Global Citizens</h3>
+                                                          </header>
+                                                          <div class="impact_item_caption">
+                                                            <p>Bring new and existing voices together from around the world to develop networks</p>
+                                                          </div>
+                                                        </div>
+                                                      </a>
+                                                </article>
+                                                <article class="impact_item">
+                                                    <a class="impact_item_link" href="">
+                                                      <span class="impact_item_icon">
+                                                        
+                                                        
+                                                        <img src="/images/made/uploads/icons/witny_120_120.png" width="120" height="120" alt="" />
+                                                        
+                                                      </span>
+                                                      <div class="impact_item_body">
+                                                        <header class="impact_item_header">
+                                                          <h3 class="impact_item_title">Career Advancement</h3>
+                                                        </header>
+                                                        <div class="impact_item_caption">
+                                                          <p>Development of digital skills to spur business growth and better employment</p>
+                                                        </div>
+                                                      </div>
+                                                    </a>
+                                                </article>
+                                                <a class="impact_discovery" href="">
+                                                  <span class="impact_discovery_icon">
+                                                    <svg class="symbol symbol_arrow_right">
+                                                      <use xlink:href="#arrow_right"></use>
+                                                    </svg>
+                                                  </span>
+                                                  <span class="impact_discovery_label">More About Impact</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <!-- END: Full Width Callouts -->
+                </div>
+            </div>
+            <!-- END: Page Content -->
+        </div>
+        <!-- END: Page -->
+        <!-- Footer -->
+        <footer class="footer" id="footer" itemscope itemtype="http://schema.org/WPFooter">
+            <div class="footer_inner">
+                <div class="fs-row">
+                    <div class="fs-cell">
+                        <div class="footer_row footer_row_middle">
+                            <div class="school_address school_address_footer" itemscope itemtype="http://schema.org/PostalAddress">
+                                <span class="school_address_label">M-Soma</span>
+                                <div class="school_address_body">
+                                    <div class="school_address_mailing">
+                                        <span class="school_address_name" itemprop="name">Senteu Plaza</span>
+                                        <span class="school_address_street" itemprop="streetAddress">Kilimani</span>
+                                        <span class="school_address_city" itemprop="addressLocality">Nairobi,</span>
+                                        <span class="school_address_zip" itemprop="postalCode">Kenya</span>
+                                    </div>
+                                    <a class="school_address_button" href="">
+                      <span class="label">Contact Us</span>
+                    </a>
+                                </div>
+                            </div>
+                            <div class="footer_group">
+                                <nav class="footer_nav footer_nav_footer" aria-label="Quick Links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+                                    <div class="footer_nav_header">
+                                        <h2 class="footer_nav_title">Quick Links</h2>
+                                    </div>
+                                    <div class="footer_nav_list" role="navigation">
+                                        <div class="footer_nav_item " itemprop="url">
+                                            <a class="footer_nav_link" href="" itemprop="name">
+                            <span class="footer_nav_link_label">About</span>
+                          </a>
+                                        </div>
+                                        <div class="footer_nav_item " itemprop="url">
+                                            <a class="footer_nav_link" href="" itemprop="name">
+                            <span class="footer_nav_link_label">Admissions</span>
+                          </a>
+                                        </div>
+                                        <div class="footer_nav_item " itemprop="url">
+                                            <a class="footer_nav_link" href="" itemprop="name">
+                            <span class="footer_nav_link_label">Curriculum</span>
+                          </a>
+                                        </div>
+                                        <div class="footer_nav_item " itemprop="url">
+                                            <a class="footer_nav_link" href="" itemprop="name">
+                            <span class="footer_nav_link_label">Programs</span>
+                          </a>
+                                        </div>
+                                        <div class="footer_nav_item " itemprop="url">
+                                            <a class="footer_nav_link" href="" itemprop="name">
+                            <span class="footer_nav_link_label">Students</span>
+                          </a>
+                                        </div>
+                                        <div class="footer_nav_item " itemprop="url">
+                                            <a class="footer_nav_link" href="" itemprop="name">
+                            <span class="footer_nav_link_label">Blog</span>
+                          </a>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+                            <!-- /.footer_group -->
+                        </div>
+                        <div class="footer_bar footer_bar_bottom">
+                            <div class="social_nav social_nav_footer" itemscope itemtype="http://schema.org/CollegeOrUniversity">
+                                <link itemprop="url" href="">
+                                <div class="social_nav_header">
+                                    <h2 class="social_nav_title">Connect With Us</h2>
+                                </div>
+                                <div class="social_nav_list">
+                                    <div class="social_nav_item facebook">
+                                        <a class="social_nav_link" href="https://www.facebook.com/msomainstitute" itemprop="sameAs">
+                        <span class="social_nav_icon">
+                          <svg class="symbol symbol_social_facebook">
+                            <use xlink:href="#social_facebook"></use>
+                          </svg>
+                        </span>
+                        <span class="social_nav_label">Facebook</span>
+                      </a>
+                                    </div>
+                                    <div class="social_nav_item twitter">
+                                        <a class="social_nav_link" href="https://twitter.com/msoma_institute" itemprop="sameAs">
+                        <span class="social_nav_icon">
+                          <svg class="symbol symbol_social_twitter">
+                            <use xlink:href="#social_twitter"></use>
+                          </svg>
+                        </span>
+                        <span class="social_nav_label">Twitter</span>
+                      </a>
+                                    </div>
+                                    <div class="social_nav_item youtube">
+                                        <a class="social_nav_link" href="https://www.youtube.com/channel/msoma" itemprop="sameAs">
+                        <span class="social_nav_icon">
+                          <svg class="symbol symbol_social_youtube">
+                            <use xlink:href="#social_youtube"></use>
+                          </svg>
+                        </span>
+                        <span class="social_nav_label">Youtube</span>
+                      </a>
+                                    </div>
+                                    <div class="social_nav_item linkedin">
+                                        <a class="social_nav_link" href="https://www.linkedin.com/company/msoma-institute" itemprop="sameAs">
+                        <span class="social_nav_icon">
+                          <svg class="symbol symbol_social_linkedin">
+                            <use xlink:href="#social_linkedin"></use>
+                          </svg>
+                        </span>
+                        <span class="social_nav_label">LinkedIn</span>
+                      </a>
+                                    </div>
+                                    <div class="social_nav_item instagram">
+                                        <a class="social_nav_link" href="https://www.instagram.com/msoma.institute" itemprop="sameAs">
+                        <span class="social_nav_icon">
+                          <svg class="symbol symbol_social_instagram">
+                            <use xlink:href="#social_instagram"></use>
+                          </svg>
+                        </span>
+                        <span class="social_nav_label">Instagram</span>
+                      </a>
+                                    </div>
+                                </div>
+                                <!-- /.social_nav_links -->
+                            </div>
+                            <!-- /.social_nav -->
+                            <div class="footer_legal">
+                                <div class="copyright">
+                                    <span class="copyright_date">&copy; 2018</span> <span class="copyright_publisher">M-Soma Institute.</span> All Rights Reserved.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.footer_inner -->
+        </footer>
+        <!-- END: Footer -->
+    </div>
+    <!-- END: page_wrapper -->
+    <div class="js-navigation mobile_sidebar" id="mobile_sidebar" hidden data-navigation-handle=".js-nav_handle" data-navigation-content=".js-navigation_push" data-navigation-options='{"type": "overlay", "gravity": "right"}'>
+        <div class="fs-row">
+            <div class="fs-cell">
+                <nav class="js-main-nav main_nav main_nav_sm" aria-label="" itemscope itemtype="http://schema.org/SiteNavigationElement">
+                    <div class="main_nav_list" role="navigation">
+                        <div class="js-main-nav-item-777 main_nav_item" itemprop="url">
+                            <div class="main_nav_item_wrapper">
+                                <a class="main_nav_link" href="" itemprop="name">About</a>
+                            </div>
+                        </div>
+                        <div class="js-main-nav-item-48 main_nav_item" itemprop="url">
+                            <div class="main_nav_item_wrapper">
+                                <a class="main_nav_link" href="" itemprop="name">Programs</a>
+                            </div>
+                        </div>
+                        <!-- /.main_nav_item -->
+                        <div class="js-main-nav-item-681 main_nav_item" itemprop="url">
+                            <div class="main_nav_item_wrapper">
+                                <a class="main_nav_link" href="" itemprop="name">Students</a>
+                            </div>
+                        </div>
+                        <!-- /.main_nav_item -->
+                        <div class="js-main-nav-item-714 main_nav_item" itemprop="url">
+                            <div class="main_nav_item_wrapper">
+                                <a class="main_nav_link" href="" itemprop="name">Curriculum</a>
+                            </div>
+                        </div>
+                        <!-- /.main_nav_item -->
+                        <div class="js-main-nav-item-1443 main_nav_item" itemprop="url">
+                            <div class="main_nav_item_wrapper">
+                                <a class="main_nav_link" href="" itemprop="name">Hack Nairobi</a>
+                            </div>
+                        </div>
+                        <!-- /.main_nav_item -->
+                        <div class="js-main-nav-item-6 main_nav_item" itemprop="url">
+                            <div class="main_nav_item_wrapper">
+                                <a class="main_nav_link" href="" itemprop="name">Innovation Labs</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="site_search site_search_sm" id="site_search_sm" itemscope itemtype="http://schema.org/WebSite" role="search">
+                    <meta itemprop="url" content="//msoma.org">
+                    <form class="site_search_form" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction" method="post" action="https://msoma.org/search/results/">
+                        <meta itemprop="target" content="//msoma.org/search?q={search_term_string}">
+                        <label class="site_search_label" for="search_term_string_sm">Search</label>
+                        <input aria-live="polite" class="site_search_input" itemprop="query-input" type="text" id="search_term_string_sm" name="keywords" placeholder="Search">
+                        <button class="site_search_button" type="submit" title="submit" aria-label="submit">
+                            <span class="site_search_button_label">submit</span>
+                            <span class="site_search_button_icon">
+              <svg class="symbol symbol_search">
+                <use xlink:href="#search"></use>
+              </svg>
+            </span>
+                        </button>
+                        <div class='hiddenFields'>
+                            <input type="hidden" name="XID" value="31a665e72cf50fe83e9954ffddbc224ecd1e67b3" />
+                        </div>
+                    </form>
+                </div>
+                <nav class="secondary_nav secondary_nav_sm" aria-label="Secondary Navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+                    <div class="secondary_nav_header">
+                        <h2 class="secondary_nav_title">Secondary Navigation</h2>
+                    </div>
+                    <div class="secondary_nav_list" role="navigation">
+                        <div class="secondary_nav_item" itemprop="url">
+                            <a class="secondary_nav_link" href="" itemprop="name">
+              <span class="secondary_nav_link_label">Apply</span>
+            </a>
+                        </div>
+                        <div class="secondary_nav_item" itemprop="url">
+                            <a class="secondary_nav_link" href="" itemprop="name">
+              <span class="secondary_nav_link_label">Contact Us</span>
+            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- /.mobile_sidebar -->
+    <svg class="svg_container">
+        <filter id="svg_blur" color-interpolation-filters="sRGB">
+            <feGaussianBlur stdDeviation="20 20" />
+            <feComponentTransfer>
+                <feFuncA type="discrete" tableValues="1 1" />
+            </feComponentTransfer>
+        </filter>
+    </svg>
