@@ -2734,7 +2734,7 @@ select {
 .logo_link {
     width: 160px;
     height: 48px;
-    background-image: url(../images/logo.png);
+    background-image: url(https://surumen.github.io/msoma/assets/img/logo-print.png);
     background-position: 0 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -2751,7 +2751,7 @@ select {
 @media (-webkit-min-device-pixel-ratio:1.25),
 (min-resolution:120dpi) {
     .logo_link {
-        background-image: url(../images/logo@2x.png)
+        background-image: url(https://surumen.github.io/msoma/assets/img/logo-print.png)
     }
 }
 
