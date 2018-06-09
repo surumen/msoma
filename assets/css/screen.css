@@ -2410,9 +2410,9 @@ only screen and (min-resolution: 1.3dppx) {
   }
 
   .contentWrapper {
-    max-width: 1020px;
-    padding-left: 30px;
-    padding-right: 30px;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .page_intro {
@@ -2486,9 +2486,9 @@ only screen and (min-resolution: 1.3dppx) {
   }
 
   .pageTabs {
-    max-width: 1020px;
-    padding-left: 30px;
-    padding-right: 30px;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .pageTabs {
