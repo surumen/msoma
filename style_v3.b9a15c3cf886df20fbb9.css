@@ -9223,7 +9223,6 @@ a, a:active, a:focus, a:hover, a:link, a:visited {
 @media screen and (min-width:500px) {
     .impact_discovery_icon {
         color: #fff;
-        display: inline-block;
         margin-bottom: 18px;
         -webkit-transition: color .25s;
         transition: color .25s
