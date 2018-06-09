@@ -9217,13 +9217,13 @@ a, a:active, a:focus, a:hover, a:link, a:visited {
 }
 
 .impact_discovery_icon {
-    display: none
+    display: none !important
 }
 
 @media screen and (min-width:500px) {
     .impact_discovery_icon {
         color: #fff;
-        display: none;
+        display: none !important;
         margin-bottom: 18px;
         -webkit-transition: color .25s;
         transition: color .25s
