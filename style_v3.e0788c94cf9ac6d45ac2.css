@@ -2732,7 +2732,7 @@ select {
 }
 
 .logo_link {
-    width: 160px;
+    width: 200px;
     height: 48px;
     background-image: url(https://surumen.github.io/msoma/assets/img/logo-print.png);
     background-position: 0 50%;
@@ -2763,15 +2763,15 @@ select {
 
 @media screen and (min-width:980px) {
     .logo_link {
-        width: 200px;
-        height: 60px
+        width: 280px;
+        height: 130px
     }
 }
 
 @media screen and (min-width:1220px) {
     .logo_link {
-        width: 257px;
-        height: 77px
+        width: 300px;
+        height: 150px
     }
 }
 
