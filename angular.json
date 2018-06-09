@@ -18,21 +18,6 @@
             "polyfills": "src/polyfills.ts",
             "assets": [
               "src/assets",
-              "src/assets/images/kcse.jpg",
-              "src/assets/images/moses.png",
-              "src/assets/images/africas_next_generation_1200x627.png",
-              "src/assets/images/accent_orange.png",
-              "src/assets/images/accent_light.png",
-              "src/assets/images/arrow.png",
-              "src/assets/images/farmer.jpg",
-              "src/assets/images/lupita.jpg",
-              "src/assets/images/quote.png",
-              "src/assets/images/01.png",
-              "src/assets/images/linda.png",
-              "src/assets/images/logo.png",
-              "src/assets/images/mentors.png",
-              "src/assets/images/reflections.png",
-              "src/assets/images/story.png",
               "src/favicon.ico"
             ],
             "styles": [
