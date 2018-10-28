@@ -1,0 +1,28 @@
+### Queries
+
+query GetSelf {
+  getSelf {
+    name
+    email
+  }
+}
+
+query LocalGetSelf {
+  user @client {
+    name
+    email
+  }
+}
+
+### Mutations
+
+mutation Authenticate($idToken: String!) {
+  authenticate(idToken: $idToken) {
+    name
+    email
+  }
+}
+
+mutation LocalSetSelf($user: User!) {
+  setSelf(user: $user) @client
+}

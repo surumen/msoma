@@ -1,0 +1,34 @@
+# REQUIRED
+endpoint: ${env:PRISMA_ENDPOINT}
+
+# REQUIRED
+# Points to the files containing your data model.
+datamodel:
+- datamodel/types.graphql
+# - datamodel/enums.graphql
+
+# The secret is used to generate JTWs which allow to authenticate
+# against your Prisma service. You can use the `prisma token` command from the CLI
+# to generate a JWT based on the secret. When using the `prisma-binding` package,
+# you don't need to generate the JWTs manually as the library is doing that for you
+# (this is why you're passing it to the `Prisma` constructor).
+# secret: ${env:PRISMA_MANAGEMENT_API_SECRET} # Comment out to disable auth
+
+# databases:
+#   default:
+#     connector: postgres
+#     migrations: true
+#     connectionLimit: 2
+#     uri: postgres://yuysaqfadtfnnq:bb4284c9adc059b1c5a881ba3988c6b54a3f70dbbf40a4fdaf0223edf7f68399@ec2-107-20-211-10.compute-1.amazonaws.com:5432/d9ulnvdqhn2u9k?ssl=1
+
+# OPTIONAL
+# Defines how to seed data to the database upon the initial deploy.
+seed:
+  import: seed.graphql
+
+# OPTIONAL
+# Defines hooks with custom behavior. This downloads "generated/prisma.graphql"
+hooks:
+  post-deploy:
+    - graphql get-schema --project database
+    - graphql prepare
